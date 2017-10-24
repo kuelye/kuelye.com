@@ -1,7 +1,7 @@
 <html>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<head>
-		<title>Banana Java & Android</title>
+		<title>🍌 • Java & Android</title>
 	</head>
 	<style type="text/css">
 		#centered {
@@ -54,11 +54,19 @@
 			color: white;
 		}
 	</style>
-	<body style="font-family: monospace;">
+	<body style="font-family: monospace;" onload="init();">
 		<div id="centered">
 			<div style="font-size: 36pt;">🍌 • Java & Android</div>
-			<div style="font-size: 24pt;"><b>17:00 - 19:00</b></div>
-			<div style="color: gray; font-size: 12pt; padding: 30px 10px 0 10px; margin: 0; text-align: left; line-height: 120%;">
+			<div style="font-size: 24pt;">
+				<b>17:00 - 19:00</b>
+			</div>
+			<div style="font-size: 22pt; padding: 30px 0 0 0">
+				<b>План</b>
+			</div>
+			<div style="font-size: 14pt;">
+				<span class="grey">/* <a class="grey" href="https://docs.google.com/spreadsheets/d/12a1o5XOEw31iyYgi2vkrwnHBlc5xzc0IWEa-I1Wcm_0/edit#gid=1140899881">Результаты тестов</a> */</span>
+			</div>
+			<div style="color: gray; font-size: 12pt; padding: 30px 10px 0 10px; margin: 0; text-align: left; line-height: 120%;" id="lesson1-container">
 				<div style="font-size: 16pt;"><b>01 Введение</b></div>
 				<div style="font-size: 8pt;">16 октября</div>
 				<div style="font-size: 16pt; margin-top: 20px;">План</div>
@@ -81,7 +89,7 @@
 					<li><span class="grey">*</span> Пройти первые <b>10</b> уроков на <a class="grey" href="https://githowto.com/ru">githowto.com</a></li>
 				</ol>
 			</div>
-			<div style="font-size: 12pt; padding: 30px 10px 0px 10px; margin: 0; text-align: left; line-height: 120%;">
+			<div style="color: gray; font-size: 12pt; padding: 30px 10px 0px 10px; margin: 0; text-align: left; line-height: 120%;" id="lesson2-container">
 				<div style="font-size: 16pt;"><b>02 Git и основы Java, часть 1</b></div>
 				<div style="font-size: 8pt;">19 октября</div>
 				<div style="font-size: 16pt; margin-top: 20px;">План</div>
@@ -100,20 +108,56 @@
 							<li>Открыть его в среде, запустить <span class="grey">// читайте про <a class="grey" href="https://github.com/banandroid/encyclopedia/wiki/I.02#%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0">открытие проекта в IntelliJ IDEA</a></span></li>
 							<li>Посмотреть, чего отобразится в консоли после запуска - в тесте про это будет вопрос</li>
 						</ol>
+					</li>
 					<li>Повторить или изучить <a href="https://github.com/banandroid/encyclopedia/wiki/I.02#%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5"><b>теорию по переменным</b></a></li>
 					<li>Пройти <a href="https://goo.gl/forms/lFKFJ39030LlJbVk1"><b>тест</b></a></li>
 				</ol>
 			</div>
-			<div style="color: gray; font-size: 12pt; padding: 30px 10px 100px 10px; margin: 0; text-align: left; line-height: 120%;">
+			<div style="font-size: 12pt; padding: 30px 10px 0px 10px; margin: 0; text-align: left; line-height: 120%;"  id="lesson3-container">
 				<div style="font-size: 16pt;"><b>03 Git и основы Java, часть 2</b></div>
 				<div style="font-size: 8pt;">23 октября</div>
 				<div style="font-size: 16pt; margin-top: 20px;">План</div>
-				<ul>
-					<li>Git <span class="grey">алгоритмы работы, pull</span></li>
-					<li>Переменные <span class="grey">правила выдумывания имён, camelCase</span></li>
-					<li>И другие основы Java</li>
-				</ul>
+				<ol>
+					<li>IntelliJ IDEA <span class="grey"><a class="grey" href="">структура проекта</a></span></li>
+					<li>String <span class="grey"><a class="grey" href="">кратко и полезные методы</a></span></li>
+				</ol>
+				<div style="font-size: 16pt; margin-top: 20px;">Домашка</div>
+				<ol>
+					<li>
+						Повторить то, что мы делали на занятии:
+						<ol type=a>
+							<li>Склонировать себе домой <b>свой</b> проект</li>
+							<li>Внести любое изменение, запушить его</li>
+						</ol>
+					</li>
+					<li>Пройти 1 урок (Introduction to Java) курса Learn Java на <a href=""><b>codecademy.com</b></a><span class="grey"> // если английский - непонятный, то подождите, переведу урок, перевод будет в среду вечером</span></li>
+					<li>Пройти <b style="color: red;">тест</b><span class="grey"> // будет в среду вечером</span></li>
+				</ol>
+			</div>
+			<div style="color: gray; font-size: 12pt; padding: 30px 10px 100px 10px; margin: 0; text-align: left; line-height: 120%;"  id="lesson3-container">
+				<div style="font-size: 16pt;"><b>04 Условия</b></div>
+				<div style="font-size: 8pt;">2 ноября</div>
 			</div>
 		</div>
 	</body>
+	<script>
+      init = function() {
+        var matches = window.location.href.match(/#(.*)$/);location.pathname.match(/#(.*)$/);
+        if (matches.length > 1) {
+          scrollToElement(document.getElementById("lesson" + matches[1] + "-container"));
+        }
+      };
+
+      scrollToElement = function(element) {
+        var positionX = 0,
+          positionY = 0;
+
+        while(element != null){
+          positionX += element.offsetLeft;
+          positionY += element.offsetTop;
+          element = element.offsetParent;
+          window.scrollTo(positionX, positionY);
+        }
+      };
+	</script>
 </html>

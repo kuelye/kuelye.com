@@ -1,7 +1,7 @@
 <html>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<head>
-		<title>Banana Java & Android</title>
+		<title>🍌 • Java & Android</title>
 	</head>
 	<style type="text/css">
 		#centered {
@@ -54,11 +54,17 @@
 			color: white;
 		}
 	</style>
-	<body style="font-family: monospace;">
+	<body style="font-family: monospace;" onload="init();">
 		<div id="centered">
 			<div style="font-size: 36pt;">🍌 • Java & Android</div>
 			<div style="font-size: 24pt;"><b>19:00 - 21:00</b></div>
-			<div style="color: gray; font-size: 12pt; padding: 30px 10px 0 10px; margin: 0; text-align: left; line-height: 120%;">
+            <div style="font-size: 22pt; padding: 30px 0 0 0">
+                <b>План</b>
+            </div>
+            <div style="font-size: 14pt;">
+                <span class="grey">/* <a class="grey" href="https://docs.google.com/spreadsheets/d/12a1o5XOEw31iyYgi2vkrwnHBlc5xzc0IWEa-I1Wcm_0/edit#gid=905600567">Результаты тестов</a> */</span>
+            </div>
+			<div style="color: gray; font-size: 12pt; padding: 30px 10px 0 10px; margin: 0; text-align: left; line-height: 120%;" id="lesson1-container">
 				<div style="font-size: 16pt;"><b>01 Введение</b></div>
 				<div style="font-size: 8pt;">16 октября</div>
 				<div style="font-size: 16pt; margin-top: 20px;">План</div>
@@ -82,7 +88,7 @@
 					<li><span class="grey">*</span> Первые <b>10</b> уроков на <a class="grey" href="https://githowto.com/ru">githowto.com</a></li>
 				</ol>
 			</div>
-            <div style="font-size: 12pt; padding: 30px 10px 0px 10px; margin: 0; text-align: left; line-height: 120%;">
+            <div style="color: gray; font-size: 12pt; padding: 30px 10px 0 10px; margin: 0; text-align: left; line-height: 120%;" id="lesson2-container">
                 <div style="font-size: 16pt;"><b>02 Git и основы Java, часть 1</b></div>
                 <div style="font-size: 8pt;">19 октября</div>
                 <div style="font-size: 16pt; margin-top: 20px;">План</div>
@@ -105,16 +111,44 @@
                     <li>Пройти <a href="https://goo.gl/forms/lFKFJ39030LlJbVk1"><b>тест</b></a></li>
                 </ol>
             </div>
-            <div style="color: gray; font-size: 12pt; padding: 30px 10px 100px 10px; margin: 0; text-align: left; line-height: 120%;">
+            <div style="font-size: 12pt; padding: 30px 10px 0px 10px; margin: 0; text-align: left; line-height: 120%;"  id="lesson3-container">
                 <div style="font-size: 16pt;"><b>03 Git и основы Java, часть 2</b></div>
                 <div style="font-size: 8pt;">23 октября</div>
                 <div style="font-size: 16pt; margin-top: 20px;">План</div>
                 <ol>
-                    <li>Git <span class="grey">алгоритмы работы, pull</span></li>
-                    <li>Переменные <span class="grey">правила выдумывания имён, camelCase</span></li>
-                    <li>И другие основы Java</li>
+                    <li>IntelliJ IDEA <span class="grey">структура проекта</span></li>
+                    <li>String <span class="grey">общие сведения, полезные методы</span></li>
                 </ol>
+                <div style="font-size: 16pt; margin-top: 20px;">Домашка</div>
+                <ol>
+                    <li>Пройти 1 урок (Introduction to Java) курса Learn Java на <a href=""><b>codecademy.com</b></a><span class="grey"> // если английский - непонятный, то подождите, переведу урок, перевод будет в среду вечером</span></li>
+                    <li>Пройти <b style="color: red;">тест</b><span class="grey"> // будет в среду вечером</span></li>
+                </ol>
+            </div>
+            <div style="color: gray; font-size: 12pt; padding: 30px 10px 100px 10px; margin: 0; text-align: left; line-height: 120%;"  id="lesson4-container">
+                <div style="font-size: 16pt;"><b>04 Условия</b></div>
+                <div style="font-size: 8pt;">26 октября</div>
             </div>
 		</div>
 	</body>
+    <script>
+        init = function() {
+          var matches = window.location.href.match(/#(.*)$/);location.pathname.match(/#(.*)$/);
+          if (matches.length > 1) {
+            scrollToElement(document.getElementById("lesson" + matches[1] + "-container"));
+          }
+        };
+
+        scrollToElement = function(element) {
+          var positionX = 0,
+            positionY = 0;
+
+          while(element != null){
+            positionX += element.offsetLeft;
+            positionY += element.offsetTop;
+            element = element.offsetParent;
+            window.scrollTo(positionX, positionY);
+          }
+        };
+    </script>
 </html>
