@@ -1,0 +1,32 @@
+a .grey:hover {
+    color: white;
+}
+
+.group-title {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.lesson-container {
+    align: left
+}
+
+.lesson-title {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.lesson-date {
+    font-size: 8pt;
+}
+
+.lesson-sections-title {
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+.lesson-section-themes,
+.lesson-section-themes a:link,
+.lesson-section-themes a:visited {
+    color: grey;
+}

@@ -205,24 +205,5 @@
             </div>
 		</div>
 	</body>
-    <script>
-        init = function() {
-          var matches = window.location.href.match(/#(.*)$/);location.pathname.match(/#(.*)$/);
-          if (matches.length > 1) {
-            scrollToElement(document.getElementById("lesson" + matches[1] + "-container"));
-          }
-        };
-
-        scrollToElement = function(element) {
-          var positionX = 0,
-            positionY = 0;
-
-          while(element != null){
-            positionX += element.offsetLeft;
-            positionY += element.offsetTop;
-            element = element.offsetParent;
-            window.scrollTo(positionX, positionY);
-          }
-        };
-    </script>
+    <script type="text/javascript" src="../../../banana.kuelye.com/js/main.js" />
 </html>
