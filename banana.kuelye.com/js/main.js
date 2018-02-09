@@ -32,6 +32,11 @@ fillPage = function(data) {
   } else {
     showLessons(data[groupId]["lessons"]);
   }
+
+  var scrollTo = getUrlParam("scrollTo");
+  if (scrollTo !== undefined) {
+    scrollToElement(document.getElementById("lesson" + scrollTo + "-container"));
+  }
 };
 
 /* -GROUPS--------------------------------------------------------- */
@@ -91,7 +96,7 @@ addLesson = function(lessonId, lesson) {
   // add lesson title and date
   var lessonNumber = lesson["index"].padStart(2, "0");
   var $titleDiv = $("<div>")
-    .append(lesson["module"] + "." + lessonNumber + " " + lesson["title"])
+    .append("<a href=\"" + addUrlParam("scrollTo", lessonNumber) + "\">" + lesson["module"] + "." + lessonNumber + "</a> " + lesson["title"])
     .addClass("lesson-title");
   var $dateDiv = $("<div>")
     .append(getFormattedDate(lesson))
@@ -244,4 +249,16 @@ filterByModule = function(lessons, module) {
   }
 
   return filteredLessons;
+};
+
+scrollToElement = function(element) {
+  var positionX = 0,
+    positionY = 0;
+
+  while(element != null){
+    positionX += element.offsetLeft;
+    positionY += element.offsetTop;
+    element = element.offsetParent;
+    window.scrollTo(positionX, positionY);
+  }
 };
