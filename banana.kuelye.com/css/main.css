@@ -44,6 +44,10 @@ a .grey:hover {
   padding: 30px 0 0 0;
 }
 
+.module-title {
+  font-size: 12pt;
+}
+
 .group-title {
   font-size: 24pt;
   font-weight: bold;
@@ -78,14 +82,14 @@ a .grey:hover {
 .lesson-section-themes,
 .lesson-section-themes a:link,
 .lesson-section-themes a:visited,
-.lesson-homework-section-comment,
-.lesson-homework-section-comment a:link,
-.lesson-homework-section-comment a:visited {
+.lesson-homework-comment,
+.lesson-homework-comment a:link,
+.lesson-homework-comment a:visited {
   color: grey;
 }
 
 .lesson-section-themes a:hover,
-.lesson-homework-section-comment a:hover {
+.lesson-homework-comment a:hover {
   color: gainsboro;
 }
 

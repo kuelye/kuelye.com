@@ -69,20 +69,27 @@ showLessons = function(lessons) {
   var $headerContainer = $("#header_container");
   $headerContainer.append($("<div>").append(groupTitle).addClass("group-title"));
   $headerContainer.append($("<div>").append("План").addClass("header-title"));
+  var $modulesContainer = $("<div>");
+  var modules = getModules(lessons);
+  for (i = 0; i < modules.length; ++i) {
+    var url = addUrlParam("module", modules[i]);
+    $modulesContainer.append("<a href=\"" + url + "\">" + modules[i] + "</a> ").addClass("module-title");
+  }
+  $headerContainer.append($modulesContainer);
 
   // fill content
+  var module = getUrlParam("module");
+  if (module !== undefined) {
+    lessons = filterByModule(lessons, module);
+  }
   for (i = 0; i < lessons.length; ++i) {
     addLesson(i, lessons[i]);
   }
 };
 
-addHeader = function() {
-
-};
-
 addLesson = function(lessonId, lesson) {
   // add lesson title and date
-  var lessonNumber = String(lessonId + 1).padStart(2, "0");
+  var lessonNumber = lesson["index"].padStart(2, "0");
   var $titleDiv = $("<div>")
     .append(lesson["module"] + "." + lessonNumber + " " + lesson["title"])
     .addClass("lesson-title");
@@ -91,8 +98,10 @@ addLesson = function(lessonId, lesson) {
     .addClass("lesson-date");
 
   // add sections
-  var $sectionsOl = $("<ol>");
-  addSections($sectionsOl, lesson["sections"]);
+  if (lesson["sections"] !== undefined) {
+    var $sectionsOl = $("<ol>");
+    addSections($sectionsOl, lesson["sections"]);
+  }
 
   // add homework
   if (lesson["homework"] !== undefined) {
@@ -103,11 +112,15 @@ addLesson = function(lessonId, lesson) {
   // fill lesson div
   var $lessonDiv = $("<div id=\"lesson" + lessonNumber + "-container\" class=\"lesson-container\">")
     .append($titleDiv)
-    .append($dateDiv)
-    .append($('<div class="lesson-sections-title">План</div>'))
-    .append($sectionsOl)
-    .append($('<div class="lesson-homework-title">Домашка</div>'))
-    .append($homeworkOl);
+    .append($dateDiv);
+  if ($sectionsOl !== undefined) {
+    $lessonDiv.append($('<div class="lesson-sections-title">План</div>'))
+      .append($sectionsOl);
+  }
+  if ($homeworkOl !== undefined) {
+    $lessonDiv.append($('<div class="lesson-homework-title">Домашка</div>'))
+      .append($homeworkOl);
+  }
   if (currentLessonId !== lessonId) {
     $lessonDiv.addClass("inactive-lesson");
   }
@@ -128,6 +141,9 @@ addHomework = function($homeworkOl, homework) {
   for (var i = 0; i < homework.length; ++i) {
     var $homeworkLi = $("<li>")
       .append(homework[i]["title"] + " ");
+    if (homework[i]["comment"] !== undefined) {
+      $homeworkLi.append('<span class="lesson-homework-comment"> // ' + homework[i]["comment"] + '</span>');
+    }
     if (homework[i]["sections"] !== undefined) {
       var $homeworkSectionsOl = $("<ol type=\"a\">");
       addHomeworkSections($homeworkSectionsOl, homework[i]["sections"]);
@@ -142,7 +158,7 @@ addHomeworkSections = function($homeworkSectionsOl, homeworkSections) {
     var $homeworkSectionLi = $("<li>")
       .append(homeworkSections[i]["title"] + " ");
     if (homeworkSections[i]["comment"] !== undefined) {
-      $homeworkSectionLi.append('<span class="lesson-homework-section-comment"> // ' + homeworkSections[i]["comment"] + '</span>');
+      $homeworkSectionLi.append('<span class="lesson-homework-comment"> // ' + homeworkSections[i]["comment"] + '</span>');
     }
     $homeworkSectionsOl.append($homeworkSectionLi);
   }
@@ -180,6 +196,7 @@ addUrlParam = function(key, value) {
   for (var i = 0; i < urlParts.length; i++) {
     keyAndValue = urlParts[i].split('=');
     if (keyAndValue[0] === key) {
+      keyAndValue[1] = value;
       urlParts[i] = keyAndValue.join("=");
       isSet = true;
       break;
@@ -203,4 +220,28 @@ scrollToElement = function(element) {
     element = element.offsetParent;
     window.scrollTo(positionX, positionY);
   }
+};
+
+getModules = function(lessons) {
+  var modules = [];
+  for (var i = 0; i < lessons.length; ++i) {
+    var lesson = lessons[i];
+    if (!modules.includes(lesson["module"])) {
+      modules.push(lesson["module"]);
+    }
+  }
+
+  return modules;
+};
+
+
+filterByModule = function(lessons, module) {
+  var filteredLessons = [];
+  for (var i = 0; i < lessons.length; ++i) {
+    if (lessons[i]["module"] === module) {
+      filteredLessons.push(lessons[i]);
+    }
+  }
+
+  return filteredLessons;
 };
