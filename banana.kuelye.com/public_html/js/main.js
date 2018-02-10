@@ -10,7 +10,7 @@ init = function() {
 };
 
 getData = function() {
-  $.getJSON("../main.json", function(data) {
+  $.getJSON("main.json", function(data) {
     fillPage(data);
   });
 };
