@@ -84,11 +84,10 @@ showLessons = function(lessons) {
 
   // fill content
   var module = getUrlParam("module");
-  if (module !== undefined) {
-    lessons = filterByModule(lessons, module);
-  }
   for (i = 0; i < lessons.length; ++i) {
-    addLesson(i, lessons[i]);
+    if (module === undefined || lessons[i]["module"] === module) {
+      addLesson(i, lessons[i]);
+    }
   }
 };
 

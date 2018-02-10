@@ -339,7 +339,135 @@
         "date": "2018-01-18T14:00:00.000Z",
         "module": "III",
         "index": "1",
-        "title": "Введение в Android"
+        "title": "Введение в Android",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.01#dalvik-art-apk-dex-dx-android-sdk\">Dalvik, ART, .apk, .dex, dx, Android SDK</a>"
+          },
+          {
+            "title": "Android Studio",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.01#android-studio\">установка и настройка, создание тестового проекта</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-22T14:00:00.000Z",
+        "module": "III",
+        "index": "2",
+        "title": "Активности и макеты",
+        "sections": [
+          {
+            "title": "Activity",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.02#activity\">общая информация</a>"
+          },
+          {
+            "title": "Вёрстка",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.02#%D0%9C%D0%B0%D0%BA%D0%B5%D1%82%D1%8B\">редактирование макета и важные свойства</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-25T14:00:00.000Z",
+        "module": "III",
+        "index": "3",
+        "title": "Основы вёрстки",
+        "sections": [
+          {
+            "title": "Вёрстка",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.03#%D0%92%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8C%D1%8E%D1%88%D0%BA%D0%B8\">важные вьюшки: TextView, EditText, CheckBox, ImageView, LinearLayout, RelativeLayout</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-29T14:00:00.000Z",
+        "module": "III",
+        "index": "4",
+        "title": "Связь вёрстки и логики",
+        "sections": [
+          {
+            "title": "Работа с макетом из кода",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.04#%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%BC-%D0%B8%D0%B7-%D0%BA%D0%BE%D0%B4%D0%B0\">загрузка макета, поиск элементов и настройка вьюшек</a>"
+          },
+          {
+            "title": "События",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.04#%D0%A1%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F\">нажатия и ввода в EditText</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-02-01T14:00:00.000Z",
+        "module": "III",
+        "index": "5",
+        "title": "AndroidManifest.xml, ресурсы, тосты и Snackbar",
+        "sections": [
+          {
+            "title": "AndroidManifest.xml",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.05#androidmanifestxml\">общая информация</a>"
+          },
+          {
+            "title": "Ресурсы",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.05#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B\">общая информация</a>"
+          },
+          {
+            "title": "Информационные сообщения",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.05#%D0%A2%D0%BE%D1%81%D1%82%D1%8B\">тосты и Snackbar</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-02-05T14:00:00.000Z",
+        "module": "III",
+        "index": "6",
+        "title": "ActionBar и меню",
+        "sections": [
+          {
+            "title": "ActionBar",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.06#%D0%9E%D0%B1%D1%89%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F\">общая информация</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.06#%D0%9C%D0%B5%D0%BD%D1%8E\">меню</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-02-08T14:00:00.000Z",
+        "module": "III",
+        "index": "7",
+        "title": "Анимации",
+        "sections": [
+          {
+            "title": "Анимации",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.07#%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B5\">стандартные</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.07#view-property-animation-%D0%B2-xml\">View Property Animation в XML</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.07#view-property-animation-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-animate\">View Property Animation через animate()</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.07#%D0%90%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BE%D0%B2-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D0%BC%D0%B8\">переходов между активностями</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-02-12T14:00:00.000Z",
+        "module": "III",
+        "index": "8",
+        "title": "WebView"
+      },
+      {
+        "date": "2018-02-15T14:00:00.000Z",
+        "module": "III",
+        "index": "9",
+        "title": "?"
+      },
+      {
+        "date": "2018-02-19T14:00:00.000Z",
+        "module": "III",
+        "index": "10",
+        "title": "?"
+      },
+      {
+        "date": "2018-02-22T14:00:00.000Z",
+        "module": "III",
+        "index": "11",
+        "title": "?"
+      },
+      {
+        "date": "2018-02-26T14:00:00.000Z",
+        "module": "III",
+        "index": "12",
+        "title": "?"
       }
     ]
   },
