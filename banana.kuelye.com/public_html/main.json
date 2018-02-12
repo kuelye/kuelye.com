@@ -461,7 +461,25 @@
         ],
         "homework": [
           {
-            "title": "Тест"
+            "title": "Доделать браузер:",
+            "sections": [
+              {
+                "title": "Открывать сайт по ENTER"
+              },
+              {
+                "title": "Переходить назад в истории по СТРЕЛОЧКЕ"
+              },
+              {
+                "title": "Автоматически добавлять http://, если нет в адресе"
+              },
+              {
+                "title": "Добавить в меню кнопку обновления (типа F5)"
+              },
+              {
+                "title": "* Вместо кнопки обновления использовать SwipeRefreshLayout",
+                "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.08#swiperefreshlayout\">конспект по SwipeRefreshLayout</a>"
+              }
+            ]
           }
         ]
       },
@@ -469,7 +487,7 @@
         "date": "2018-02-15T14:00:00.000Z",
         "module": "III",
         "index": "9",
-        "title": "?"
+        "title": "Flappy Banana"
       },
       {
         "date": "2018-02-19T14:00:00.000Z",
