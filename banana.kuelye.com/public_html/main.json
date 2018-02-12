@@ -452,7 +452,7 @@
         "sections": [
           {
             "title": "Views",
-            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.08#webview\">WebView</a>"
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.08#webview\">WebView</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.08#swiperefreshlayout\">SwipeRefreshLayout</a>"
           },
           {
             "title": "События",
