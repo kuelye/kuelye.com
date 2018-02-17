@@ -487,7 +487,39 @@
         "date": "2018-02-15T14:00:00.000Z",
         "module": "III",
         "index": "9",
-        "title": "Flappy Banana"
+        "title": "Flappy Banana",
+        "sections": [
+          {
+            "title": "Потоки",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.09#%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5\">введение</a>"
+          },
+          {
+            "title": "java.util",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.09#%D0%A2%D0%B0%D0%B9%D0%BC%D0%B5%D1%80%D1%8B\">таймеры</a>"
+          },
+          {
+            "title": "Flappy",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.09#%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2%D1%8C%D1%8E%D1%88%D0%B5%D0%BA\">проверка наложения вьюшек</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.09#%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%BE%D0%B2-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2\">изменение размеров элементов</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Доработать Flappy:",
+            "sections": [
+              {
+                "title": "<i>(Для группы 17).</i> Стартовать заново, если птичка улетает за границы экрана"
+              },
+              {
+                "title": "Стартовать заново при столкновении с препятствием",
+                "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.09#%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2%D1%8C%D1%8E%D1%88%D0%B5%D0%BA\">конспект по проверке наложения вьюшек</a>"
+              },
+              {
+                "title": "Сделать препятствие (пока одно) похожим на оригинальные трубы (две, меняются размеры)",
+                "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.09#%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%BE%D0%B2-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2\">конспект про изменение размеров элементов</a>"
+              }
+            ]
+          }
+        ]
       },
       {
         "date": "2018-02-19T14:00:00.000Z",
