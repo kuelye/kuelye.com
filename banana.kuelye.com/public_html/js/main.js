@@ -85,10 +85,27 @@ showLessons = function(lessons) {
   // fill content
   var module = getUrlParam("module");
   for (i = 0; i < lessons.length; ++i) {
-    if (module === undefined || lessons[i]["module"] === module) {
-      addLesson(i, lessons[i]);
+    if (lessons[i]["type"] === "holidays") {
+      addHolidays(i, lessons[i]);
+    } else {
+      if (module === undefined || lessons[i]["module"] === module) {
+        addLesson(i, lessons[i]);
+      }
     }
   }
+};
+
+addHolidays = function(lessonId, holidays) {
+  console.log(holidays);
+  var $holidaysDiv = $("<div class=\"holidays-container\">")
+    .append("<div class=\"holidays-title\">" + holidays["title"] + "</div>")
+    .append("<div class=\"holidays-comment\">" + holidays["comment"] + "</div>");
+
+  if (currentLessonId !== lessonId) {
+    $holidaysDiv.addClass("inactive-lesson");
+  }
+
+  $("#content_container").append($holidaysDiv);
 };
 
 addLesson = function(lessonId, lesson) {
@@ -230,7 +247,7 @@ getModules = function(lessons) {
   var modules = [];
   for (var i = 0; i < lessons.length; ++i) {
     var lesson = lessons[i];
-    if (!modules.includes(lesson["module"])) {
+    if (lesson["module"] !== undefined && !modules.includes(lesson["module"])) {
       modules.push(lesson["module"]);
     }
   }

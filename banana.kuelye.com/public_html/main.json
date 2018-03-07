@@ -525,19 +525,122 @@
         "date": "2018-02-19T14:00:00.000Z",
         "module": "III",
         "index": "10",
-        "title": "?"
+        "title": "LogCat, отладка и SharedPreferences",
+        "sections": [
+          {
+            "title": "Инструменты",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/Android-Studio-lifehacks#logcat\">LogCat</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/Android-Studio-lifehacks#%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0\">отладка</a>"
+          },
+          {
+            "title": "SharedPreferences",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.10#%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B9\">сохранение и чтение значений</a>"
+          },
+          {
+            "title": "<b>Практика</b>",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.10.19.t\">задание на урок</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "При старте игра сразу запускается, это не очень круто. Сделайте так, чтобы сначала появилась стартовая активность или просто диалог с кнопкой старта игры."
+          },
+          {
+            "title": "При потери фокуса или сворачивании игра продолжается на фоне, это тоже плохо. Добавьте возможность поставить игру на паузу и pause её при необходимости."
+          }
+        ]
       },
       {
         "date": "2018-02-22T14:00:00.000Z",
         "module": "III",
         "index": "11",
-        "title": "?"
+        "title": "Жизненный цикл Activity",
+        "sections": [
+          {
+            "title": "Activity",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.11#%D0%96%D0%B8%D0%B7%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%86%D0%B8%D0%BA%D0%BB-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8\">жизненный цикл</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.11#savedinstancestate\">savedInstanceState</a>"
+          }
+        ]
       },
       {
         "date": "2018-02-26T14:00:00.000Z",
         "module": "III",
         "index": "12",
+        "title": "Повторение SharedPreferences",
+        "sections": [
+          {
+            "title": "SharedPreferences",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.10#%D0%A1%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B9\">сохранение и чтение значений</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-03-01T14:00:00.000Z",
+        "module": "III",
+        "index": "13",
+        "title": "Glide и интенты",
+        "sections": [
+          {
+            "title": "Библиотеки",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.13#glide\">Glide</a>"
+          },
+          {
+            "title": "Intent",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.13#%D0%92%D0%B8%D0%B4%D1%8B-%D0%B8%D0%BD%D1%82%D0%B5%D0%BD%D1%82%D0%BE%D0%B2\">виды, явные и отправление</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.13#intent-filters\">Intent filters</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-03-05T14:00:00.000Z",
+        "module": "III",
+        "index": "14",
+        "title": "Повторение анимаций переходов между активностями и покадровые анимации",
+        "sections": [
+          {
+            "title": "Анимации",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.07#%D0%90%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BE%D0%B2-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D0%BC%D0%B8\">переходов между активностями</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.14#animationdrawable\">покадровые = AnimationDrawable</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "<a href=\"https://goo.gl/forms/wXoMTsiM03zSp1vM2\">Тестик</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-03-08T14:00:00.000Z",
+        "module": "III",
+        "index": "15",
+        "title": "Публикация в Play Store"
+      },
+      {
+        "date": "2018-03-12T14:00:00.000Z",
+        "module": "III",
+        "index": "16",
         "title": "?"
+      },
+      {
+        "date": "2018-03-15T14:00:00.000Z",
+        "module": "III",
+        "index": "17",
+        "title": "?"
+      },
+      {
+        "date": "2018-03-19T14:00:00.000Z",
+        "module": "III",
+        "index": "18",
+        "title": "?"
+      },
+      {
+        "date": "2018-03-22T14:00:00.000Z",
+        "module": "III",
+        "index": "19",
+        "title": "?"
+      },
+      {
+        "type": "holidays",
+        "date": "2018-03-26T14:00:00.000Z",
+        "title": "Каникулы",
+        "comment": "c 26 марта по 1 апреля"
       }
     ]
   },

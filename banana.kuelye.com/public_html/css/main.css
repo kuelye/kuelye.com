@@ -53,19 +53,22 @@ a .grey:hover {
   font-weight: bold;
 }
 
-.lesson-container {
+.lesson-container,
+.holidays-container {
   font-size: 12pt;
   line-height: 120%;
   padding: 30px 10px 0 10px;
   text-align: left;
 }
 
-.lesson-title {
+.lesson-title,
+.holidays-title {
   font-size: 16pt;
   font-weight: bold;
 }
 
-.lesson-date {
+.lesson-date,
+.holidays-comment {
   font-size: 8pt;
 }
 
