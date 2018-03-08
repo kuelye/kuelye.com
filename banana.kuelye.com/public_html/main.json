@@ -1,6 +1,6 @@
 [
   {
-    "title": "17:00 - 19:00",
+    "title": "2017",
     "lessons": [
       {
         "date": "2017-10-16T14:00:00.000Z",
@@ -610,7 +610,13 @@
         "date": "2018-03-08T14:00:00.000Z",
         "module": "III",
         "index": "15",
-        "title": "Публикация в Play Store"
+        "title": "Публикация в Play Store",
+        "homework": [
+          {
+            "title": "Сделать любую анимацию загрузки <a href=\"http://banana.kuelye.com/data/III.15.h.0.gif\">отсюда</a>. Добавить её пока можно, например, в стартовую активность Flappy-проекта.",
+            "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.07\">конспект по основным анимациям</a>"
+          }
+        ]
       },
       {
         "date": "2018-03-12T14:00:00.000Z",
@@ -643,9 +649,5 @@
         "comment": "c 26 марта по 1 апреля"
       }
     ]
-  },
-  {
-    "title": "19:00 - 21:00",
-    "lessons": []
   }
 ]
