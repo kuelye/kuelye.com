@@ -61,54 +61,108 @@ showLessons = function(lessons) {
   // find current lesson
   var now = Date.now();
   for (var i = 0; i < lessons.length; ++i) {
+    lessons[i]["_id"] = i;
     if (now > new Date(lessons[i]["date"])) {
       currentLessonId = i;
     } else {
       break;
     }
   }
-  console.log("showLessons: currentLessonId=" + currentLessonId);
+  console.log("showLessons: currentLessonId=" + currentLessonId + ", {currentLesson}=" + lessons[currentLessonId]);
 
-  // fill header
+  // fill header with titles
   var groupTitle = getUrlParam("groupTitle");
+  var module = getUrlParam("module");
   var $headerContainer = $("#header_container");
   $headerContainer.append($("<div>").append(groupTitle).addClass("group-title"));
-  $headerContainer.append($("<div>").append("План").addClass("header-title"));
+  var plan = module === undefined ? "План" : ("План " + module);
+  $headerContainer.append($("<div>").append(plan).addClass("header-title"));
+
+  // fill header with modules
   var $modulesContainer = $("<div>");
   var modules = getModules(lessons);
   for (i = 0; i < modules.length; ++i) {
-    var url = addUrlParam("module", modules[i]);
-    $modulesContainer.append("<a href=\"" + url + "\">" + modules[i] + "</a> ").addClass("module-title");
+    if (modules[i] !== module) {
+      var url = addUrlParam("module", modules[i]);
+      $modulesContainer.append("<a href=\"" + url + "\">" + modules[i] + "</a> ").addClass("module-title");
+    }
+  }
+  if (module !== undefined) {
+    $modulesContainer.append("<a href=\"" + removeUrlParam("module") + "\">x</a> ").addClass("module-title");
   }
   $headerContainer.append($modulesContainer);
 
+  // fill header with additional links
+  var encyclopediaMode = getUrlParam("encyclopediaMode");
+  if (encyclopediaMode) {
+    $headerContainer.append("<a href=\"" + removeUrlParam("encyclopediaMode") + "\">📑</a> ").addClass("module-title");
+  } else {
+    $headerContainer.append("<a href=\"" + addUrlParam("encyclopediaMode", true) + "\">📔</a> ").addClass("module-title");
+  }
+
   // fill content
-  var module = getUrlParam("module");
+  var filteredLessons = [];
   for (i = 0; i < lessons.length; ++i) {
-    if (lessons[i]["type"] === "holidays") {
-      addHolidays(i, lessons[i]);
-    } else {
-      if (module === undefined || lessons[i]["module"] === module) {
-        addLesson(i, lessons[i]);
+    if (module === undefined || lessons[i]["module"] === module) {
+      filteredLessons.push(lessons[i]);
+    }
+  }
+  if (encyclopediaMode) {
+    showEncyclopedia(filteredLessons);
+  } else {
+    showLessonsPlane(filteredLessons);
+  }
+};
+
+showEncyclopedia = function(lessons) {
+  var encyclopedia = [];
+  for (var i = 0; i < lessons.length; ++i) {
+    var sections = lessons[i]["sections"];
+    if (sections !== undefined) {
+      for (var j = 0; j < sections.length; ++j) {
+        var title = sections[j]["title"];
+        var themes = sections[j]["themes"];
+        if (encyclopedia[title] === undefined) {
+          encyclopedia[title] = themes;
+        } else {
+          encyclopedia[title] = encyclopedia[title] + themes;
+        }
       }
+    }
+  }
+
+  for (title in encyclopedia) {
+    var $sectionDiv = $("<div class=\"encyclopedia-section-container\">")
+      .append(title)
+      .append('<span class="lesson-section-themes"> // ' + encyclopedia[title] + '</span>');
+    $("#content_container").append($sectionDiv) ;
+  }
+};
+
+showLessonsPlane = function(lessons) {
+  for (var i = 0; i < lessons.length; ++i) {
+    if (lessons[i]["type"] === "holidays") {
+      addHolidays(lessons[i]);
+    } else {
+      addLesson(lessons[i]);
     }
   }
 };
 
-addHolidays = function(lessonId, holidays) {
+addHolidays = function(holidays) {
   console.log(holidays);
   var $holidaysDiv = $("<div class=\"holidays-container\">")
     .append("<div class=\"holidays-title\">" + holidays["title"] + "</div>")
     .append("<div class=\"holidays-comment\">" + holidays["comment"] + "</div>");
 
-  if (currentLessonId !== lessonId) {
+  if (currentLessonId !== holidays["_id"]) {
     $holidaysDiv.addClass("inactive-lesson");
   }
 
   $("#content_container").append($holidaysDiv);
 };
 
-addLesson = function(lessonId, lesson) {
+addLesson = function(lesson) {
   // add lesson title and date
   var lessonNumber = lesson["index"].padStart(2, "0");
   var $titleDiv = $("<div>")
@@ -142,7 +196,7 @@ addLesson = function(lessonId, lesson) {
     $lessonDiv.append($('<div class="lesson-homework-title">Домашка</div>'))
       .append($homeworkOl);
   }
-  if (currentLessonId !== lessonId) {
+  if (currentLessonId !== lesson["_id"]) {
     $lessonDiv.addClass("inactive-lesson");
   }
 
@@ -207,6 +261,21 @@ getUrlParam = function(key) {
       return keyAndValue[1] === undefined ? true : keyAndValue[1];
     }
   }
+};
+
+removeUrlParam = function(key) {
+  var url = decodeURIComponent(window.location.search.substring(1));
+  var urlParts = url.split('&');
+  var keyAndValue;
+  for (var i = 0; i < urlParts.length; i++) {
+    keyAndValue = urlParts[i].split('=');
+    if (keyAndValue[0] === key) {
+      urlParts.splice(i, 1);
+      break;
+    }
+  }
+
+  return window.location.origin + window.location.pathname + "?" + urlParts.join('&');
 };
 
 addUrlParam = function(key, value) {

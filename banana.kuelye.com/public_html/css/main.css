@@ -54,7 +54,8 @@ a .grey:hover {
 }
 
 .lesson-container,
-.holidays-container {
+.holidays-container,
+.encyclopedia-section-container {
   font-size: 12pt;
   line-height: 120%;
   padding: 30px 10px 0 10px;
