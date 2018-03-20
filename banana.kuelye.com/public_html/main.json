@@ -611,6 +611,16 @@
         "module": "III",
         "index": "15",
         "title": "Публикация в Play Store",
+        "sections": [
+          {
+            "title": "Drawable-ресурсы",
+            "themes": "ShapeDrawable и LayerDrawable"
+          },
+          {
+            "title": "Публикация",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.15#i-%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-apk\">подпись .apk</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.15#ii-%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%B2-play-store\">загрузка в Play Store</a>"
+          }
+        ],
         "homework": [
           {
             "title": "Сделать любую анимацию загрузки <a href=\"http://banana.kuelye.com/data/III.15.h.0.gif\">отсюда</a>. Добавить её пока можно, например, в стартовую активность Flappy-проекта.",
@@ -622,25 +632,67 @@
         "date": "2018-03-12T14:00:00.000Z",
         "module": "III",
         "index": "16",
-        "title": "?"
+        "title": "Custom views на основе макета",
+        "sections": [
+          {
+            "title": "Custom Views",
+            "themes": "на основе макета"
+          }
+        ]
       },
       {
         "date": "2018-03-15T14:00:00.000Z",
         "module": "III",
         "index": "17",
-        "title": "?"
+        "title": "Preferences и смена темы кодом",
+        "sections": [
+          {
+            "title": "Preferences",
+            "themes": "PreferenceActivity, EditTextPreference, ListPreference"
+          },
+          {
+            "title": "styles.xml",
+            "themes": "смена темы приложения кодом"
+          }
+        ]
       },
       {
         "date": "2018-03-19T14:00:00.000Z",
         "module": "III",
         "index": "18",
-        "title": "?"
+        "title": "Больше Preferences, Toolbar и статические методы",
+        "sections": [
+          {
+            "title": "Preferences",
+            "themes": "правильная подписка на события изменения настроек, summary, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.18#%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-actionbar--toolbar\">добавление ActionBar = Toolbar</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.18#colorpreference\">ColorPreference</a>"
+          },
+          {
+            "title": "Toolbar",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.18#%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B\">основы</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "(Только для группы 17). Добавить в активность с настройками тулбар.",
+            "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.18#%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-actionbar--toolbar\">алгоритм действий</a>"
+          },
+          {
+            "title": "Добавить ColorPreference в качестве третьей настройки цвета тулбара.",
+            "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.18#colorpreference\">конспект по ColorPreference</>"
+          }
+        ]
       },
       {
         "date": "2018-03-22T14:00:00.000Z",
         "module": "III",
         "index": "19",
-        "title": "?"
+        "title": "Статические методы и ?",
+        "sections": [
+          {
+            "title": "static",
+            "themes": "статические методы"
+          }
+        ]
       },
       {
         "type": "holidays",
