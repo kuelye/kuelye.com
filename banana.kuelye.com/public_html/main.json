@@ -686,20 +686,51 @@
         "date": "2018-03-22T14:00:00.000Z",
         "module": "III",
         "index": "19",
-        "title": "Статические методы и ?",
+        "title": "Статические методы и Canvas",
         "sections": [
           {
             "title": "static",
-            "themes": "статические методы"
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B\">статические методы</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5\">статические переменные</a>"
+          },
+          {
+            "title": "Toolbar",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#transparent-status-bar\">прозрачный status bar</a>"
+          },
+          {
+            "title": "Custom Views",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%A0%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-canvas\">рисование по Canvas</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%9E%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-touch-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9\">отслеживание touch-событий</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Повторите статические методы (о них рассказывал в классе) и почитайте о статических переменных",
+            "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B\">статические методы</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5\">статические переменные</a>"
+          },
+          {
+            "title": "Создайте кастомную вьюху - контроллер (примеры: <a href=\"https://icdn2.digitaltrends.com/image/portal-knights-1000x667.jpg\">раз</a>, <a href=\"https://lh3.googleusercontent.com/MXqxuceB697i0t8hqcT4VdmFluCo32zGMcIbfCOiLpLSdSXNlmWBeMyY9P0m9JvX-Q0=w720-h310-rw\">два</a>)  ",
+            "sections": [
+              {
+                "title": "Сначала нарисуйте контроллер (можно просто круг по центру вьюхи)",
+                "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%A0%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-canvas\">рисование по Canvas</a>"
+              },
+              {
+                "title": "Потом подпишитесь на touch-события и двигайте круг туда, куда тапнул пользовтаель",
+                "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.19#%D0%9E%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-touch-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9\">отслеживание touch-событий</a>"
+              }
+            ]
+          },
+          {
+            "title": "Подумайте над своим большим выпускным проектом:",
+            "sections": [
+              {
+                "title": "Выпускной проект должен будет использовать какое-нибудь API, которое будет отдавать вам данные, которые вы будете отображать у себя в приложении; выберите какое-нибудь <a href=\"https://github.com/toddmotto/public-apis\">отсюда</a>"
+              },
+              {
+                "title": "Подумайте, что это будет за приложение: если выбрали VK, то это клиент, например, с новостной лентой (в случае VK API много не успеем, да), если Pokéapi, то, например, энциклопедия покемонов и так далее"
+              }
+            ]
           }
         ]
-      },
-      {
-        "type": "holidays",
-        "date": "2018-03-26T14:00:00.000Z",
-        "module": "III",
-        "title": "Каникулы",
-        "comment": "c 26 марта по 1 апреля"
       }
     ]
   }
