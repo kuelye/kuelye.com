@@ -273,67 +273,188 @@
         "date": "2017-11-20T14:00:00.000Z",
         "module": "II",
         "index": "1",
-        "title": "Введение в классы и объекты"
+        "title": "Введение в классы и объекты",
+        "sections": [
+          {
+            "title": "ООП",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.01-&-II.02#%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D1%8B-%D0%B8-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B-class-%D0%B8-new\">классы, объекты, class и new</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.01-&-II.02#%D0%9F%D0%BE%D0%BB%D1%8F-%D0%B8-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B\">поля и методы</a>"
+          }
+        ]
       },
       {
         "date": "2017-11-23T14:00:00.000Z",
         "module": "II",
         "index": "2",
-        "title": "Наследование классов"
+        "title": "Наследование классов",
+        "sections": [
+          {
+            "title": "ООП",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.01-&-II.02#%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5\">наследование</a>"
+          }
+        ]
       },
       {
         "date": "2017-11-27T14:00:00.000Z",
         "module": "II",
         "index": "3",
-        "title": "Swing"
+        "title": "Swing",
+        "sections": [
+          {
+            "title": "Swing",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.03#%D0%A1-%D0%BD%D1%83%D0%BB%D1%8F---%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5-%D0%BE%D0%BA%D0%BD%D0%BE\">простое окно</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.03#%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9\">добавление событий</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.03#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B8-%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0\">полезные методы и свойства</a>"
+          }
+        ]
       },
       {
         "date": "2017-11-30T14:00:00.000Z",
         "module": "II",
         "index": "4",
-        "title": "Переопределение и перегрузка методов"
+        "title": "Переопределение и перегрузка методов",
+        "sections": [
+          {
+            "title": "Swing",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.04#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B\">почитать</a>"
+          },
+          {
+            "title": "ООП",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.04#%D0%9F%D0%B5%D1%80%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%B2\">переопределение методов</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.04#%D0%9F%D0%B5%D1%80%D0%B5%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0\">перегрузка</a>"
+          },
+          {
+            "title": "CodeWars",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.04#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B\">ресурсы</a>"
+          },
+          {
+            "title": "Telegram Bot",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.04#%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-gradle-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0\">создание и запуск Gradle-проекта</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "<i>(Для группы 17).</i> Почитайте правила CodeWars и сделайте бота из примера."
+          },
+          {
+            "title": "<i>(Для группы 19).</i> Придумайте бота, его ник и имя."
+          }
+        ]
       },
       {
         "date": "2017-12-04T14:00:00.000Z",
         "module": "II",
         "index": "5",
-        "title": "?"
+        "title": "?",
+        "sections": [
+          {
+            "title": "Telegram Bot",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.05#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B\">ресурсы</a>"
+          }
+        ]
       },
       {
         "date": "2017-12-07T14:00:00.000Z",
         "module": "II",
         "index": "6",
-        "title": "Абстрактные методы и классы, интерфейсы, перечисления"
+        "title": "Абстрактные методы и классы, интерфейсы, перечисления",
+        "sections": [
+          {
+            "title": "ООП",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.06#%D0%90%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B\">абстрактные методы и классы</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.06#%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B\">интерфейсы</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.06#%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-enums\">перечисления (enums)</a>"
+          },
+          {
+            "title": "<i>(17).</i> CodeWars",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.06#codewars\">проект для примера и коммиты с урока</a>"
+          },
+          {
+            "title": "<i>(19).</i> Telegram Bot",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.06#telegram-bot\">проект для примера и коммиты с урока</a>"
+          }
+        ]
       },
       {
         "date": "2017-12-11T14:00:00.000Z",
         "module": "II",
         "index": "7",
-        "title": "Object"
+        "title": "Object",
+        "sections": [
+          {
+            "title": "ООП",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.07#object\">Object</a>"
+          },
+          {
+            "title": "<i>(19).</i> Telegram Bot",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.07#telegram-bot-1\">коммит урока</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "<a href=\"https://goo.gl/forms/Pc3N8aWbN2Inhdkp1\">Тест</a>"
+          }
+        ]
       },
       {
         "date": "2017-12-14T14:00:00.000Z",
         "module": "II",
         "index": "8",
-        "title": "Работа над проектами"
+        "title": "Работа над проектами",
+        "sections": [
+          {
+            "title": "<i>(17).</i> Telegram Bot",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.08#telegram-bot\">коммит урока</a>"
+          },
+          {
+            "title": "<i>(19).</i> Telegram Bot",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.08#telegram-bot-1\">коммит урока</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Почитайте про конструкторы <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.08#%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D1%8B\">тут</a>"
+          },
+          {
+            "title": "<i>(19)</i> Придумайте себе бота"
+          },
+          {
+            "title": "<a href=\"https://goo.gl/forms/dE5hxv2qIwzbONT23\">Тест</a>"
+          }
+        ]
       },
       {
         "date": "2017-12-18T14:00:00.000Z",
         "module": "II",
         "index": "9",
-        "title": "Конструкторы"
+        "title": "Конструкторы и инкапсуляция",
+        "sections": [
+          {
+            "title": "ООП",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.08#%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D1%8B\">конструкторы</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.09#%D0%98%D0%BD%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D1%8F\">инкапсуляция</a>"
+          }
+        ]
       },
       {
         "date": "2017-12-21T14:00:00.000Z",
         "module": "II",
         "index": "10",
-        "title": "Работа над проектами"
+        "title": "Работа над проектами",
+        "sections": [
+          {
+            "title": "Разные штуки",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/II.09#%D0%98%D0%BD%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D1%8F\">сортировка</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.10#%D0%9F%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3-%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2\">парсинг сайтов</a>, <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.10#%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-hashmap-%D0%B4%D0%BB%D1%8F-%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85\">HashMap</a>"
+          }
+        ]
       },
       {
         "date": "2017-12-25T14:00:00.000Z",
         "module": "II",
         "index": "11",
-        "title": "Выпускной"
+        "title": "Выпускной",
+        "homework": [
+          {
+            "title": "Добавьте сохранение добавленных в бота пользователями данных, используя Redis и Lettuce",
+            "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.11#1-%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-redis-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-lettuce\">гайд</a>"
+          },
+          {
+            "title": "Повторите <a href=\"https://github.com/banandroid/encyclopedia/wiki/II.11#1-%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-redis-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-lettuce\">теорию</a> по учебнику"
+          }
+        ]
       },
       {
         "date": "2018-01-18T14:00:00.000Z",
@@ -731,6 +852,99 @@
             ]
           }
         ]
+      },
+      {
+        "type": "holidays",
+        "date": "2018-03-26T14:00:00.000Z",
+        "module": "III",
+        "title": "Каникулы",
+        "comment": "c 26 марта по 1 апреля"
+      },
+      {
+        "date": "2018-04-02T14:00:00.000Z",
+        "module": "IV",
+        "index": "1",
+        "title": "Делали домашку с каникул",
+        "sections": [
+          {
+            "title": "Canvas",
+            "themes": "<a href=\"https://github.com/banandroid/encyclopedia/wiki/IV.01#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-canvas\">полезные методы Canvas</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Доделайте ControllerView (кто ещё не):",
+            "sections": [
+              {
+                "title": "Рисуйте контроллер с самого начала прямо по центру и сбрасывайте его в центр, если пользователь убрал палец с экрана",
+                "comment": "для этого лучше сразу зафести флаг pressed, на ACTION_DOWN - ставьте pressed в true, на ACTION_UP - в false; для поиска центра см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/IV.01#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-canvas\">полезные методы Canvas</a>"
+              },
+              {
+                "title": "Добавьте ограчительную окружность и сделайте так, чтобы сам контроллер не выходил за её пределы (ну как в примерах: <a href=\"https://icdn2.digitaltrends.com/image/portal-knights-1000x667.jpg\">раз</a>, <a href=\"https://lh3.googleusercontent.com/MXqxuceB697i0t8hqcT4VdmFluCo32zGMcIbfCOiLpLSdSXNlmWBeMyY9P0m9JvX-Q0=w720-h310-rw\">два</a>)",
+                "comment": "для начала сделайте, чтобы контроллер уходил в центр, если выйти за пределы (это проще), а потом - чтобы оставался на границе (это сложнее, пишите мне за формулой)"
+              }
+            ]
+          },
+          {
+            "title": "Создайте ещё одну кастомную вьюху, в которой на Canvas нарисуйте любую картину в стиле бананосупрематизма. Если скучно, то можете её ещё и проанимировать.",
+            "comment": "cм. <a href=\"https://github.com/banandroid/a.y17.suprematism\">репозиторий</a> для примера и <a href=\"http://banana.kuelye.com/data/IV.01.h.0.gif\">гифку с Криком Мунка</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-04-05T14:55:00.000Z",
+        "module": "IV",
+        "index": "2",
+        "title": "В 17:55 у дома компании \"Зингер\""
+      },
+      {
+        "date": "2018-04-09T14:00:00.000Z",
+        "module": "IV",
+        "index": "3",
+        "title": "?"
+      },
+      {
+        "date": "2018-04-12T14:00:00.000Z",
+        "module": "IV",
+        "index": "4",
+        "title": "?"
+      },
+      {
+        "date": "2018-04-16T14:00:00.000Z",
+        "module": "IV",
+        "index": "5",
+        "title": "?"
+      },
+      {
+        "date": "2018-04-19T14:00:00.000Z",
+        "module": "IV",
+        "index": "6",
+        "title": "?"
+      },
+      {
+        "date": "2018-04-23T14:00:00.000Z",
+        "module": "IV",
+        "index": "7",
+        "title": "?"
+      },
+      {
+        "date": "2018-04-26T14:00:00.000Z",
+        "module": "IV",
+        "index": "8",
+        "title": "?"
+      },
+      {
+        "date": "2018-04-30T14:00:00.000Z",
+        "module": "IV",
+        "index": "9",
+        "title": "?"
+      },
+      {
+        "type": "holidays",
+        "date": "2018-05-01T14:00:00.000Z",
+        "module": "IV",
+        "title": "Каникулы",
+        "comment": "c 1 по 10 мая"
       }
     ]
   }

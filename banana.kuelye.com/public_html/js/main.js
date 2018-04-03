@@ -62,10 +62,12 @@ showLessons = function(lessons) {
   var now = Date.now();
   for (var i = 0; i < lessons.length; ++i) {
     lessons[i]["_id"] = i;
-    if (now > new Date(lessons[i]["date"])) {
-      currentLessonId = i;
-    } else {
-      break;
+    if (lessons[i]["type"] !== "holidays") {
+      if (now > new Date(lessons[i]["date"])) {
+        currentLessonId = i;
+      } else {
+        break;
+      }
     }
   }
   console.log("showLessons: currentLessonId=" + currentLessonId + ", {currentLesson}=" + lessons[currentLessonId]);
