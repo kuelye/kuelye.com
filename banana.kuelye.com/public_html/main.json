@@ -901,13 +901,76 @@
         "date": "2018-04-09T14:00:00.000Z",
         "module": "IV",
         "index": "3",
-        "title": "?"
+        "title": "RecyclerView I",
+        "sections": [
+          {
+            "title": "RecyclerView",
+            "themes": "основы, RecyclerView.ViewHolder, RecyclerView.Adapter"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Сделайте, чтобы картинки грузились из интернета",
+            "comment": "см. <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.13#glide\">конспект по Glide</a>, не забудьте <a href=\"https://github.com/banandroid/encyclopedia/wiki/III.08#webview\">разрешить приложению доступ к интернету</a>, к картинкам из примера про фильмы нужно добавить начало, чтобы получилось нечто вроде <a href=\"https://image.tmdb.org/t/p/original/eKi8dIrr8voobbaGzDpe8w0PVbC.jpg\">такого</a>"
+          }
+        ]
       },
       {
         "date": "2018-04-12T14:00:00.000Z",
         "module": "IV",
         "index": "4",
-        "title": "?"
+        "title": "RecyclerView II",
+        "sections": [
+          {
+            "title": "RecyclerView",
+            "themes": "LinearLayoutManager и GridLayoutManager, клик по элементу"
+          }
+        ],
+        "homework": [
+          {
+            "title": "<i>(17).</i> Сделайте так, чтобы по клику на элемент списка (то есть на фильм, если речь про фильмы) в новой активности (MovieActivity) в тулбаре отображался заголовок выбранного элемента (заголовок фильма)",
+            "comment": "TBD"
+          },
+          {
+            "title": "По примеру <a href=\"https://github.com/banandroid/a.y17.cinemer/blob/17/app/src/main/java/com/banana/cinemer/Movie.java\">Movie.java</a> создайте для своего проекта класс для удобного хранения данных:",
+            "comment": "в скобках - важные поля, но можете добавить и другие; и конструктор добавьте с аргументами",
+            "sections": [
+              {
+                "title": "Александр: Weather.java (время (timestamp) и температура)"
+              },
+              {
+                "title": "Сергей: Card.java (название и адрес картинки)"
+              },
+              {
+                "title": "Никита и Вася: News.java (заголовок, description и адрес картинки) и Event.java (название события и координаты = широта и долгота)"
+              },
+              {
+                "title": "Артём: Event.java (название события и координаты = широта и долгота)"
+              },
+              {
+                "title": "Ростислав: VisitedPlace.java (название, координаты, время последнего посещения (timestamp) и идентификатор места)",
+                "comment": "см. <a href=\"https://developers.google.com/places/android-api/place-id\">инфу про индентификатор места</a>"
+              },
+              {
+                "title": "Леонид: Currency.java (название валюты и курс)"
+              },
+              {
+                "title": "Маша: Museum.java (название, координаты и идентификатор места и идентификатор места)",
+                "comment": "см. <a href=\"https://developers.google.com/places/android-api/place-id\">инфу про индентификатор места</a>"
+              },
+              {
+                "title": "Степан: Event.java (название события и координаты = широта и долгота)"
+              },
+              {
+                "title": "Доминик: Address (название и координаты = широта и долгота)"
+              }
+            ]
+          },
+          {
+            "title": "По примеру Movie[] MOVIES в <a href=\"https://github.com/banandroid/a.y17.cinemer/blob/17/app/src/main/java/com/banana/cinemer/Database.java\">Database.java</a> добавьте свои тестовые данные (то есть, например, для игральных карт - Card[] CARDS)",
+            "comment": "хватит нескольких элементов"
+          }
+        ]
       },
       {
         "date": "2018-04-16T14:00:00.000Z",
