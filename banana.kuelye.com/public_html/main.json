@@ -1093,20 +1093,40 @@
         "date": "2018-09-17T14:00:00.000Z",
         "module": "V",
         "index": "1",
-        "title": "Опять этот Git, часть 1 и cmd с GitBash"
+        "title": "Опять этот Git, часть 1; cmd с GitBash",
+        "sections": [
+          {
+            "title": "Командные строки",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.01#cmd\">cmd</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.01#cmd\">GitBash</a>"
+          }
+        ]
       },
       {
         "date": "2018-09-20T14:00:00.000Z",
         "module": "V",
         "index": "2",
-        "title": "Опять этот Git, часть 2; повторение (Activity, Fragment) и ConstraintLayout",
-        "homework": [
+        "title": "Опять этот Git, часть 2; повторение (Activity) и ConstraintLayout",
+        "sections": [
           {
-            "title": "Посмотрите <a href=\"https://youtu.be/zzTi4v20PgY\">видосик</a> про ConstraintLayout",
-            "comment": "главное - запомните, как в ConstraintLayout легко управлять размерами и положением вьюх"
+            "title": "Git",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.02#%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B\">основные команды I</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.02#%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B\">ресурсы</a>"
           },
           {
-            "title": "Сверстайте макет промо-странички для какого-нибудь товара (любого)"
+            "title": "Повторение",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.02#activity\">Activity</a>"
+          },
+          {
+            "title": "Контейнеры",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.02#constraintlayout\">ConstraintLayout</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Посмотрите <a href=\"https://youtu.be/zzTi4v20PgY\">видосик</a> про ConstraintLayout"
+          },
+          {
+            "title": "Сверстайте макет промо-странички (которые часто отображаются в приложениях при старте, чтобы заинтересовать пользователя) для какого-нибудь товара с использованием ConstraintLayout: он должен содержать (хотя бы) картинку, текст и кнопку",
+            "comment": "в качестве товара можете предложить пользователю что угодно: например, <a href=\"https://www.instagram.com/p/BdRCXMshjf7/?taken-by=alzearafat\">димсамы</a>, <a href=\"https://dribbble.com/shots/2434257-Nike-In-App-Promotions/attachments/472937\">кроссовок</a> или <a href=\"https://dribbble.com/shots/4470845-Product-App-Design\">лампочку</a>"
           }
         ]
       }
