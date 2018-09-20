@@ -18,7 +18,6 @@ getData = function() {
 fillPage = function(data) {
   this.data = data;
   var groupTitle = getUrlParam("groupTitle");
-  console.log("fillPage: groupTitle=" + groupTitle);
   var groupId;
   for (var i = 0; i < data.length; ++i) {
     if (data[i]["title"] === groupTitle) {
@@ -30,7 +29,7 @@ fillPage = function(data) {
   if (groupId === undefined) {
     showGroups(data)
   } else {
-    showLessons(data[groupId]["lessons"]);
+    showLessons(data[groupId]["lessons"], data[groupId]["years"]);
   }
 
   var scrollTo = getUrlParam("scrollTo");
@@ -57,7 +56,7 @@ addGroup = function(group) {
 
 /* -LESSONS-------------------------------------------------------- */
 
-showLessons = function(lessons) {
+showLessons = function(lessons, years) {
   // find current lesson
   var now = Date.now();
   for (var i = 0; i < lessons.length; ++i) {
@@ -70,7 +69,6 @@ showLessons = function(lessons) {
       }
     }
   }
-  console.log("showLessons: currentLessonId=" + currentLessonId + ", {currentLesson}=" + lessons[currentLessonId]);
 
   // fill header with titles
   var groupTitle = getUrlParam("groupTitle");
@@ -81,16 +79,26 @@ showLessons = function(lessons) {
   $headerContainer.append($("<div>").append(plan).addClass("header-title"));
 
   // fill header with modules
-  var $modulesContainer = $("<div>");
+  var $modulesContainer = $("<div class=\"modules-container\">");
   var modules = getModules(lessons);
-  for (i = 0; i < modules.length; ++i) {
-    if (modules[i] !== module) {
-      var url = addUrlParam("module", modules[i]);
-      $modulesContainer.append("<a href=\"" + url + "\">" + modules[i] + "</a> ").addClass("module-title");
+  for (i = 0; i < years.length; ++i) {
+    console.log(years[i]);
+    $modulesContainer.append(years[i]["title"] + ": ");
+    var modulesInYear = years[i]["modules"];
+    console.log(modulesInYear);
+    for (var j = 0; j < modulesInYear.length; ++j) {
+      if (modules.indexOf(modulesInYear[j]) !== -1) {
+        if (modulesInYear[j] === module) {
+          $modulesContainer.append("<a href=\"" + removeUrlParam(["module", "scrollTo"]) + "\">x</a> ").addClass("module-title");
+        } else {
+          var url = addUrlParam("module", modulesInYear[j]);
+          $modulesContainer.append("<a href=\"" + url + "\">" + modulesInYear[j] + "</a> ").addClass("module-title");
+        }
+      }
     }
-  }
-  if (module !== undefined) {
-    $modulesContainer.append("<a href=\"" + removeUrlParam("module") + "\">x</a> ").addClass("module-title");
+    if (j !== (modulesInYear.length - 1)) {
+      $modulesContainer.append("\n");
+    }
   }
   $headerContainer.append($modulesContainer);
 
@@ -152,7 +160,6 @@ showLessonsPlane = function(lessons) {
 };
 
 addHolidays = function(holidays) {
-  console.log(holidays);
   var $holidaysDiv = $("<div class=\"holidays-container\">")
     .append("<div class=\"holidays-title\">" + holidays["title"] + "</div>")
     .append("<div class=\"holidays-comment\">" + holidays["comment"] + "</div>");
@@ -265,13 +272,13 @@ getUrlParam = function(key) {
   }
 };
 
-removeUrlParam = function(key) {
+removeUrlParam = function(keys) {
   var url = decodeURIComponent(window.location.search.substring(1));
   var urlParts = url.split('&');
   var keyAndValue;
   for (var i = 0; i < urlParts.length; i++) {
     keyAndValue = urlParts[i].split('=');
-    if (keyAndValue[0] === key) {
+    if (keys.indexOf(keyAndValue[0]) !== -1) {
       urlParts.splice(i, 1);
       break;
     }

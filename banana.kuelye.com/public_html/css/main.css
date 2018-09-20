@@ -48,6 +48,10 @@ a .grey:hover {
   font-size: 12pt;
 }
 
+.modules-container {
+  white-space: pre;
+}
+
 .group-title {
   font-size: 24pt;
   font-weight: bold;

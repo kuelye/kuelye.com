@@ -1,6 +1,16 @@
 [
   {
     "title": "2017",
+    "years": [
+      {
+        "title": "1 год",
+        "modules": ["I", "II", "III", "IV"]
+      },
+      {
+        "title": "2 год",
+        "modules": ["V", "VI"]
+      }
+    ],
     "lessons": [
       {
         "date": "2017-10-16T14:00:00.000Z",
@@ -1076,6 +1086,27 @@
                 "title": "ещё разочек - смотрите <a href=\"http://banana.kuelye.com/data/IV.15.h.0.gif\">этот пример</a>"
               }
             ]
+          }
+        ]
+      },
+      {
+        "date": "2018-09-17T14:00:00.000Z",
+        "module": "V",
+        "index": "1",
+        "title": "Опять этот Git, часть 1 и cmd с GitBash"
+      },
+      {
+        "date": "2018-09-20T14:00:00.000Z",
+        "module": "V",
+        "index": "2",
+        "title": "Опять этот Git, часть 2; повторение (Activity, Fragment) и ConstraintLayout",
+        "homework": [
+          {
+            "title": "Посмотрите <a href=\"https://youtu.be/zzTi4v20PgY\">видосик</a> про ConstraintLayout",
+            "comment": "главное - запомните, как в ConstraintLayout легко управлять размерами и положением вьюх"
+          },
+          {
+            "title": "Сверстайте макет промо-странички для какого-нибудь товара (любого)"
           }
         ]
       }
