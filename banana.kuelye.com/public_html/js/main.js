@@ -82,16 +82,14 @@ showLessons = function(lessons, years) {
   var $modulesContainer = $("<div class=\"modules-container\">");
   var modules = getModules(lessons);
   for (i = 0; i < years.length; ++i) {
-    console.log(years[i]);
     $modulesContainer.append(years[i]["title"] + ": ");
     var modulesInYear = years[i]["modules"];
-    console.log(modulesInYear);
     for (var j = 0; j < modulesInYear.length; ++j) {
       if (modules.indexOf(modulesInYear[j]) !== -1) {
         if (modulesInYear[j] === module) {
           $modulesContainer.append("<a href=\"" + removeUrlParam(["module", "scrollTo"]) + "\">x</a> ").addClass("module-title");
         } else {
-          var url = addUrlParam("module", modulesInYear[j]);
+          var url = removeUrlParamFromUrl(addUrlParam("module", modulesInYear[j]), "scrollTo");
           $modulesContainer.append("<a href=\"" + url + "\">" + modulesInYear[j] + "</a> ").addClass("module-title");
         }
       }
@@ -272,24 +270,28 @@ getUrlParam = function(key) {
   }
 };
 
-removeUrlParam = function(keys) {
-  var url = decodeURIComponent(window.location.search.substring(1));
-  var urlParts = url.split('&');
+removeUrlParamFromUrl = function(url, keys) {
+  url = url.indexOf("?") !== -1 ? url.split('?')[1] : url;
+  var urlParts = url.length === 0 ? [] : (url.indexOf("&") !== -1 ? url.split('&') : [url]);
   var keyAndValue;
   for (var i = 0; i < urlParts.length; i++) {
     keyAndValue = urlParts[i].split('=');
     if (keys.indexOf(keyAndValue[0]) !== -1) {
-      urlParts.splice(i, 1);
-      break;
+      urlParts.splice(i--, 1);
     }
   }
 
   return window.location.origin + window.location.pathname + "?" + urlParts.join('&');
 };
 
-addUrlParam = function(key, value) {
+removeUrlParam = function(keys) {
   var url = decodeURIComponent(window.location.search.substring(1));
-  var urlParts = url.split('&');
+  return removeUrlParamFromUrl(url, keys);
+};
+
+addUrlParamToUrl = function(url, key, value) {
+  url = url.indexOf("?") !== -1 ? url.split('?')[1] : url;
+  var urlParts = url.length === 0 ? [] : (url.indexOf("&") !== -1 ? url.split('&') : [url]);
   var keyAndValue;
   var isSet = false;
   for (var i = 0; i < urlParts.length; i++) {
@@ -307,6 +309,11 @@ addUrlParam = function(key, value) {
   }
 
   return window.location.origin + window.location.pathname + "?" + urlParts.join('&');
+};
+
+addUrlParam = function(key, value) {
+  var url = decodeURIComponent(window.location.search.substring(1));
+  return addUrlParamToUrl(url, key, value);
 };
 
 scrollToElement = function(element) {
