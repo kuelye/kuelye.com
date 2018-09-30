@@ -4,8 +4,8 @@ ul {
 }
 
 ol {
-    padding: 0;
-    margin: 10px 0 10px 25px
+  padding: 0;
+  margin: 10px 0 10px 25px
 }
 
 li {
@@ -28,14 +28,14 @@ a .grey:hover {
 }
 
 #centered {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 600px;
-    height: 300px;
-    margin-top: -200px;
-    margin-left: -300px;
-    text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 600px;
+  height: 300px;
+  margin-top: -200px;
+  margin-left: -300px;
+  text-align: center;
 }
 
 .header-title {
@@ -108,5 +108,22 @@ a .grey:hover {
 }
 
 .inactive-lesson a:hover {
-    color: gainsboro;
+  color: gainsboro;
+}
+
+/* DIARY */
+
+.diary-container {
+  margin-top: 20px;
+}
+
+.diary-table {
+  font-size: 12pt;
+  margin: 0 auto;
+  border-spacing: 5px;
+}
+
+.value-table-item {
+  text-align: center;
+  vertical-align: middle;
 }

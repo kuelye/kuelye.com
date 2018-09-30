@@ -29,7 +29,7 @@ fillPage = function(data) {
   if (groupId === undefined) {
     showGroups(data)
   } else {
-    showLessons(data[groupId]["lessons"], data[groupId]["years"]);
+    showLessons(data[groupId]["diary"], data[groupId]["lessons"], data[groupId]["years"]);
   }
 
   var scrollTo = getUrlParam("scrollTo");
@@ -56,7 +56,7 @@ addGroup = function(group) {
 
 /* -LESSONS-------------------------------------------------------- */
 
-showLessons = function(lessons, years) {
+showLessons = function(diary, lessons, years) {
   // find current lesson
   var now = Date.now();
   for (var i = 0; i < lessons.length; ++i) {
@@ -101,11 +101,15 @@ showLessons = function(lessons, years) {
   $headerContainer.append($modulesContainer);
 
   // fill header with additional links
-  var encyclopediaMode = getUrlParam("encyclopediaMode");
-  if (encyclopediaMode) {
-    $headerContainer.append("<a href=\"" + removeUrlParam("encyclopediaMode") + "\">📑</a> ").addClass("module-title");
-  } else {
-    $headerContainer.append("<a href=\"" + addUrlParam("encyclopediaMode", true) + "\">📔</a> ").addClass("module-title");
+  var mode = getUrlParam("mode");
+  if (mode !== undefined) {
+    $headerContainer.append("<a href=\"" + removeUrlParam("mode") + "\">📅</a> ").addClass("module-title");
+  }
+  if (mode !== "encyclopedia") {
+    $headerContainer.append("<a href=\"" + addUrlParam("mode", "encyclopedia") + "\">📔</a> ").addClass("module-title");
+  }
+  if (mode !== "diary") {
+    $headerContainer.append("<a href=\"" + addUrlParam("mode", "diary") + "\">🎮</a> ").addClass("module-title");
   }
 
   // fill content
@@ -115,39 +119,16 @@ showLessons = function(lessons, years) {
       filteredLessons.push(lessons[i]);
     }
   }
-  if (encyclopediaMode) {
+  if (mode === "encyclopedia") {
     showEncyclopedia(filteredLessons);
+  } else if (mode === "diary") {
+    showDiary(diary, filteredLessons);
   } else {
-    showLessonsPlane(filteredLessons);
+    showLessonsPlan(filteredLessons);
   }
 };
 
-showEncyclopedia = function(lessons) {
-  var encyclopedia = [];
-  for (var i = 0; i < lessons.length; ++i) {
-    var sections = lessons[i]["sections"];
-    if (sections !== undefined) {
-      for (var j = 0; j < sections.length; ++j) {
-        var title = sections[j]["title"];
-        var themes = sections[j]["themes"];
-        if (encyclopedia[title] === undefined) {
-          encyclopedia[title] = themes;
-        } else {
-          encyclopedia[title] = encyclopedia[title] + themes;
-        }
-      }
-    }
-  }
-
-  for (title in encyclopedia) {
-    var $sectionDiv = $("<div class=\"encyclopedia-section-container\">")
-      .append(title)
-      .append('<span class="lesson-section-themes"> // ' + encyclopedia[title] + '</span>');
-    $("#content_container").append($sectionDiv) ;
-  }
-};
-
-showLessonsPlane = function(lessons) {
+showLessonsPlan = function(lessons) {
   for (var i = 0; i < lessons.length; ++i) {
     if (lessons[i]["type"] === "holidays") {
       addHolidays(lessons[i]);
@@ -176,7 +157,7 @@ addLesson = function(lesson) {
     .append("<a href=\"" + addUrlParam("scrollTo", lessonNumber) + "\">" + lesson["module"] + "." + lessonNumber + "</a> " + lesson["title"])
     .addClass("lesson-title");
   var $dateDiv = $("<div>")
-    .append(getFormattedDate(lesson))
+    .append(getLessonDisplayedDate(lesson))
     .addClass("lesson-date");
 
   // add sections
@@ -246,16 +227,98 @@ addHomeworkSections = function($homeworkSectionsOl, homeworkSections) {
   }
 };
 
-showError = function() {
-  // TODO
+/* -ENCYCLOPEDIA--------------------------------------------------- */
+
+showEncyclopedia = function(lessons) {
+  var encyclopedia = [];
+  for (var i = 0; i < lessons.length; ++i) {
+    var sections = lessons[i]["sections"];
+    if (sections !== undefined) {
+      for (var j = 0; j < sections.length; ++j) {
+        var title = sections[j]["title"];
+        var themes = sections[j]["themes"];
+        if (encyclopedia[title] === undefined) {
+          encyclopedia[title] = themes;
+        } else {
+          encyclopedia[title] = encyclopedia[title] + themes;
+        }
+      }
+    }
+  }
+
+  for (title in encyclopedia) {
+    var $sectionDiv = $("<div class=\"encyclopedia-section-container\">")
+      .append(title)
+      .append('<span class="lesson-section-themes"> // ' + encyclopedia[title] + '</span>');
+    $("#content_container").append($sectionDiv) ;
+  }
+};
+
+/* -DIARY---------------------------------------------------------- */
+
+showDiary = function(diary, filteredLessons) {
+  var $diaryDiv = $("<div class=\"diary-container\">");
+  var $table = $("<table class=\"diary-table\">");
+  var students = diary["students"];
+  var lessons = diary["lessons"];
+
+  // add first row with dates
+  var $firstTr = $("<tr>");
+  $firstTr.append($("<td>"));
+  for (var i = 0; i < lessons.length; i++) {
+    // find real lesson by diary lesson date
+    var diaryLesson = lessons[i];
+    var lesson = undefined;
+    for (var j = 0; j < filteredLessons.length; j++) {
+      var filteredLesson = filteredLessons[j];
+      if (filteredLesson["date"] === diaryLesson["date"]) {
+        lesson = filteredLesson;
+        break;
+      }
+    }
+
+    console.log(filteredLessons);
+    var title = diaryLesson["type"] === "homework" ? "ДЗ" : getDiaryDisplayedDate(diaryLesson);
+    var $lessonTd = $("<td>");
+    if (lesson === undefined) {
+      $lessonTd.append(title)
+    } else {
+      var lessonNumber = lesson["index"].padStart(2, "0");
+      $lessonTd.append("<a href=\"" + removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode") + "\">" + title + "</a>");
+    }
+    $firstTr.append($lessonTd);
+  }
+  $table.append($firstTr);
+
+  // add students row
+  for (var i = 0; i < students.length; i++) {
+    var $tr = $("<tr>").append($("<td>").append(students[i]));
+    for (var j = 0; j < lessons.length; j++) {
+      var value = lessons[j]["values"][i] > 0 ? "+" : "-";
+      $tr.append("<td class=\"value-table-item\">" + value + "</td>");
+    }
+    $table.append($tr);
+  }
+
+  $diaryDiv.append($table);
+  $("#content_container").append($diaryDiv);
 };
 
 /* -UTILS---------------------------------------------------------- */
 
-getFormattedDate = function(lesson) {
+showError = function() {
+  // TODO
+};
+
+getLessonDisplayedDate = function(lesson) {
   var options = { month: 'long', day: 'numeric' };
   var date = new Date(lesson["date"]);
   return date.toLocaleDateString("en-EN", options);
+};
+
+getDiaryDisplayedDate = function(lesson) {
+  var date = new Date(lesson["date"]);
+  return date.getDate() + "." + ('0' + (date.getMonth() + 1)).slice(-2);
 };
 
 getUrlParam = function(key) {

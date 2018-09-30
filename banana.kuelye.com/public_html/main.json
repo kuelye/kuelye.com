@@ -1129,7 +1129,105 @@
             "comment": "в качестве товара можете предложить пользователю что угодно: например, <a href=\"https://www.instagram.com/p/BdRCXMshjf7/?taken-by=alzearafat\">димсамы</a>, <a href=\"https://dribbble.com/shots/2434257-Nike-In-App-Promotions/attachments/472937\">кроссовок</a> или <a href=\"https://dribbble.com/shots/4470845-Product-App-Design\">лампочку</a>"
           }
         ]
+      },
+      {
+        "date": "2018-09-24T14:00:00.000Z",
+        "module": "V",
+        "index": "3",
+        "title": "Опять этот Git, часть 3 (про pull, push и PRs); ViewPager и CircleIndicator",
+        "sections": [
+          {
+            "title": "Git",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.03#%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-ii\">основные команды II</a>"
+          },
+          {
+            "title": "Разные View",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.03#viewpager\">ViewPager</a>"
+          },
+          {
+            "title": "Полезные библиотеки",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.03#circleindicator\">CircleIndicator</a>"
+          }
+        ]
+      },
+      {
+        "date": "2018-09-27T14:00:00.000Z",
+        "module": "V",
+        "index": "4",
+        "title": "Опять этот Git, часть 4 (про merge, конфликты и мелочи); ",
+        "sections": [
+          {
+            "title": "Git",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.04#%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-iii\">основные команды III</a>"
+          },
+          {
+            "title": "Анимации",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.04#%D0%9F%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5\">повторение</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.04#viewpagerpagetransformer\">ViewPager.PagerTransformer</a>"
+          },
+          {
+            "title": "Разные View",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.04#pagertabstrip\">PagerTabStrip</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Добавьте анимации появления каждого из элементов в промо-страничку, которые вы сверстали в предыдущем задании",
+            "comment": "то есть сделайте, например, так, чтобы сначала появилась картинка, потом текста, потом кнопка"
+          },
+          {
+            "title": "Измените анимацию CircleIndicator на другую",
+            "comment": "см. <a href=\"https://github.com/ongakuer/CircleIndicator/raw/master/screenshot.gif\">пример с палочками</a>, но просто взять готовый поворот палочек из примера нельзя"
+          }
+        ]
+      },
+      {
+        "date": "2018-10-01T14:00:00.000Z",
+        "module": "V",
+        "index": "5",
+        "title": "TBD"
+      },
+      {
+        "date": "2018-10-04T14:00:00.000Z",
+        "module": "V",
+        "index": "6",
+        "title": "TBD"
       }
-    ]
+    ],
+    "diary": {
+      "students": ["dom98111", "kaikkialla", "kurakin101", "nikitafedorov008", "Sobol-R"],
+      "lessons": [
+        {
+          "date": "2018-05-31T14:00:00.000Z",
+          "type": "homework",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-09-17T14:00:00.000Z",
+          "values": [0, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-09-20T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-09-20T14:00:00.000Z",
+          "type": "homework",
+          "values": [0, 0, 1, 0, 1]
+        },
+        {
+          "date": "2018-09-24T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-09-27T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-09-27T14:00:00.000Z",
+          "type": "homework",
+          "values": [0, 0, 0, 0, 0]
+        }
+      ]
+    }
   }
 ]
