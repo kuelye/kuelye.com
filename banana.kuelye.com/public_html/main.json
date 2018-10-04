@@ -1190,11 +1190,49 @@
         "date": "2018-10-04T14:00:00.000Z",
         "module": "V",
         "index": "6",
-        "title": "TBD"
+        "title": "TBD",
+        "classwork": [
+          {
+            "title": "Склонируйте <a href=\"https://github.com/banandroids/a.y17_2.onboarding\">этот репозиторий</a>"
+          },
+          {
+            "title": "Создайте свою ветку dev_%НИК% и переключитесь на неё"
+          },
+          {
+            "title": "Выберите произвольное приложение и создайте для него Onboarding, который должен содержать:",
+            "sections": [
+              {
+                "title": "не меньше трёх страниц, демонстрирующих разные фичи; каждая страница должна включать картинку (скриншот) с фичией и текстовое описание фичи;"
+              },
+              {
+                "title": "всегда должны отображаться кружочки, чтобы пользователь видел, сколько всего экранов и на каком экране он сейчас находится (можно не кружочки);"
+              },
+              {
+                "title": "всегда должна отображаться кнопочка Skip, чтобы нетерпеливый пользователь мог сразу перейти к приложению (главная активность приложения - MainActivity);"
+              },
+              {
+                "title": "Примеры для задания: <a href=\"https://cdn.dribbble.com/users/24152/screenshots/1746856/walkthrough_amst.gif\">0</a>, <a href=\"https://cdn.dribbble.com/users/285333/screenshots/4986139/image.png\">1</a>"
+              },
+              {
+                "title": "Другие примеры: <a href=\"https://cdn-images-1.medium.com/max/1600/1*VXH8zwioGRcu8dzeleFcIg.jpeg\">0</a>, <a href=\"https://cdn-images-1.medium.com/max/1600/1*7sqku2NowK00qG8bmXzvCw.jpeg\">1</a>, <a href=\"https://i2.wp.com/www.hipsthetic.com/wp-content/uploads/2017/12/onboarding-banking-illustrations-ramotion.png?resize=740%2C555\">2</a>, <a href=\"https://i1.wp.com/www.hipsthetic.com/wp-content/uploads/2017/12/blue-onboardingdrb-test.png?resize=740%2C555\">3</a>, <a href=\"https://i0.wp.com/www.hipsthetic.com/wp-content/uploads/2017/12/customerswifty.gif?resize=740%2C555\">4</a>, <a href=\"https://i1.wp.com/www.hipsthetic.com/wp-content/uploads/2017/12/google-docs-app-onboarding-interaction.gif?resize=740%2C555\">5</a>, <a href=\"https://cdn-images-1.medium.com/max/1600/1*bxeQ_zei3c4Vq71KgyfG2A.gif\">6</a>, <a href=\"https://cdn-images-1.medium.com/max/1600/1*0rodT9bZTpDF0ZE_NaW_Og.png\">7</a>"
+              },
+              {
+                "title": "<a href=\"https://material.io/design/communication/onboarding.html#quickstart-model\">Рекомендациии от Google</a>"
+              }
+            ]
+          },
+          {
+            "title": "Создайте PR из вашей векти (с готовым Onboarding) в master"
+          }
+        ],
+        "homework": [
+
+        ]
       }
     ],
     "diary": {
       "students": ["dom98111", "kaikkialla", "kurakin101", "nikitafedorov008", "Sobol-R"],
+      "reports": [0, 0, 0, 1, 0],
       "lessons": [
         {
           "date": "2018-05-31T14:00:00.000Z",
@@ -1225,6 +1263,19 @@
         {
           "date": "2018-09-27T14:00:00.000Z",
           "type": "homework",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-10-01T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-10-04T14:00:00.000Z",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-10-04T14:00:00.000Z",
+          "type": "classwork",
           "values": [0, 0, 0, 0, 0]
         }
       ]

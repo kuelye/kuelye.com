@@ -90,9 +90,9 @@ a .grey:hover {
 .lesson-section-themes,
 .lesson-section-themes a:link,
 .lesson-section-themes a:visited,
-.lesson-homework-comment,
-.lesson-homework-comment a:link,
-.lesson-homework-comment a:visited {
+.lesson-work-comment,
+.lesson-work-comment a:link,
+.lesson-work-comment a:visited {
   color: grey;
 }
 

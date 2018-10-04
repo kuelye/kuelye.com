@@ -166,10 +166,16 @@ addLesson = function(lesson) {
     addSections($sectionsOl, lesson["sections"]);
   }
 
+  // add classwork
+  if (lesson["classwork"] !== undefined) {
+    var $classworkOl = $("<ol>");
+    addWork($classworkOl, lesson["classwork"], "classwork");
+  }
+
   // add homework
   if (lesson["homework"] !== undefined) {
     var $homeworkOl = $("<ol>");
-    addHomework($homeworkOl, lesson["homework"]);
+    addWork($homeworkOl, lesson["homework"], "homework");
   }
 
   // fill lesson div
@@ -180,8 +186,13 @@ addLesson = function(lesson) {
     $lessonDiv.append($('<div class="lesson-sections-title">План</div>'))
       .append($sectionsOl);
   }
+  console.log($classworkOl);
+  if ($classworkOl !== undefined) {
+    $lessonDiv.append($('<div class="lesson-work-title">Контрольная</div>'))
+      .append($classworkOl);
+  }
   if ($homeworkOl !== undefined) {
-    $lessonDiv.append($('<div class="lesson-homework-title">Домашка</div>'))
+    $lessonDiv.append($('<div class="lesson-work-title">Домашка</div>'))
       .append($homeworkOl);
   }
   if (currentLessonId !== lesson["_id"]) {
@@ -200,30 +211,30 @@ addSections = function($sectionsOl, sections) {
   }
 };
 
-addHomework = function($homeworkOl, homework) {
-  for (var i = 0; i < homework.length; ++i) {
-    var $homeworkLi = $("<li>")
-      .append(homework[i]["title"] + " ");
-    if (homework[i]["comment"] !== undefined) {
-      $homeworkLi.append('<span class="lesson-homework-comment"> // ' + homework[i]["comment"] + '</span>');
+addWork = function($workOl, work, type) {
+  for (var i = 0; i < work.length; ++i) {
+    var $workLi = $("<li>")
+      .append(work[i]["title"] + " ");
+    if (work[i]["comment"] !== undefined) {
+      $workLi.append('<span class="lesson-work-comment"> // ' + work[i]["comment"] + '</span>');
     }
-    if (homework[i]["sections"] !== undefined) {
-      var $homeworkSectionsOl = $("<ol type=\"a\">");
-      addHomeworkSections($homeworkSectionsOl, homework[i]["sections"]);
-      $homeworkLi.append($homeworkSectionsOl);
+    if (work[i]["sections"] !== undefined) {
+      var $workSectionsOl = $("<ol type=\"a\">");
+      addWorkSections($workSectionsOl, work[i]["sections"]);
+      $workLi.append($workSectionsOl);
     }
-    $homeworkOl.append($homeworkLi);
+    $workOl.append($workLi);
   }
 };
 
-addHomeworkSections = function($homeworkSectionsOl, homeworkSections) {
-  for (var i = 0; i < homeworkSections.length; ++i) {
-    var $homeworkSectionLi = $("<li>")
-      .append(homeworkSections[i]["title"] + " ");
-    if (homeworkSections[i]["comment"] !== undefined) {
-      $homeworkSectionLi.append('<span class="lesson-homework-comment"> // ' + homeworkSections[i]["comment"] + '</span>');
+addWorkSections = function($homeworkSectionsOl, workSections) {
+  for (var i = 0; i < workSections.length; ++i) {
+    var $workSectionLi = $("<li>")
+      .append(workSections[i]["title"] + " ");
+    if (workSections[i]["comment"] !== undefined) {
+      $workSectionLi.append('<span class="lesson-work-comment"> // ' + workSections[i]["comment"] + '</span>');
     }
-    $homeworkSectionsOl.append($homeworkSectionLi);
+    $homeworkSectionsOl.append($workSectionLi);
   }
 };
 
@@ -260,6 +271,7 @@ showDiary = function(diary, filteredLessons) {
   var $diaryDiv = $("<div class=\"diary-container\">");
   var $table = $("<table class=\"diary-table\">");
   var students = diary["students"];
+  var reports = diary["reports"];
   var lessons = diary["lessons"];
 
   // add first row with dates
@@ -277,8 +289,9 @@ showDiary = function(diary, filteredLessons) {
       }
     }
 
-    console.log(filteredLessons);
-    var title = diaryLesson["type"] === "homework" ? "ДЗ" : getDiaryDisplayedDate(diaryLesson);
+    var title = diaryLesson["type"] === "homework" ? "ДЗ"
+        : diaryLesson["type"] === "classwork" ? "КР"
+        : getDiaryDisplayedDate(diaryLesson);
     var $lessonTd = $("<td>");
     if (lesson === undefined) {
       $lessonTd.append(title)
@@ -291,11 +304,24 @@ showDiary = function(diary, filteredLessons) {
   $table.append($firstTr);
 
   // add students row
-  for (var i = 0; i < students.length; i++) {
+  for (i = 0; i < students.length; i++) {
     var $tr = $("<tr>").append($("<td>").append(students[i]));
-    for (var j = 0; j < lessons.length; j++) {
+    var values = [];
+    var minusesIndexes = [];
+    for (j = 0; j < lessons.length; j++) {
       var value = lessons[j]["values"][i] > 0 ? "+" : "-";
-      $tr.append("<td class=\"value-table-item\">" + value + "</td>");
+      if (value === "-" && lessons[j]["type"] === "homework") { minusesIndexes.push(j); }
+      values.push(value);
+    }
+
+    if (minusesIndexes.length > 0) {
+      for (j = 0; j < reports[i]; j++) {
+        values[minusesIndexes[Math.floor(Math.random() * minusesIndexes.length)]] = "*";
+      }
+    }
+
+    for (j = 0; j < lessons.length; j++) {
+      $tr.append("<td class=\"value-table-item\">" + values[j] + "</td>");
     }
     $table.append($tr);
   }
