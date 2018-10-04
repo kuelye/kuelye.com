@@ -82,7 +82,7 @@ a .grey:hover {
   margin-top: 20px;
 }
 
-.lesson-homework-title {
+.lesson-work-title {
   font-size: 16pt;
   margin-top: 20px;
 }
@@ -97,7 +97,7 @@ a .grey:hover {
 }
 
 .lesson-section-themes a:hover,
-.lesson-homework-comment a:hover {
+.lesson-work-comment a:hover {
   color: gainsboro;
 }
 

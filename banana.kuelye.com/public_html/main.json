@@ -1184,13 +1184,13 @@
         "date": "2018-10-01T14:00:00.000Z",
         "module": "V",
         "index": "5",
-        "title": "TBD"
+        "title": "Анимации переходов между активностями кодом и Shared Elements animations"
       },
       {
         "date": "2018-10-04T14:00:00.000Z",
         "module": "V",
         "index": "6",
-        "title": "TBD",
+        "title": "anim, animation, transition и ButterKnife",
         "classwork": [
           {
             "title": "Склонируйте <a href=\"https://github.com/banandroids/a.y17_2.onboarding\">этот репозиторий</a>"
@@ -1222,12 +1222,33 @@
             ]
           },
           {
-            "title": "Создайте PR из вашей векти (с готовым Onboarding) в master"
+            "title": "Создайте PR из вашей ветки (с готовым Onboarding) в master"
           }
         ],
         "homework": [
-
+          {
+            "title": "Если не доделали КР - доделайте её (и потом просто запушьте свою ветку с изменениями)"
+          },
+          {
+            "title": "Посмотрите <a href=\"видосик про анимации от LearnDroid\">https://www.youtube.com/watch?v=fnTqKfmlQvk</a>",
+            "comment": "обратите внимание на то, как запускать анимации те же анимации (Shared Elements animation, например) в случае фрагментов (я этого не рассказывал)"
+          },
+          {
+            "title": "Узнайте, зачем для картинок в res помимо drawable ещё и mipmap добавили"
+          }
         ]
+      },
+      {
+        "date": "2018-10-08T14:00:00.000Z",
+        "module": "V",
+        "index": "7",
+        "title": "TBD"
+      },
+      {
+        "date": "2018-10-11T14:00:00.000Z",
+        "module": "V",
+        "index": "8",
+        "title": "TBD"
       }
     ],
     "diary": {
