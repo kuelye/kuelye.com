@@ -110,6 +110,12 @@ showLessons = function(diary, lessons, years) {
   }
   if (mode !== "diary") {
     $headerContainer.append("<a href=\"" + addUrlParam("mode", "diary") + "\">🎮</a> ").addClass("module-title");
+  } else {
+    if (getUrlParam("onlyWorks") === "true") {
+      $headerContainer.append("<a href=\"" + removeUrlParam("onlyWorks") + "\">❕</a> ").addClass("module-title");
+    } else {
+      $headerContainer.append("<a href=\"" + addUrlParam("onlyWorks", true) + "\">❗</a> ").addClass("module-title");
+    }
   }
 
   // fill content
@@ -273,6 +279,7 @@ showDiary = function(diary, filteredLessons) {
   var students = diary["students"];
   var reports = diary["reports"];
   var lessons = diary["lessons"];
+  var onlyWorks = getUrlParam("onlyWorks");
 
   // add first row with dates
   var $firstTr = $("<tr>");
@@ -280,26 +287,29 @@ showDiary = function(diary, filteredLessons) {
   for (var i = 0; i < lessons.length; i++) {
     // find real lesson by diary lesson date
     var diaryLesson = lessons[i];
-    var lesson = undefined;
-    for (var j = 0; j < filteredLessons.length; j++) {
-      var filteredLesson = filteredLessons[j];
-      if (filteredLesson["date"] === diaryLesson["date"]) {
-        lesson = filteredLesson;
-        break;
+    var type = diaryLesson["type"];
+    if (!onlyWorks || type === "homework" || type === "classwork") {
+      var lesson = undefined;
+      for (var j = 0; j < filteredLessons.length; j++) {
+        var filteredLesson = filteredLessons[j];
+        if (filteredLesson["date"] === diaryLesson["date"]) {
+          lesson = filteredLesson;
+          break;
+        }
       }
-    }
 
-    var title = diaryLesson["type"] === "homework" ? "ДЗ"
+      var title = diaryLesson["type"] === "homework" ? "ДЗ"
         : diaryLesson["type"] === "classwork" ? "КР"
-        : getDiaryDisplayedDate(diaryLesson);
-    var $lessonTd = $("<td>");
-    if (lesson === undefined) {
-      $lessonTd.append(title)
-    } else {
-      var lessonNumber = lesson["index"].padStart(2, "0");
-      $lessonTd.append("<a href=\"" + removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode") + "\">" + title + "</a>");
+          : getDiaryDisplayedDate(diaryLesson);
+      var $lessonTd = $("<td>");
+      if (lesson === undefined) {
+        $lessonTd.append(title)
+      } else {
+        var lessonNumber = lesson["index"].padStart(2, "0");
+        $lessonTd.append("<a href=\"" + removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode") + "\">" + title + "</a>");
+      }
+      $firstTr.append($lessonTd);
     }
-    $firstTr.append($lessonTd);
   }
   $table.append($firstTr);
 
@@ -308,10 +318,16 @@ showDiary = function(diary, filteredLessons) {
     var $tr = $("<tr>").append($("<td>").append(students[i]));
     var values = [];
     var minusesIndexes = [];
+    var k = 0;
     for (j = 0; j < lessons.length; j++) {
-      var value = lessons[j]["values"][i] > 0 ? "+" : "-";
-      if (value === "-" && lessons[j]["type"] === "homework") { minusesIndexes.push(j); }
-      values.push(value);
+      type = lessons[j]["type"];
+      if (!onlyWorks || type === "homework" || type === "classwork") {
+        var value = lessons[j]["values"][i] > 0 ? "+" : "-";
+        if (value === "-" && type === "homework") {
+          minusesIndexes.push(k++);
+        }
+        values.push(value);
+      }
     }
 
     if (minusesIndexes.length > 0) {
@@ -320,7 +336,7 @@ showDiary = function(diary, filteredLessons) {
       }
     }
 
-    for (j = 0; j < lessons.length; j++) {
+    for (j = 0; j < values.length; j++) {
       $tr.append("<td class=\"value-table-item\">" + values[j] + "</td>");
     }
     $table.append($tr);
