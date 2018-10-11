@@ -1262,13 +1262,72 @@
         "date": "2018-10-08T14:00:00.000Z",
         "module": "V",
         "index": "7",
-        "title": "TBD"
+        "title": "Повторение Custom Views, Canvas; Paint и Calendar",
+        "sections": [
+          {
+            "title": "Custom Views",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.07#%D0%9F%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5\">повторение</a>"
+          },
+          {
+            "title": "Canvas",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.07#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-canvas\">полезные методы</a>"
+          },
+          {
+            "title": "Paint",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.07#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-paint\">полезные методы</a>"
+          },
+          {
+            "title": "Calendar",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.07#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B\">полезные методы</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Вынесите любой цвет, используемый при отрисовке часов, в свойства AnalogClockView",
+            "comment": "например, чтобы можно было написать app:handsColor=\"#FF00FF00\" и цвет стрелок изменился на зелёный"
+          },
+          {
+            "title": "Создайте отдельный фрагмент для будильников (пока пустой) и сделайте навигацию между этими двумя фрагментами",
+            "comment": "примеры <a href=\"https://i.pinimg.com/564x/2d/69/86/2d698685d0081ed946a8ce899fb6891d.jpg\">1</a>, <a href=\"https://i.pinimg.com/564x/18/9a/5d/189a5d0016c3926205f2eaadb3212e96.jpg\">2</a>, <a href=\"https://i.pinimg.com/564x/92/b4/df/92b4df1ffe21c30040a86a71368c2bbf.jpg\">3</a>; используйте связку ViewPager + любая штука для управления текущей страницей (это может быть PagerTabStrip, который мы прошли, но лучше что-нибудь новое -  <a href=\"https://developer.android.com/reference/android/support/design/widget/BottomNavigationView\">BottomNavigationView</a> или <a href=\"https://github.com/astuetz/PagerSlidingTabStrip\">PagerSlidingTabStrip</a> или любая другая либа)"
+          }
+        ]
       },
       {
         "date": "2018-10-11T14:00:00.000Z",
         "module": "V",
         "index": "8",
-        "title": "TBD"
+        "title": "Повторение Timer, TimerTask, Handler; enums и атрибуты custom views"
+      },
+      {
+        "date": "2018-10-15T14:00:00.000Z",
+        "module": "V",
+        "index": "9",
+        "title": "Повторение SharedPreferences и RecyclerView; (де)сериализация - JSON и Gson"
+      },
+      {
+        "date": "2018-10-18T14:00:00.000Z",
+        "module": "V",
+        "index": "10",
+        "title": "Permissions, file chooser"
+      },
+      {
+        "date": "2018-10-22T14:00:00.000Z",
+        "module": "V",
+        "index": "11",
+        "title": "Wear OS"
+      },
+      {
+        "date": "2018-10-25T14:00:00.000Z",
+        "module": "V",
+        "index": "12",
+        "title": "Widgets"
+      },
+      {
+        "type": "holidays",
+        "date": "2018-10-29T14:00:00.000Z",
+        "module": "V",
+        "title": "Каникулы",
+        "comment": "c 29 октября по 4 ноября"
       }
     ],
     "diary": {
