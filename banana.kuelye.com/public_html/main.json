@@ -1295,6 +1295,9 @@
           {
             "title": "Создайте отдельный фрагмент для будильников (пока пустой) и сделайте навигацию между этими двумя фрагментами",
             "comment": "примеры <a href=\"https://i.pinimg.com/564x/2d/69/86/2d698685d0081ed946a8ce899fb6891d.jpg\">1</a>, <a href=\"https://i.pinimg.com/564x/18/9a/5d/189a5d0016c3926205f2eaadb3212e96.jpg\">2</a>, <a href=\"https://i.pinimg.com/564x/92/b4/df/92b4df1ffe21c30040a86a71368c2bbf.jpg\">3</a>; используйте связку ViewPager + любая штука для управления текущей страницей (это может быть PagerTabStrip, который мы прошли, но лучше что-нибудь новое -  <a href=\"https://developer.android.com/reference/android/support/design/widget/BottomNavigationView\">BottomNavigationView</a> или <a href=\"https://github.com/astuetz/PagerSlidingTabStrip\">PagerSlidingTabStrip</a> или любая другая либа)"
+          },
+          {
+            "title": "<i>Никите и Васе: </i> доделайте КР и запушьте коммит с изменениями в свою ветку в <a href=\"https://github.com/banandroids/a.y17_2.onboarding\">репозиторий</a>"
           }
         ]
       },
@@ -1372,6 +1375,11 @@
           "date": "2018-10-04T14:00:00.000Z",
           "type": "classwork",
           "values": [0, 1, 0, 0, 1]
+        },
+        {
+          "date": "2018-10-11T14:00:00.000Z",
+          "type": "homework",
+          "values": [0, 0, 0, 0, 0]
         }
       ]
     }
