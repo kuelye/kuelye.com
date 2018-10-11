@@ -1280,7 +1280,13 @@
             "title": "Calendar",
             "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.07#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B\">полезные методы</a>"
           }
-        ],
+        ]
+      },
+      {
+        "date": "2018-10-11T14:00:00.000Z",
+        "module": "V",
+        "index": "8",
+        "title": "Повторение Timer, TimerTask, Handler; enums и атрибуты custom views",
         "homework": [
           {
             "title": "Вынесите любой цвет, используемый при отрисовке часов, в свойства AnalogClockView",
@@ -1291,12 +1297,6 @@
             "comment": "примеры <a href=\"https://i.pinimg.com/564x/2d/69/86/2d698685d0081ed946a8ce899fb6891d.jpg\">1</a>, <a href=\"https://i.pinimg.com/564x/18/9a/5d/189a5d0016c3926205f2eaadb3212e96.jpg\">2</a>, <a href=\"https://i.pinimg.com/564x/92/b4/df/92b4df1ffe21c30040a86a71368c2bbf.jpg\">3</a>; используйте связку ViewPager + любая штука для управления текущей страницей (это может быть PagerTabStrip, который мы прошли, но лучше что-нибудь новое -  <a href=\"https://developer.android.com/reference/android/support/design/widget/BottomNavigationView\">BottomNavigationView</a> или <a href=\"https://github.com/astuetz/PagerSlidingTabStrip\">PagerSlidingTabStrip</a> или любая другая либа)"
           }
         ]
-      },
-      {
-        "date": "2018-10-11T14:00:00.000Z",
-        "module": "V",
-        "index": "8",
-        "title": "Повторение Timer, TimerTask, Handler; enums и атрибуты custom views"
       },
       {
         "date": "2018-10-15T14:00:00.000Z",
