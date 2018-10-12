@@ -166,6 +166,15 @@ addLesson = function(lesson) {
     .append(getLessonDisplayedDate(lesson))
     .addClass("lesson-date");
 
+  // add commit info
+  var $commitInfoDiv = $("<div>").addClass("lesson-commit");
+  if (lesson["commit"] !== undefined) {
+    $commitInfoDiv.append("<a href=\"" + lesson["commit"] + "\">📟</a>").append(" ")
+  }
+  if (lesson["commit_description"] !== undefined) {
+    $commitInfoDiv.append("<a href=\"" + lesson["commit_description"] + "\">📑</a>")
+  }
+
   // add sections
   if (lesson["sections"] !== undefined) {
     var $sectionsOl = $("<ol>");
@@ -187,9 +196,10 @@ addLesson = function(lesson) {
   // fill lesson div
   var $lessonDiv = $("<div id=\"lesson" + lessonNumber + "-container\" class=\"lesson-container\">")
     .append($titleDiv)
-    .append($dateDiv);
+    .append($dateDiv)
+    .append($commitInfoDiv);
   if ($sectionsOl !== undefined) {
-    $lessonDiv.append($('<div class="lesson-sections-title">План</div>'))
+    $lessonDiv.append($('<div class="lesson-sections-title">Конспект</div>'))
       .append($sectionsOl);
   }
   console.log($classworkOl);
@@ -467,4 +477,8 @@ scrollToElement = function(element) {
     element = element.offsetParent;
     window.scrollTo(positionX, positionY);
   }
+};
+
+escapeBackslaches = function(s) {
+  return s.replace(/\//g, "//")
 };

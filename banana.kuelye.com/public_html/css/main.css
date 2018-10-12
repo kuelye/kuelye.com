@@ -77,6 +77,11 @@ a .grey:hover {
   font-size: 8pt;
 }
 
+.lesson-commit {
+  font-size: 10pt;
+  line-height: 100%;
+}
+
 .lesson-sections-title {
   font-size: 16pt;
   margin-top: 20px;
