@@ -1463,6 +1463,7 @@
         {
           "date": "2018-09-20T14:00:00.000Z",
           "type": "homework",
+          "hint": "про вёрстку и ConstraintLayout",
           "values": [0, 1, 1, 0, 1]
         },
         {
@@ -1476,6 +1477,7 @@
         {
           "date": "2018-09-27T14:00:00.000Z",
           "type": "homework",
+          "hint": "про анимации",
           "values": [0, 0, 0, 0, 0]
         },
         {
@@ -1489,11 +1491,13 @@
         {
           "date": "2018-10-04T14:00:00.000Z",
           "type": "classwork",
+          "hint": "про Onboarding и ViewPager",
           "values": [0, 1, 0, 0, 1]
         },
         {
           "date": "2018-10-11T14:00:00.000Z",
           "type": "homework",
+          "hint": "опять про ViewPager (и setTimeZone)",
           "values": [0, 0, 0, 0, 0]
         }
       ]

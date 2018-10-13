@@ -309,14 +309,21 @@ showDiary = function(diary, filteredLessons) {
       }
 
       var title = diaryLesson["type"] === "homework" ? "ДЗ"
-        : diaryLesson["type"] === "classwork" ? "КР"
+          : diaryLesson["type"] === "classwork" ? "КР"
           : getDiaryDisplayedDate(diaryLesson);
       var $lessonTd = $("<td>");
       if (lesson === undefined) {
         $lessonTd.append(title)
       } else {
         var lessonNumber = lesson["index"].padStart(2, "0");
-        $lessonTd.append("<a href=\"" + removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode") + "\">" + title + "</a>");
+        var url = removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode");
+        var hint = diaryLesson["hint"];
+        var a = "<a href=\"" + url + "\"";
+        if (hint !== undefined) {
+          a += " title=\"" + hint + "\"";
+        }
+        a += ">" + title + "</a>";
+        $lessonTd.append(a);
       }
       $firstTr.append($lessonTd);
     }
