@@ -1184,11 +1184,15 @@
         "date": "2018-10-01T14:00:00.000Z",
         "module": "V",
         "index": "5",
-        "title": "Анимации переходов между активностями кодом и Shared Elements animations",
+        "title": "Анимации переходов между активностями кодом и Shared Elements animations; доклад про Google Fuchsia и Flutter",
         "sections": [
           {
             "title": "Анимации",
             "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.05#%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%BE%D0%B2-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D0%BC%D0%B8-%D0%BA%D0%BE%D0%B4%D0%BE%D0%BC\">переходов между активностями кодом</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.05#shared-elements-animations\">Shared Elements animations</a>"
+          },
+          {
+            "title": "Доклад Никиты про Google Fuchsia и Flutter",
+            "themes": "см. <a href=\"https://docs.google.com/presentation/d/1e7yoorIQTXq0ia_joZmK69XiZrPa9wT6MzHB9VQ1BB0/edit\">презентацию</a>"
           }
         ]
       },
@@ -1286,7 +1290,7 @@
         "date": "2018-10-11T14:00:00.000Z",
         "module": "V",
         "index": "8",
-        "title": "Повторение Timer, TimerTask, Handler; enums и атрибуты custom views",
+        "title": "Повторение Timer, TimerTask, Handler; enums и управление custom view кодом",
         "commit": "https://github.com/banandroids/a.y17_2.clock/commit/4f41cec9629122e8729b2cb92eb6a189a6bee5a9",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.08#%D0%A7%D0%B5%D0%B3%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8",
         "sections": [
@@ -1317,19 +1321,35 @@
         "date": "2018-10-15T14:00:00.000Z",
         "module": "V",
         "index": "9",
-        "title": "Повторение SharedPreferences и RecyclerView; (де)сериализация - JSON и Gson"
+        "title": "Атрибуты custom views; повторение SharedPreferences; (де)сериализация - JSON и Gson",
+        "commit": "https://github.com/banandroids/a.y17_2.clock/commit/612fccf7219bc2e6926a9d3fa5f203bf92e39c62",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.09#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Custom Views",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.09#%D0%9A%D0%B0%D1%81%D1%82%D0%BE%D0%BC%D0%BD%D1%8B%D0%B5-%D0%B0%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D1%8B\">кастомные атрибуты</a>"
+          },
+          {
+            "title": "SharedPreferences",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.09#%D0%9F%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5\">повторение</a>"
+          },
+          {
+            "title": "Де(сериализация)",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.09#%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0\">основа</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.09#gson\">Gson</a>"
+          }
+        ]
       },
       {
         "date": "2018-10-18T14:00:00.000Z",
         "module": "V",
         "index": "10",
-        "title": "Permissions, file chooser"
+        "title": "Введение в автотесты; повторение RecyclerView, FAB; swipe to delete"
       },
       {
         "date": "2018-10-22T14:00:00.000Z",
         "module": "V",
         "index": "11",
-        "title": "Wear OS"
+        "title": "Permissions, file chooser"
       },
       {
         "date": "2018-10-25T14:00:00.000Z",
@@ -1348,7 +1368,7 @@
         "date": "2018-11-05T14:00:00.000Z",
         "module": "V",
         "index": "13",
-        "title": "?"
+        "title": "Wear OS"
       },
       {
         "date": "2018-11-08T14:00:00.000Z",
@@ -1478,7 +1498,7 @@
           "date": "2018-09-27T14:00:00.000Z",
           "type": "homework",
           "hint": "про анимации",
-          "values": [0, 0, 0, 0, 0]
+          "values": [0, 1, 0, 0, 0]
         },
         {
           "date": "2018-10-01T14:00:00.000Z",
@@ -1492,13 +1512,25 @@
           "date": "2018-10-04T14:00:00.000Z",
           "type": "classwork",
           "hint": "про Onboarding и ViewPager",
-          "values": [0, 1, 0, 0, 1]
+          "values": [0, 1, 1, 0, 1]
+        },
+        {
+          "date": "2018-10-08T14:00:00.000Z",
+          "values": [1, 1, 1, 0, 1]
+        },
+        {
+          "date": "2018-10-11T14:00:00.000Z",
+          "values": [1, 1, 1, 0, 1]
         },
         {
           "date": "2018-10-11T14:00:00.000Z",
           "type": "homework",
           "hint": "опять про ViewPager (и setTimeZone)",
-          "values": [0, 0, 0, 0, 0]
+          "values": [0, 1, 0, 0, 1]
+        },
+        {
+          "date": "2018-10-15T14:00:00.000Z",
+          "values": [0, 1, 1, 0, 1]
         }
       ]
     }
