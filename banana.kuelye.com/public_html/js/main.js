@@ -340,7 +340,7 @@ showDiary = function(diary, filteredLessons) {
       type = lessons[j]["type"];
       if (!onlyWorks || type === "homework" || type === "classwork") {
         var value = lessons[j]["values"][i] > 0 ? "+" : "-";
-        if (value === "-" && type === "homework") {
+        if (value === "-" && (type === "homework" || type === "classwork")) {
           minusesIndexes.push(k++);
         }
         values.push(value);
