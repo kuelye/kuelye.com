@@ -1412,6 +1412,9 @@
         ],
         "homework": [
           {
+            "title": "Пройдите <a href=\"https://goo.gl/forms/VW9CNYnAYKB3fywm1\">тест</a>"
+          },
+          {
             "title": "Доделайте диалог добавления будильника (сделайте, например, <a href=\"https://github.com/banandroids/y17.encyclopedia/blob/a5ee479eb15e8583443fb950bb160724a013672e/pics/V.12/00.png\">так</a>); не забудьте, что у нового будильника должен быть свой уникальный id",
             "comment": "см. <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8\">конспект по библиотекам к уроку</a>"
           },
