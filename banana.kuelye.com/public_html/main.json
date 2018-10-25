@@ -1343,7 +1343,7 @@
         "date": "2018-10-18T14:00:00.000Z",
         "module": "V",
         "index": "10",
-        "title": "Введение в автотесты; повторение RecyclerView; swipe to delete",
+        "title": "Введение в автотесты; повторение RecyclerView",
         "commit": "https://github.com/banandroids/a.y17_2.clock/commit/24d8dcec3a4db65f6acac1e1e5004eff9ac4469d",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.10#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8",
         "sections": [
@@ -1375,7 +1375,7 @@
         "date": "2018-10-22T14:00:00.000Z",
         "module": "V",
         "index": "11",
-        "title": "Паттерны и среди них - паттерн Listener; Повторение FAB; swipe-to",
+        "title": "Паттерны и среди них - паттерн Listener; Повторение FAB",
         "commit": "https://github.com/banandroids/a.y17_2.clock/commit/b55951bdb92c5b0adfb6ea4c18911ac729762645",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.11#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8",
         "sections": [
@@ -1393,7 +1393,37 @@
         "date": "2018-10-25T14:00:00.000Z",
         "module": "V",
         "index": "12",
-        "title": "Dialogs, AlarmManager"
+        "title": "Dialogs, AlarmManager",
+        "commit": "https://github.com/banandroids/a.y17_2.clock/commit/92bb5fa7c11c8d0cc2c8e4ecb509eeeca399aecf",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8",
+        "sections": [
+          {
+            "title": "Архитектура",
+            "themes": "<a href=\"https://github.com/banandroids/y17.encyclopedia/raw/master/ppts/V.12.p_alarms-arch.pptx\">будильников</a>"
+          },
+          {
+            "title": "Диалоги",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#dialogfragment-%D0%B8-alertdialog\">DialogFragment и AlertDialog</a>"
+          },
+          {
+            "title": "Библиотеки",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#swipe-to\">swipe-to</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#textinputlayout-%D0%B8-textinputedittext\">TextInputLayout и TextInputEditText</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#timepicker\">TimePicker</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Доделайте диалог добавления будильника (сделайте, например, <a href=\"https://github.com/banandroids/y17.encyclopedia/blob/a5ee479eb15e8583443fb950bb160724a013672e/pics/V.12/00.png\">так</a>); не забудьте, что у нового будильника должен быть свой уникальный id",
+            "comment": "см. <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8\">конспект по библиотекам к уроку</a>"
+          },
+          {
+            "title": "Добавьте возможность удаления будильника, используя swipe-to (примеры: <a href=\"https://cdn.dribbble.com/users/971372/screenshots/4635709/swipe_to_remove.gif\">0</a> или стандартный для iOS <a href=\"https://cdn.cultofmac.com/wp-content/uploads/2013/06/emaildeletingiOS7.gif\">1</a>)",
+            "comment": "см. <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.12#swipe-to\">конспект по swipe-to</a>; используйте Database#removeAlarm"
+          },
+          {
+            "title": "Закройте долги по предыдущим домашкам",
+            "comment": "см. <a href=\"/kuelye.com/banana.kuelye.com/public_html/index.html?_ijt=b89l48e6cjrmkqshjq2u8p3idc&groupTitle=2017&mode=diary\">табличку</a>"
+          }
+        ]
       },
       {
         "type": "holidays",
@@ -1569,6 +1599,30 @@
         {
           "date": "2018-10-15T14:00:00.000Z",
           "values": [0, 1, 1, 0, 1]
+        },
+        {
+          "date": "2018-10-18T14:00:00.000Z",
+          "values": [1, 1, 1, 0, 0]
+        },
+        {
+          "date": "2018-10-18T14:00:00.000Z",
+          "type": "homework",
+          "hint": "про Custom Views (PhotoshopView)",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-10-22T14:00:00.000Z",
+          "values": [1, 1, 1, 0, 1]
+        },
+        {
+          "date": "2018-10-25T14:00:00.000Z",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-10-25T14:00:00.000Z",
+          "type": "homework",
+          "hint": "про создание и удаление будильников (TextInputLayout, TextInputEditText, TimePicker)",
+          "values": [0, 0, 0, 0, 0]
         }
       ]
     }

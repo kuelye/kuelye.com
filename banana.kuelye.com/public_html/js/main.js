@@ -310,7 +310,7 @@ showDiary = function(diary, filteredLessons) {
 
       var title = diaryLesson["type"] === "homework" ? "ДЗ"
           : diaryLesson["type"] === "classwork" ? "КР"
-          : getDiaryDisplayedDate(diaryLesson);
+          : "#"; // getDiaryDisplayedDate(diaryLesson);
       var $lessonTd = $("<td>");
       if (lesson === undefined) {
         $lessonTd.append(title)
@@ -318,6 +318,9 @@ showDiary = function(diary, filteredLessons) {
         var lessonNumber = lesson["index"].padStart(2, "0");
         var url = removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode");
         var hint = diaryLesson["hint"];
+        if (hint === undefined && title === "#") {
+          hint = getDiaryDisplayedDate(diaryLesson);
+        }
         var a = "<a href=\"" + url + "\"";
         if (hint !== undefined) {
           a += " title=\"" + hint + "\"";
