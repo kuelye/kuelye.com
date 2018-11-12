@@ -1691,7 +1691,7 @@
           "type": "classwork",
           "hint": "про Singleton, AlarmManager, PendingIntent и виджеты; максимум 11 баллов",
           "maxValue": 11,
-          "values": [0, 0, 0, 0, 0]
+          "values": [3, 4, 3, 4, 5]
         },
         {
           "date": "2018-10-25T14:00:00.000Z",
