@@ -342,7 +342,14 @@ showDiary = function(diary, filteredLessons) {
     for (j = 0; j < lessons.length; j++) {
       type = lessons[j]["type"];
       if (!onlyWorks || type === "homework" || type === "classwork") {
-        var value = lessons[j]["values"][i] > 0 ? "+" : "-";
+        var value;
+        var maxValue = lessons[j]["maxValue"];
+        console.log(maxValue);
+        if (maxValue !== undefined) {
+          value = lessons[j]["values"][i];
+        } else {
+          value = lessons[j]["values"][i] > 0 ? "+" : "-";
+        }
         if (value === "-" && (type === "homework" || type === "classwork")) {
           minusesIndexes.push(k++);
         }

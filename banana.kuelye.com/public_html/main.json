@@ -1439,96 +1439,130 @@
         "date": "2018-11-05T14:00:00.000Z",
         "module": "V",
         "index": "13",
-        "title": "Widgets"
+        "title": "Singleton",
+        "sections": [
+          {
+            "title": "Шаблоны проектирования",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.13#singleton-%D0%A1%D0%B8%D0%BD%D0%B3%D0%BB%D1%82%D0%BE%D0%BD\">Singleton</a>"
+          }
+        ]
       },
       {
         "date": "2018-11-08T14:00:00.000Z",
         "module": "V",
         "index": "14",
-        "title": "Wear OS"
+        "title": "AlarmManager, PendingIntent; Wear OS",
+        "sections": [
+          {
+            "title": "PendingIntent",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.14#pendingintent\">немного инфы</a>"
+          },
+          {
+            "title": "AlarmManager",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.14#alarmmanager\">основы</a>"
+          },
+          {
+            "title": "Wear OS",
+            "themes": "<a href=\"https://vk.com/away.php?to=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F17BQvl_HVMOMBBy3k8scYfAUdcYvqWRmoC4pfJbRDd-Q%2Fedit%3Fusp%3Dsharing&cc_key=\">доклад Никиты</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Доделать проект с будильниками до вменяемого состояния"
+          },
+          {
+            "title": "Сделайте приложение для часов в рамках любого из тех проектов, которыми вы занимаетесь сами"
+          }
+        ]
       },
       {
         "date": "2018-11-12T14:00:00.000Z",
         "module": "V",
         "index": "15",
-        "title": "?"
-      },
-      {
-        "date": "2018-11-15T14:00:00.000Z",
-        "module": "V",
-        "index": "16",
-        "title": "?"
+        "title": "Widgets I",
+        "sections": [
+          {
+            "title": "Widgets",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.15#widgets\">основы I</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Сделайте небольшой виджет к любому из тех проектов, которыми вы занимаетесь сами",
+            "comment": "можно просто каждые полчаса скачивать некоторую небольшую инфу по апи и отображать её"
+          }
+        ]
       },
       {
         "date": "2018-11-19T14:00:00.000Z",
+        "module": "V",
+        "index": "16",
+        "title": "Widgets II"
+      },
+      {
+        "date": "2018-11-22T14:00:00.000Z",
         "module": "V",
         "index": "17",
         "title": "?"
       },
       {
-        "date": "2018-11-22T14:00:00.000Z",
+        "date": "2018-11-26T14:00:00.000Z",
         "module": "V",
         "index": "18",
         "title": "?"
       },
       {
-        "date": "2018-11-26T14:00:00.000Z",
+        "date": "2018-11-29T14:00:00.000Z",
         "module": "V",
         "index": "19",
         "title": "?"
       },
       {
-        "date": "2018-11-29T14:00:00.000Z",
+        "date": "2018-12-03T14:00:00.000Z",
         "module": "V",
         "index": "20",
         "title": "?"
       },
       {
-        "date": "2018-12-03T14:00:00.000Z",
+        "date": "2018-12-06T14:00:00.000Z",
         "module": "V",
         "index": "21",
         "title": "?"
       },
       {
-        "date": "2018-12-06T14:00:00.000Z",
+        "date": "2018-12-10T14:00:00.000Z",
         "module": "V",
         "index": "22",
         "title": "?"
       },
       {
-        "date": "2018-12-10T14:00:00.000Z",
+        "date": "2018-12-13T14:00:00.000Z",
         "module": "V",
         "index": "23",
         "title": "?"
       },
       {
-        "date": "2018-12-13T14:00:00.000Z",
+        "date": "2018-12-17T14:00:00.000Z",
         "module": "V",
         "index": "24",
         "title": "?"
       },
       {
-        "date": "2018-12-17T14:00:00.000Z",
+        "date": "2018-12-20T14:00:00.000Z",
         "module": "V",
         "index": "25",
         "title": "?"
       },
       {
-        "date": "2018-12-20T14:00:00.000Z",
+        "date": "2018-12-24T14:00:00.000Z",
         "module": "V",
         "index": "26",
         "title": "?"
       },
       {
-        "date": "2018-12-24T14:00:00.000Z",
-        "module": "V",
-        "index": "27",
-        "title": "?"
-      },
-      {
         "date": "2018-12-27T14:00:00.000Z",
         "module": "V",
-        "index": "28",
+        "index": "27",
         "title": "?"
       },
       {
@@ -1555,7 +1589,7 @@
           "date": "2018-09-20T14:00:00.000Z",
           "type": "homework",
           "hint": "про вёрстку и ConstraintLayout",
-          "values": [0, 1, 1, 0, 1]
+          "values": [0, 1, 1, 1, 1]
         },
         {
           "date": "2018-09-24T14:00:00.000Z",
@@ -1569,7 +1603,7 @@
           "date": "2018-09-27T14:00:00.000Z",
           "type": "homework",
           "hint": "про анимации",
-          "values": [0, 1, 0, 0, 0]
+          "values": [0, 1, 0, 1, 0]
         },
         {
           "date": "2018-10-01T14:00:00.000Z",
@@ -1611,7 +1645,7 @@
           "date": "2018-10-18T14:00:00.000Z",
           "type": "homework",
           "hint": "про Custom Views (PhotoshopView)",
-          "values": [0, 0, 0, 0, 0]
+          "values": [0, 0, 0, 0, 1]
         },
         {
           "date": "2018-10-22T14:00:00.000Z",
@@ -1619,12 +1653,50 @@
         },
         {
           "date": "2018-10-25T14:00:00.000Z",
-          "values": [0, 0, 0, 0, 0]
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-10-25T14:00:00.000Z",
+          "type": "classwork",
+          "hint": "максимум 7 баллов",
+          "maxValue": 7,
+          "values": [3, 5, 1, 0, 5]
         },
         {
           "date": "2018-10-25T14:00:00.000Z",
           "type": "homework",
           "hint": "про создание и удаление будильников (TextInputLayout, TextInputEditText, TimePicker)",
+          "values": [0, 0, 0, 0, 1]
+        },
+        {
+          "date": "2018-11-05T14:00:00.000Z",
+          "values": [1, 1, 0, 1, 1]
+        },
+        {
+          "date": "2018-11-08T14:00:00.000Z",
+          "values": [1, 1, 0, 1, 1]
+        },
+        {
+          "date": "2018-11-08T14:00:00.000Z",
+          "type": "homework",
+          "hint": "про вменяемые будильники и Wear OS",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-11-12T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-10-25T14:00:00.000Z",
+          "type": "classwork",
+          "hint": "про Singleton, AlarmManager, PendingIntent и виджеты; максимум 11 баллов",
+          "maxValue": 11,
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-10-25T14:00:00.000Z",
+          "type": "homework",
+          "hint": "про виджеты",
           "values": [0, 0, 0, 0, 0]
         }
       ]
