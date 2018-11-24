@@ -1575,7 +1575,7 @@
     ],
     "diary": {
       "students": ["dom98111", "kaikkialla", "kurakin101", "nikitafedorov008", "Sobol-R"],
-      "reports": [0, 0, 0, 1, 0],
+      "reports": [0, 0, 0, 2, 0],
       "lessons": [
         {
           "date": "2018-09-17T14:00:00.000Z",
@@ -1687,17 +1687,25 @@
           "values": [1, 1, 1, 1, 1]
         },
         {
-          "date": "2018-10-25T14:00:00.000Z",
+          "date": "2018-11-12T14:00:00.000Z",
           "type": "classwork",
           "hint": "про Singleton, AlarmManager, PendingIntent и виджеты; максимум 11 баллов",
           "maxValue": 11,
           "values": [3, 4, 3, 4, 5]
         },
         {
-          "date": "2018-10-25T14:00:00.000Z",
+          "date": "2018-11-12T14:00:00.000Z",
           "type": "homework",
           "hint": "про виджеты",
-          "values": [0, 0, 0, 0, 0]
+          "values": [0, 0, 0, 1, 0]
+        },
+        {
+          "date": "2018-11-19T14:00:00.000Z",
+          "values": [0, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-11-22T14:00:00.000Z",
+          "values": [0, 1, 1, 1, 1]
         }
       ]
     }

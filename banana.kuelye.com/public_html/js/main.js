@@ -344,22 +344,28 @@ showDiary = function(diary, filteredLessons) {
       if (!onlyWorks || type === "homework" || type === "classwork") {
         var value;
         var maxValue = lessons[j]["maxValue"];
-        console.log(maxValue);
         if (maxValue !== undefined) {
           value = lessons[j]["values"][i];
         } else {
           value = lessons[j]["values"][i] > 0 ? "+" : "-";
         }
-        if (value === "-" && (type === "homework" || type === "classwork")) {
-          minusesIndexes.push(k++);
+        if (type === "homework" || type === "classwork") {
+          if (value === "-") {
+            minusesIndexes.push(k);
+          }
+          k++;
         }
         values.push(value);
       }
     }
 
+    console.log(students[i]);
+    console.log(minusesIndexes);
     if (minusesIndexes.length > 0) {
       for (j = 0; j < reports[i]; j++) {
-        values[minusesIndexes[Math.floor(Math.random() * minusesIndexes.length)]] = "*";
+        var l = Math.floor(Math.random() * minusesIndexes.length);
+        values[minusesIndexes[l]] = "*";
+        minusesIndexes.splice(l, 1);
       }
     }
 
