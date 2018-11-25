@@ -1480,10 +1480,12 @@
         "module": "V",
         "index": "15",
         "title": "Widgets I",
+        "commit": "https://github.com/banandroids/a.y17_2.widget/commit/3cf3dafcef3ffa61f3f0491e393e4ea85665c158",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.15#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
         "sections": [
           {
             "title": "Widgets",
-            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.15#widgets\">основы I</a>"
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.15#widgets\">основы</a>"
           }
         ],
         "homework": [
@@ -1497,13 +1499,34 @@
         "date": "2018-11-19T14:00:00.000Z",
         "module": "V",
         "index": "16",
-        "title": "Widgets II"
+        "title": "Widgets II",
+        "commit": "https://github.com/banandroids/a.y17_2.widget/commit/b11451073cf04efc6797153bb33472f082189e4e",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.16#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Widgets",
+            "themes": "обновление раз в минуты"
+          }
+        ]
       },
       {
         "date": "2018-11-22T14:00:00.000Z",
         "module": "V",
         "index": "17",
-        "title": "?"
+        "title": "Widget III",
+        "commit": "https://github.com/banandroids/a.y17_2.widget/commit/dea28f69d9f7ce1d46d14b79998fa265922d8ddb",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.17#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Widgets",
+            "themes": "Configure Activity"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Остаётся задание про виджет"
+          }
+        ]
       },
       {
         "date": "2018-11-26T14:00:00.000Z",
