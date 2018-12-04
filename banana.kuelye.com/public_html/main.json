@@ -1546,7 +1546,7 @@
         "date": "2018-11-29T14:00:00.000Z",
         "module": "V",
         "index": "19",
-        "title": "Telegram I",
+        "title": "Telegram I - настройка TDLib",
         "commit": "https://github.com/banandroids/a.y17_2.telegram/commit/868ea6a89a82490b9faba502035e61da92b5d99a",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.19#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
         "sections": [
@@ -1566,19 +1566,21 @@
         "date": "2018-12-03T14:00:00.000Z",
         "module": "V",
         "index": "20",
-        "title": "?"
+        "title": "Telegram II - ввод телефона при авторизации",
+        "commit": "https://github.com/banandroids/a.y17_2.telegram/commit/810e0211d10dbc407a5119c7e8014861b79915d7",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.20#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5"
       },
       {
         "date": "2018-12-06T14:00:00.000Z",
         "module": "V",
         "index": "21",
-        "title": "?"
+        "title": "Telegram III - ввод кода при авторизации и получение чатов"
       },
       {
         "date": "2018-12-10T14:00:00.000Z",
         "module": "V",
         "index": "22",
-        "title": "?"
+        "title": "Telegram IV - ?"
       },
       {
         "date": "2018-12-13T14:00:00.000Z",
@@ -1742,7 +1744,7 @@
           "date": "2018-11-12T14:00:00.000Z",
           "type": "homework",
           "hint": "про виджеты",
-          "values": [0, 0, 0, 1, 0]
+          "values": [0, 0, 1, 1, 0]
         },
         {
           "date": "2018-11-19T14:00:00.000Z",
@@ -1759,6 +1761,16 @@
         {
           "date": "2018-11-29T14:00:00.000Z",
           "values": [1, 1, 1, 1, 0]
+        },
+        {
+          "date": "2018-11-29T14:00:00.000Z",
+          "type": "homework",
+          "hint": "про макеты ввода телефона и кода",
+          "values": [1, 1, 0, 0, 1]
+        },
+        {
+          "date": "2018-12-03T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
         }
       ]
     }
