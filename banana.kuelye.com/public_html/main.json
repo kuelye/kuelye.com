@@ -1664,7 +1664,7 @@
           "date": "2018-10-04T14:00:00.000Z",
           "type": "classwork",
           "hint": "про Onboarding и ViewPager",
-          "values": [0, 1, 1, 0, 1]
+          "values": [-1, 1, 1, -1, 1]
         },
         {
           "date": "2018-10-08T14:00:00.000Z",

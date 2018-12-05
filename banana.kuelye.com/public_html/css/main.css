@@ -132,3 +132,8 @@ a .grey:hover {
   text-align: center;
   vertical-align: middle;
 }
+
+.value-table-pints {
+  font-size: 8pt;
+  vertical-align: top;
+}

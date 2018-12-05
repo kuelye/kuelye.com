@@ -202,7 +202,6 @@ addLesson = function(lesson) {
     $lessonDiv.append($('<div class="lesson-sections-title">Конспект</div>'))
       .append($sectionsOl);
   }
-  console.log($classworkOl);
   if ($classworkOl !== undefined) {
     $lessonDiv.append($('<div class="lesson-work-title">Контрольная</div>'))
       .append($classworkOl);
@@ -333,9 +332,52 @@ showDiary = function(diary, filteredLessons) {
   }
   $table.append($firstTr);
 
-  // add students row
+  // calculate points
+  var points = [];
+  var averageClassworkPoints = [];
+  for (j = 0; j < lessons.length; j++) {
+    type = lessons[j]["type"];
+    if (type === "classwork") {
+      var s = 0;
+      var c = 0;
+      for (i = 0; i < students.length; i++) {
+        var v = lessons[j]["values"][i];
+        if (v >= 0) { s += v; c++; }
+      }
+      console.log(j + " / " + s + " / " + c);
+      averageClassworkPoints[j] = v === 0 ? 0 : s / c;
+    }
+  }
+  console.log(averageClassworkPoints);
   for (i = 0; i < students.length; i++) {
-    var $tr = $("<tr>").append($("<td>").append(students[i]));
+    points[i] = 0;
+    for (j = 0; j < lessons.length; j++) {
+      type = lessons[j]["type"];
+      var v = lessons[j]["values"][i];
+      if (type === "homework") {
+        if (v > 0) {
+          points[i] = points[i] + 1;
+        }
+      } else if (type === "classwork") {
+        if (v > 0 && averageClassworkPoints[j] > 0) {
+          points[i] = points[i] + v / averageClassworkPoints[j];
+        }
+      }
+    }
+    points[i] = points[i] + reports[i];
+  }
+  for (i = 0; i < points.length; i++) {
+    points[i] = [i, points[i]];
+  }
+  points = points.sort(function(a, b) {
+    return a[1] < b[1] ? 1 : a[1] > b[1] ? -1 : 0;
+  });
+  console.log(points);
+
+  // add students row
+  for (var p = 0; p < points.length; p++) {
+    i = points[p][0];
+    var $tr = $("<tr>").append($("<td>").append(students[i] + "<span class='value-table-pints'> " + parseFloat(points[p][1]).toFixed(2) + "</span>"));
     var values = [];
     var minusesIndexes = [];
     var k = 0;
@@ -359,8 +401,6 @@ showDiary = function(diary, filteredLessons) {
       }
     }
 
-    console.log(students[i]);
-    console.log(minusesIndexes);
     if (minusesIndexes.length > 0) {
       for (j = 0; j < reports[i]; j++) {
         var l = Math.floor(Math.random() * minusesIndexes.length);
