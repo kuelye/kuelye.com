@@ -1568,7 +1568,13 @@
         "index": "20",
         "title": "Telegram II - ввод телефона при авторизации",
         "commit": "https://github.com/banandroids/a.y17_2.telegram/commit/810e0211d10dbc407a5119c7e8014861b79915d7",
-        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.20#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5"
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.20#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Telegram",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.20#authorization-ii--%D0%B2%D0%B2%D0%BE%D0%B4-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0\">авторизация II</a>"
+          }
+        ]
       },
       {
         "date": "2018-12-06T14:00:00.000Z",
@@ -1577,6 +1583,12 @@
         "commit": "https://github.com/banandroids/a.y17_2.telegram/commit/85c974421b00e30a31fac6902c16d3aaecd3dd14",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.21#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
         "title": "Telegram III - ввод кода при авторизации и получение чатов",
+        "sections": [
+          {
+            "title": "Telegram",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.21#authorization-iii--%D0%B2%D0%B2%D0%BE%D0%B4-%D0%BA%D0%BE%D0%B4%D0%B0\">авторизация III</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.21#chats-i\">получение чатов</a>"
+          }
+        ],
         "homework": [
           {
             "title": "Доделать ChatsFragment, чтобы отображался список чатов, для каждого чата - пока только заголовок",
@@ -1588,13 +1600,29 @@
         "date": "2018-12-10T14:00:00.000Z",
         "module": "V",
         "index": "22",
-        "title": "Telegram IV - ?"
+        "title": "Telegram IV - отображение чатов",
+        "commit": "https://github.com/banandroids/a.y17_2.telegram/commit/0dceddf0e2dff3d9dcfffc606f2c00acef778586",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/V.22#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Telegram",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.22#chats-ii\">отображение чатов</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.22#messages-i\">переход к сообщениям</a>"
+          },
+          {
+            "title": "Библиотеки",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.22#round-imageview\">round ImageView</a>"
+          },
+          {
+            "title": "Ресурсы",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/V.22#9-patch\">9-Patch</a>"
+          }
+        ]
       },
       {
         "date": "2018-12-13T14:00:00.000Z",
         "module": "V",
         "index": "23",
-        "title": "?"
+        "title": "Telegram V - отображение сообщений"
       },
       {
         "date": "2018-12-17T14:00:00.000Z",
@@ -1788,6 +1816,14 @@
           "date": "2018-12-06T14:00:00.000Z",
           "type": "homework",
           "hint": "про отображение чатов",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2018-12-10T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2018-12-13T14:00:00.000Z",
           "values": [0, 0, 0, 0, 0]
         }
       ]
