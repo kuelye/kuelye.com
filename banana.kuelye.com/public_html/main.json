@@ -1690,11 +1690,50 @@
         "module": "V",
         "title": "Каникулы",
         "comment": "первое занятие после каникул (вроде) - 17 января"
+      },
+      {
+        "date": "2019-01-17T14:00:00.000Z",
+        "module": "VI",
+        "index": "1",
+        "title": "Camera API",
+        "sections": [
+          {
+            "title": "Views",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.01#surfaceview-and-textureview\">SurfaceView and TextureView"
+          },
+          {
+            "title": "Потоки",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.01#thread-handlerthread-and-handler\">Thread, HandlerThread and Handler</a>"
+          }
+        ],
+        "commit": "https://github.com/banandroids/a.y17_2.tensorflow/commit/e14c0b3e6976cf419d62060ec5e1a6c9422c09b4",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.01#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8"
+      },
+      {
+        "date": "2019-01-21T14:00:00.000Z",
+        "module": "VI",
+        "index": "2",
+        "title": "Camera API + TensorFlow"
+      },
+      {
+        "date": "2019-01-24T14:00:00.000Z",
+        "module": "VI",
+        "index": "3",
+        "title": "TensorFlow + ML"
+      },
+      {
+        "date": "2019-01-28T14:00:00.000Z",
+        "module": "VI",
+        "index": "4",
+        "title": "?"
       }
     ],
     "diary": {
       "students": ["dom98111", "kaikkialla", "kurakin101", "nikitafedorov008", "Sobol-R"],
-      "reports": [0, 0, 0, 2, 0],
+      "reports": {
+        "V": [0, 0, 0, 2, 0],
+        "VI": [0, 0, 0, 0, 0]
+      },
       "lessons": [
         {
           "date": "2018-09-17T14:00:00.000Z",
@@ -1878,10 +1917,22 @@
         },
         {
           "date": "2018-12-27T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 0]
+        },
+        {
+          "date": "2019-01-17T14:00:00.000Z",
+          "values": [0, 1, 1, 1, 1]
+        },
+        {
+          "date": "2019-01-21T14:00:00.000Z",
           "values": [0, 0, 0, 0, 0]
         },
         {
-          "date": "2018-12-27T14:00:00.000Z",
+          "date": "2019-01-24T14:00:00.000Z",
+          "values": [0, 0, 0, 0, 0]
+        },
+        {
+          "date": "2019-01-24T14:00:00.000Z",
           "type": "homework",
           "hint": "TBD",
           "values": [0, 0, 0, 0, 0]

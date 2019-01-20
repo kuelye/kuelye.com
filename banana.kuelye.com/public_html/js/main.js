@@ -128,7 +128,7 @@ showLessons = function(diary, lessons, years) {
   if (mode === "encyclopedia") {
     showEncyclopedia(filteredLessons);
   } else if (mode === "diary") {
-    showDiary(diary, filteredLessons);
+    showDiary(diary, filteredLessons, module);
   } else {
     showLessonsPlan(filteredLessons);
   }
@@ -282,27 +282,28 @@ showEncyclopedia = function(lessons) {
 
 /* -DIARY---------------------------------------------------------- */
 
-showDiary = function(diary, filteredLessons) {
+showDiary = function(diary, filteredLessons, module) {
   var $diaryDiv = $("<div class=\"diary-container\">");
   var $table = $("<table class=\"diary-table\">");
   var students = diary["students"];
-  var reports = diary["reports"];
+  var reports = diary["reports"][module];
   var lessons = diary["lessons"];
   var onlyWorks = getUrlParam("onlyWorks");
 
   // add first row with dates
   var $firstTr = $("<tr>");
   $firstTr.append($("<td>"));
+  var realLessons = [];
   for (var i = 0; i < lessons.length; i++) {
     // find real lesson by diary lesson date
     var diaryLesson = lessons[i];
     var type = diaryLesson["type"];
     if (!onlyWorks || type === "homework" || type === "classwork") {
-      var lesson = undefined;
+      var realLesson = undefined;
       for (var j = 0; j < filteredLessons.length; j++) {
         var filteredLesson = filteredLessons[j];
         if (filteredLesson["date"] === diaryLesson["date"]) {
-          lesson = filteredLesson;
+          realLesson = filteredLesson;
           break;
         }
       }
@@ -310,12 +311,11 @@ showDiary = function(diary, filteredLessons) {
       var title = diaryLesson["type"] === "homework" ? "ДЗ"
           : diaryLesson["type"] === "classwork" ? "КР"
           : "#"; // getDiaryDisplayedDate(diaryLesson);
-      var $lessonTd = $("<td>");
-      if (lesson === undefined) {
-        $lessonTd.append(title)
-      } else {
-        var lessonNumber = lesson["index"].padStart(2, "0");
-        var url = removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", lesson["module"]), "mode");
+      if (realLesson !== undefined) {
+        var $lessonTd = $("<td>");
+        realLessons[i] = realLesson;
+        var lessonNumber = realLesson["index"].padStart(2, "0");
+        var url = removeUrlParamFromUrl(addUrlParamToUrl(addUrlParam("scrollTo", lessonNumber), "module", realLesson["module"]), "mode");
         var hint = diaryLesson["hint"];
         if (hint === undefined && title === "#") {
           hint = getDiaryDisplayedDate(diaryLesson);
@@ -326,8 +326,8 @@ showDiary = function(diary, filteredLessons) {
         }
         a += ">" + title + "</a>";
         $lessonTd.append(a);
+        $firstTr.append($lessonTd);
       }
-      $firstTr.append($lessonTd);
     }
   }
   $table.append($firstTr);
@@ -336,31 +336,36 @@ showDiary = function(diary, filteredLessons) {
   var points = [];
   var averageClassworkPoints = [];
   for (j = 0; j < lessons.length; j++) {
-    type = lessons[j]["type"];
-    if (type === "classwork") {
-      var s = 0;
-      var c = 0;
-      for (i = 0; i < students.length; i++) {
-        var v = lessons[j]["values"][i];
-        if (v >= 0) { s += v; c++; }
+    if (realLessons[j] !== undefined) {
+      type = lessons[j]["type"];
+      if (type === "classwork") {
+        var s = 0;
+        var c = 0;
+        for (i = 0; i < students.length; i++) {
+          var v = lessons[j]["values"][i];
+          if (v >= 0) {
+            s += v;
+            c++;
+          }
+        }
+        averageClassworkPoints[j] = v === 0 ? 0 : s / c;
       }
-      console.log(j + " / " + s + " / " + c);
-      averageClassworkPoints[j] = v === 0 ? 0 : s / c;
     }
   }
-  console.log(averageClassworkPoints);
   for (i = 0; i < students.length; i++) {
     points[i] = 0;
     for (j = 0; j < lessons.length; j++) {
-      type = lessons[j]["type"];
-      var v = lessons[j]["values"][i];
-      if (type === "homework") {
-        if (v > 0) {
-          points[i] = points[i] + 1;
-        }
-      } else if (type === "classwork") {
-        if (v > 0 && averageClassworkPoints[j] > 0) {
-          points[i] = points[i] + v / averageClassworkPoints[j];
+      if (realLessons[j] !== undefined) {
+        type = lessons[j]["type"];
+        var v = lessons[j]["values"][i];
+        if (type === "homework") {
+          if (v > 0) {
+            points[i] = points[i] + 1;
+          }
+        } else if (type === "classwork") {
+          if (v > 0 && averageClassworkPoints[j] > 0) {
+            points[i] = points[i] + v / averageClassworkPoints[j];
+          }
         }
       }
     }
@@ -382,22 +387,24 @@ showDiary = function(diary, filteredLessons) {
     var minusesIndexes = [];
     var k = 0;
     for (j = 0; j < lessons.length; j++) {
-      type = lessons[j]["type"];
-      if (!onlyWorks || type === "homework" || type === "classwork") {
-        var value;
-        var maxValue = lessons[j]["maxValue"];
-        if (maxValue !== undefined) {
-          value = lessons[j]["values"][i];
-        } else {
-          value = lessons[j]["values"][i] > 0 ? "+" : "-";
-        }
-        if (type === "homework" || type === "classwork") {
-          if (value === "-") {
-            minusesIndexes.push(k);
+      if (realLessons[j] !== undefined) {
+        type = lessons[j]["type"];
+        if (!onlyWorks || type === "homework" || type === "classwork") {
+          var value;
+          var maxValue = lessons[j]["maxValue"];
+          if (maxValue !== undefined) {
+            value = lessons[j]["values"][i];
+          } else {
+            value = lessons[j]["values"][i] > 0 ? "+" : "-";
           }
-          k++;
+          if (type === "homework" || type === "classwork") {
+            if (value === "-") {
+              minusesIndexes.push(k);
+            }
+            k++;
+          }
+          values.push(value);
         }
-        values.push(value);
       }
     }
 
