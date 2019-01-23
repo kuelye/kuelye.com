@@ -1713,19 +1713,34 @@
         "date": "2019-01-21T14:00:00.000Z",
         "module": "VI",
         "index": "2",
-        "title": "Camera API + TensorFlow"
+        "title": "Camera API + ML Kit Image Labeling",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.02#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8",
+        "sections": [
+          {
+            "title": "Camera API",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.02#camera-api\">немножко инфы</a>"
+          },
+          {
+            "title": "Firebase",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.02#create-firebase-project-and-add-firebase-to-app\">создание проекта</a>"
+          },
+          {
+            "title": "ML Kit",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.02#image-labeling\">Image Labeling</a>"
+          }
+        ]
       },
       {
         "date": "2019-01-24T14:00:00.000Z",
         "module": "VI",
         "index": "3",
-        "title": "TensorFlow + ML"
+        "title": "TensorFlow + ML Kit"
       },
       {
         "date": "2019-01-28T14:00:00.000Z",
         "module": "VI",
         "index": "4",
-        "title": "?"
+        "title": "TensorFlow + ML Kit + Tensor Flow"
       }
     ],
     "diary": {
@@ -1925,7 +1940,7 @@
         },
         {
           "date": "2019-01-21T14:00:00.000Z",
-          "values": [0, 0, 0, 0, 0]
+          "values": [0, 0, 1, 1, 1]
         },
         {
           "date": "2019-01-24T14:00:00.000Z",
