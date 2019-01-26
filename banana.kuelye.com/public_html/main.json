@@ -1748,11 +1748,11 @@
             "title": "На основе ML Kit Face Recognition сделайте что-нибудь, например:",
             "sections": [
               {
-                "title": "Нарисуйте поверх тех лиц, что были найдены - что угодно другое (можно для начала просто нарисовать в FaceView все эти контуры)",
+                "title": "Рисуйте поверх тех лиц, что были найдены - что угодно другое (можно для начала просто рисовать в FaceView все эти контуры)",
                 "comment": "см. у FirebaseVisionFace метод <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getBoundingBox()\">getBoundingBox</a>, который отдаёт прямоугольник лица, метод <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getContour(int)\">getContour</a>, который отдаёт контур лица (то есть массив точек), носа и так далее, метод <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getLandmark(int)\">getLandmark</a>, который отдаёт центр (то есть просто точку) лица, носа и так далее"
               },
               {
-                "title": "Активируйте некоторое действие, если пользователь улыбнётся или закроет правый глаз)",
+                "title": "Активируйте некоторое действие, если пользователь улыбнётся или закроет левый глаз",
                 "comment": "см. у FirebaseVisionFace методы <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getLeftEyeOpenProbability()\">getLeftEyeOpenProbability</a>, <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getRightEyeOpenProbability()\">getRightEyeOpenProbability</a>, <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getSmilingProbability ()\">getSmilingProbability </a> - каждый из них возвращает вероятность от 0 до 1"
               }
             ]
