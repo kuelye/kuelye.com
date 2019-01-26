@@ -1734,13 +1734,60 @@
         "date": "2019-01-24T14:00:00.000Z",
         "module": "VI",
         "index": "3",
-        "title": "TensorFlow + ML Kit"
+        "title": "ML Kit Face Recognition",
+        "commit": "https://github.com/banandroids/a.y17_2.tensorflow/commit/415c54f708b0d145d175433f0ea1fc830086bc59",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.03#%D0%A7%D0%B5%D0%B3%D0%BE-c%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "ML Kit",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.03#face-detection\">Face Recognition</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "На основе ML Kit Face Recognition сделайте что-нибудь, например:",
+            "sections": [
+              {
+                "title": "Нарисуйте поверх тех лиц, что были найдены - что угодно другое (можно для начала просто нарисовать в FaceView все эти контуры)",
+                "comment": "см. у FirebaseVisionFace метод <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getBoundingBox()\">getBoundingBox</a>, который отдаёт прямоугольник лица, метод <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getContour(int)\">getContour</a>, который отдаёт контур лица (то есть массив точек), носа и так далее, метод <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getLandmark(int)\">getLandmark</a>, который отдаёт центр (то есть просто точку) лица, носа и так далее"
+              },
+              {
+                "title": "Активируйте некоторое действие, если пользователь улыбнётся или закроет правый глаз)",
+                "comment": "см. у FirebaseVisionFace методы <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getLeftEyeOpenProbability()\">getLeftEyeOpenProbability</a>, <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getRightEyeOpenProbability()\">getRightEyeOpenProbability</a>, <a href=\"https://firebase.google.com/docs/reference/android/com/google/firebase/ml/vision/face/FirebaseVisionFace.html#getSmilingProbability ()\">getSmilingProbability </a> - каждый из них возвращает вероятность от 0 до 1"
+              }
+            ]
+          }
+        ]
       },
       {
         "date": "2019-01-28T14:00:00.000Z",
         "module": "VI",
         "index": "4",
-        "title": "TensorFlow + ML Kit + Tensor Flow"
+        "title": "TensorFlow"
+      },
+      {
+        "date": "2019-01-31T14:00:00.000Z",
+        "module": "VI",
+        "index": "5",
+        "title": "?"
+      },
+      {
+        "date": "2019-02-04T14:00:00.000Z",
+        "module": "VI",
+        "index": "6",
+        "title": "?"
+      },
+      {
+        "date": "2019-02-07T14:00:00.000Z",
+        "module": "VI",
+        "index": "7",
+        "title": "?"
+      },
+      {
+        "date": "2019-01-11T14:00:00.000Z",
+        "module": "VI",
+        "index": "8",
+        "title": "?"
       }
     ],
     "diary": {
@@ -1944,7 +1991,7 @@
         },
         {
           "date": "2019-01-24T14:00:00.000Z",
-          "values": [0, 0, 0, 0, 0]
+          "values": [0, 0, 1, 1, 1]
         },
         {
           "date": "2019-01-24T14:00:00.000Z",
