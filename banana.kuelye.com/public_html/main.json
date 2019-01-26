@@ -1996,7 +1996,7 @@
         {
           "date": "2019-01-24T14:00:00.000Z",
           "type": "homework",
-          "hint": "TBD",
+          "hint": "про ML Kit Face Recognition",
           "values": [0, 0, 0, 0, 0]
         }
       ]
