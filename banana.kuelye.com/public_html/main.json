@@ -1870,7 +1870,7 @@
         "date": "2019-02-25T14:00:00.000Z",
         "module": "VI",
         "index": "12",
-        "title": "Rx I #crypto",
+        "title": "Rx I, Crypto",
         "commit": "https://github.com/banandroids/a.y17_2.crypto/commit/3d834456556661ac55ff9392ec1e45dfe7ea6cdf",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.12#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
         "sections": [
@@ -1884,25 +1884,60 @@
         "date": "2019-02-28T14:00:00.000Z",
         "module": "VI",
         "index": "13",
-        "title": "Rx II #crypto"
+        "title": "Rx II & Java 8, Crypto",
+        "commit": "https://github.com/banandroids/a.y17_2.crypto/commit/d2bb533915808186774d4dc3784612ddd649b167",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.13#%D0%9F%D0%BB%D0%B0%D0%BD",
+        "sections": [
+          {
+            "title": "Java",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.13#java\">Java 8-10 new features (lambdas!)</a>"
+          },
+          {
+            "title": "Rx",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.13#rx\">основы II (moar operators, Disposable, RxBinding)</a>"
+          }
+        ]
       },
       {
         "date": "2019-03-04T14:00:00.000Z",
         "module": "VI",
         "index": "14",
-        "title": "?"
+        "title": "Threads",
+        "commit": "https://github.com/banandroids/j.y17_2.thread/commit/1194e58038c0a237137815f7ddf2533f26012308"
       },
       {
         "date": "2019-03-07T14:00:00.000Z",
         "module": "VI",
         "index": "15",
-        "title": "?"
+        "title": "Collections I",
+        "sections": [
+          {
+            "title": "Collections",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.15#collections\">общая инфа и про ArrayList, LinkedList, HashMap, LinkedHashMap</a>"
+          }
+        ]
       },
       {
         "date": "2019-03-11T14:00:00.000Z",
         "module": "VI",
         "index": "16",
-        "title": "?"
+        "title": "Collections II",
+        "commit": "https://github.com/banandroids/a.y17_2.crypto/commit/f796dbfc022d094d3055ed1a090e3ba2b02adee1",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.16#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Collections",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.16#collections\">ConcurrentModificationException, Collections.synchronized*() и java.util.concurrent.*</a>"
+          },
+          {
+            "title": "Java",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.16#volatile\">volatile</a>"
+          },
+          {
+            "title": "Singleton",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.16#singleton\">lazy and thread safe Singletons</a>"
+          }
+        ]
       },
       {
         "date": "2019-03-14T14:00:00.000Z",
@@ -2176,6 +2211,22 @@
         },
         {
           "date": "2019-02-28T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2019-03-04T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2019-03-07T14:00:00.000Z",
+          "values": [0, 0, 1, 1, 1]
+        },
+        {
+          "date": "2019-03-11T14:00:00.000Z",
+          "values": [0, 1, 1, 0, 1]
+        },
+        {
+          "date": "2019-03-14T14:00:00.000Z",
           "values": [0, 0, 0, 0, 0]
         }
       ]
