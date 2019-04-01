@@ -1957,13 +1957,29 @@
         "date": "2019-03-18T14:00:00.000Z",
         "module": "VI",
         "index": "18",
-        "title": "Async"
+        "title": "Async",
+        "commit": "https://github.com/banandroids/a.y17_2.crypto/commit/f6dcd4b6bd05ab64c4df563374df128787afbf19",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.18#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Async",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.18#async\">варианты (Threads, AsyncTask, Rx)</a>"
+          }
+        ]
       },
       {
         "date": "2019-03-21T14:00:00.000Z",
         "module": "VI",
         "index": "19",
-        "title": "?"
+        "title": "?",
+        "commit": "https://github.com/banandroids/a.y17_2.crypto/commit/fdea9e61042ff4b36ab0f0052c075b838aca852e",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.19#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "Lifecycle",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.19#viewmodel\">ViewModel</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.19#livedata\">LiveData</a>"
+          }
+        ]
       },
       {
         "type": "holidays",
@@ -1971,6 +1987,103 @@
         "module": "VI",
         "title": "Каникулы",
         "comment": "с 25 по 31 марта, встречаемся после каникул - 1 апреля (это не шутка)"
+      },
+      {
+        "date": "2019-04-01T14:00:00.000Z",
+        "module": "VI",
+        "index": "20",
+        "title": "DI, SOLID, Dagger, Espresso и мелочи (Realm, Litho, Fresco, Agile, Moxy)"
+      },
+      {
+        "date": "2019-04-04T14:00:00.000Z",
+        "module": "VI",
+        "index": "21",
+        "title": "Arduino + Android, ?"
+      },
+      {
+        "date": "2019-04-08T14:00:00.000Z",
+        "module": "VI",
+        "index": "22",
+        "title": "Kotlin I & ARCore I"
+      },
+      {
+        "date": "2019-04-11T14:00:00.000Z",
+        "module": "VI",
+        "index": "23",
+        "title": "Kotlin II & ARCore II"
+      },
+      {
+        "date": "2019-04-15T14:00:00.000Z",
+        "module": "VI",
+        "index": "24",
+        "title": "Kotlin III & Firebase I"
+      },
+      {
+        "date": "2019-04-18T14:00:00.000Z",
+        "module": "VI",
+        "index": "25",
+        "title": "Kotlin IV & Firebase II"
+      },
+      {
+        "date": "2019-04-22T14:00:00.000Z",
+        "module": "VI",
+        "index": "26",
+        "title": "Kotlin V"
+      },
+      {
+        "date": "2019-04-25T14:00:00.000Z",
+        "module": "VI",
+        "index": "27",
+        "title": "Kotlin VI"
+      },
+      {
+        "date": "2019-04-29T14:00:00.000Z",
+        "module": "VI",
+        "index": "28",
+        "title": "Kotlin VII"
+      },
+      {
+        "type": "holidays",
+        "date": "2019-03-21T14:00:00.000Z",
+        "module": "VI",
+        "title": "Каникулы",
+        "comment": "хз когда"
+      },
+      {
+        "date": "2019-05-13T14:00:00.000Z",
+        "module": "VI",
+        "index": "29",
+        "title": "Flutter I"
+      },
+      {
+        "date": "2019-05-16T14:00:00.000Z",
+        "module": "VI",
+        "index": "30",
+        "title": "Flutter II"
+      },
+      {
+        "date": "2019-05-20T14:00:00.000Z",
+        "module": "VI",
+        "index": "31",
+        "title": "Flutter III"
+      },
+      {
+        "date": "2019-05-23T14:00:00.000Z",
+        "module": "VI",
+        "index": "32",
+        "title": "Flutter IV"
+      },
+      {
+        "date": "2019-05-27T14:00:00.000Z",
+        "module": "VI",
+        "index": "33",
+        "title": "?"
+      },
+      {
+        "date": "2019-05-30T14:00:00.000Z",
+        "module": "VI",
+        "index": "34",
+        "title": "Выпускной"
       }
     ],
     "diary": {
@@ -2242,6 +2355,20 @@
         },
         {
           "date": "2019-03-14T14:00:00.000Z",
+          "values": [0, 1, 1, 1, 1]
+        },
+        {
+          "date": "2019-03-18T14:00:00.000Z",
+          "values": [1, 1, 1, 1, 1]
+        },
+        {
+          "date": "2019-03-21T14:00:00.000Z",
+          "values": [1, 1, 1, 0, 1]
+        },
+        {
+          "date": "2019-03-21T14:00:00.000Z",
+          "type": "homework",
+          "hint": "про Room",
           "values": [0, 0, 0, 0, 0]
         }
       ]
