@@ -1992,7 +1992,15 @@
         "date": "2019-04-01T14:00:00.000Z",
         "module": "VI",
         "index": "20",
-        "title": "DI, SOLID, Dagger, Espresso и мелочи (Realm, Litho, Fresco, Agile, Moxy)"
+        "title": "DI, SOLID, Dagger, Espresso и мелочи (Realm, Litho, Fresco, Agile, Moxy)",
+        "commit": "https://github.com/banandroids/a.y17_2.crypto/commit/0f3d3da14d6f019e4634723d1f02db629ddcdff5",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.20#%D0%A7%D0%B5%D0%B3%D0%BE-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%D0%B8-%D0%BD%D0%B0-%D1%83%D1%80%D0%BE%D0%BA%D0%B5",
+        "sections": [
+          {
+            "title": "DI",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.20#dependency-injection\">что это</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.20#solid\">SOLID</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.20#dagger\">Dagger</a>"
+          }
+        ]
       },
       {
         "date": "2019-04-04T14:00:00.000Z",
@@ -2040,47 +2048,54 @@
         "date": "2019-04-29T14:00:00.000Z",
         "module": "VI",
         "index": "28",
-        "title": "Kotlin VII"
+        "title": "Flutter I"
       },
       {
         "type": "holidays",
-        "date": "2019-03-21T14:00:00.000Z",
+        "date": "2019-05-02T14:00:00.000Z",
         "module": "VI",
         "title": "Каникулы",
-        "comment": "хз когда"
+        "comment": "только 2 мая"
+      },
+      {
+        "date": "2019-05-06T14:00:00.000Z",
+        "module": "VI",
+        "index": "29",
+        "title": "Flutter II"
+      },
+      {
+        "type": "holidays",
+        "date": "2019-05-09T14:00:00.000Z",
+        "module": "VI",
+        "title": "Каникулы",
+        "comment": "только 9 мая"
       },
       {
         "date": "2019-05-13T14:00:00.000Z",
         "module": "VI",
-        "index": "29",
-        "title": "Flutter I"
+        "index": "30",
+        "title": "Flutter III"
       },
       {
         "date": "2019-05-16T14:00:00.000Z",
         "module": "VI",
-        "index": "30",
-        "title": "Flutter II"
+        "index": "31",
+        "title": "Flutter IV"
       },
       {
         "date": "2019-05-20T14:00:00.000Z",
         "module": "VI",
-        "index": "31",
-        "title": "Flutter III"
+        "index": "32",
+        "title": "?"
       },
       {
         "date": "2019-05-23T14:00:00.000Z",
-        "module": "VI",
-        "index": "32",
-        "title": "Flutter IV"
-      },
-      {
-        "date": "2019-05-27T14:00:00.000Z",
         "module": "VI",
         "index": "33",
         "title": "?"
       },
       {
-        "date": "2019-05-30T14:00:00.000Z",
+        "date": "2019-05-27T14:00:00.000Z",
         "module": "VI",
         "index": "34",
         "title": "Выпускной"
