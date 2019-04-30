@@ -2063,7 +2063,7 @@
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/classes.html\">классы</a>, <a href=\"\"></a>, <a href=\"https://kotlinlang.ru/docs/reference/object-declarations.html\">companion</a>, <a href=\"https://kotlinlang.ru/docs/reference/properties.html\">getters-setters</a>"
+            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/classes.html\">классы</a>, <a href=\"https://kotlinlang.ru/docs/reference/object-declarations.html\">companion</a>, <a href=\"https://kotlinlang.ru/docs/reference/properties.html\">getters-setters</a>"
           }
         ]
       },
@@ -2077,7 +2077,7 @@
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/object-declarations.html\">object</a>, <a href=\"\"></a>, <a href=\"https://kotlinlang.ru/docs/reference/data-classes.html\">data classes</a>"
+            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/object-declarations.html\">object</a>, <a href=\"https://kotlinlang.ru/docs/reference/data-classes.html\">data classes</a>"
           },
           {
             "title": "Firebase",
@@ -2089,19 +2089,59 @@
         "date": "2019-04-22T14:00:00.000Z",
         "module": "VI",
         "index": "26",
-        "title": "Kotlin V & Firebase II"
+        "title": "Kotlin V & Firebase II",
+        "commit": "https://github.com/banandroids/a-banana-17-kotlin-arcore/commit/f4af9ced75e68167e2e6d6f4d68f16cd5ca6c328",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.26",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/classes.html\">наследование</a>, <a href=\"https://kotlinlang.ru/docs/reference/interfaces.html\">interface</a>"
+          },
+          {
+            "title": "Firebase",
+            "themes": "ещё Cloud Firestore, <a href=\"https://firebase.google.com/docs/auth/\">Authentication</a>, <a href=\"https://firebase.google.com/docs/storage/\">Cloud Storage</a>, <a href=\"https://firebase.google.com/docs/hosting/\">Hosting</a>, <a href=\"https://firebase.google.com/docs/functions/\">Cloud Functions</a>, <a href=\"https://firebase.google.com/docs/crashlytics/\">Crashlytics</a>, <a href=\"https://firebase.google.com/docs/test-lab/\">Test Lab</a>, <a href=\"https://firebase.google.com/docs/ab-testing/\">A/B Testing</a>, <a href=\"https://firebase.google.com/docs/admob/\">AdMob</a>"
+          }
+        ]
       },
       {
         "date": "2019-04-25T14:00:00.000Z",
         "module": "VI",
         "index": "27",
-        "title": "?"
+        "title": "Kotlin VI & Firebase III",
+        "commit": "https://github.com/banandroids/a-banana-17-kotlin-arcore/commit/2642fd4b4d266d3e6ec040a263ddb95eff50b2d6",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.27",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/returns.html\">jumps</a>, <a href=\"https://kotlinlang.ru/docs/reference/extensions.html\">extensions</a>"
+          },
+          {
+            "title": "Firebase",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.27#cloud-messaging\">Cloud Messaging</a>"
+          }
+        ]
       },
       {
         "date": "2019-04-29T14:00:00.000Z",
         "module": "VI",
         "index": "28",
-        "title": "Flutter I"
+        "title": "Kotlin V & Server I",
+        "commit": "https://github.com/banandroids/17-k-spring/commit/2c233cfb7cdbc1ed9ea48ea7464142cd53ab554f",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.28",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://kotlinlang.ru/docs/reference/enum-classes.html\">enum</a>"
+          },
+          {
+            "title": "Firebase",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.28#admin-sdk\">Admin SDK</a>"
+          },
+          {
+            "title": "Server",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.28#simple-rest\">simple REST</a>"
+          }
+        ]
       },
       {
         "type": "holidays",
@@ -2114,7 +2154,7 @@
         "date": "2019-05-06T14:00:00.000Z",
         "module": "VI",
         "index": "29",
-        "title": "Flutter II"
+        "title": "Flutter I"
       },
       {
         "type": "holidays",
@@ -2127,19 +2167,19 @@
         "date": "2019-05-13T14:00:00.000Z",
         "module": "VI",
         "index": "30",
-        "title": "Flutter III"
+        "title": "Flutter II"
       },
       {
         "date": "2019-05-16T14:00:00.000Z",
         "module": "VI",
         "index": "31",
-        "title": "Flutter IV"
+        "title": "Flutter III"
       },
       {
         "date": "2019-05-20T14:00:00.000Z",
         "module": "VI",
         "index": "32",
-        "title": "?"
+        "title": "Flutter IV"
       },
       {
         "date": "2019-05-23T14:00:00.000Z",
