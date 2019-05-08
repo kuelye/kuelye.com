@@ -2154,7 +2154,14 @@
         "date": "2019-05-06T14:00:00.000Z",
         "module": "VI",
         "index": "29",
-        "title": "Flutter I"
+        "title": "Java: GC, References, Reflection",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.29",
+        "sections": [
+          {
+            "title": "Java",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.29#gc\">GC</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.29#reference\">references</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.29#reflection\">reflection</a>"
+          }
+        ]
       },
       {
         "type": "holidays",
@@ -2167,25 +2174,25 @@
         "date": "2019-05-13T14:00:00.000Z",
         "module": "VI",
         "index": "30",
-        "title": "Flutter II"
+        "title": "Flutter I"
       },
       {
         "date": "2019-05-16T14:00:00.000Z",
         "module": "VI",
         "index": "31",
-        "title": "Flutter III"
+        "title": "Flutter II"
       },
       {
         "date": "2019-05-20T14:00:00.000Z",
         "module": "VI",
         "index": "32",
-        "title": "Flutter IV"
+        "title": "Flutter III"
       },
       {
         "date": "2019-05-23T14:00:00.000Z",
         "module": "VI",
         "index": "33",
-        "title": "?"
+        "title": "Flutter IV"
       },
       {
         "date": "2019-05-27T14:00:00.000Z",
