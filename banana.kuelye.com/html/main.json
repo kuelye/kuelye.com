@@ -2174,13 +2174,29 @@
         "date": "2019-05-13T14:00:00.000Z",
         "module": "VI",
         "index": "30",
-        "title": "Flutter I"
+        "title": "Dart I & Flutter I",
+        "commit": "https://github.com/banandroids/17-f-flutter/commit/e2eabf8521f09720913d34740860f7674082419e",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.30",
+        "sections": [
+          {
+            "title": "Java vs Dart vs Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.30#java-vs-dart-vs-kotlin\">variables, types, collections, control flow, nullability, functions</a>"
+          }
+        ]
       },
       {
         "date": "2019-05-16T14:00:00.000Z",
         "module": "VI",
         "index": "31",
-        "title": "Flutter II"
+        "title": "Dart II (operators, classes) & Flutter II",
+        "commit": "https://github.com/banandroids/17-f-flutter/commit/6a9de09fae75451e308df14b09d0782d78e8d853",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.31",
+        "sections": [
+          {
+            "title": "Java vs Dart vs Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.31#java-vs-dart-vs-kotlin\">operators, classes</a>"
+          }
+        ]
       },
       {
         "date": "2019-05-20T14:00:00.000Z",
