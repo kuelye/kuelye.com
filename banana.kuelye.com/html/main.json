@@ -2188,7 +2188,7 @@
         "date": "2019-05-16T14:00:00.000Z",
         "module": "VI",
         "index": "31",
-        "title": "Dart II (operators, classes) & Flutter II",
+        "title": "Dart II & Flutter II",
         "commit": "https://github.com/banandroids/17-f-flutter/commit/6a9de09fae75451e308df14b09d0782d78e8d853",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.31",
         "sections": [
@@ -2202,7 +2202,19 @@
         "date": "2019-05-20T14:00:00.000Z",
         "module": "VI",
         "index": "32",
-        "title": "Flutter III"
+        "title": "Dart III & Flutter III",
+        "commit": "https://github.com/banandroids/17-f-flutter/commit/b0575be6035011c8948f00c4ae069f50cfa665b4",
+        "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.32",
+        "sections": [
+          {
+            "title": "Java vs Dart vs Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.32#visibility-modifiers\">visibility modifiers</a>"
+          },
+          {
+            "title": "Dart",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.32#final-vs-const\">final vs const</a>, <a href=\"https://dart.dev/tutorials/language/futures\">async-await</a>"
+          }
+        ]
       },
       {
         "date": "2019-05-23T14:00:00.000Z",
