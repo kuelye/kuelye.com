@@ -1769,19 +1769,19 @@
         "date": "2019-01-31T14:00:00.000Z",
         "module": "VI",
         "index": "5",
-        "title": "ligGDX I"
+        "title": "libGDX I"
       },
       {
         "date": "2019-02-04T14:00:00.000Z",
         "module": "VI",
         "index": "6",
-        "title": "ligGDX II"
+        "title": "libGDX II"
       },
       {
         "date": "2019-02-07T14:00:00.000Z",
         "module": "VI",
         "index": "7",
-        "title": "ligGDX III",
+        "title": "libGDX III",
         "commit": "https://github.com/banandroids/a.y17_2.libgdx"
       },
       {
@@ -2125,7 +2125,7 @@
         "date": "2019-04-29T14:00:00.000Z",
         "module": "VI",
         "index": "28",
-        "title": "Kotlin V & Server I",
+        "title": "Kotlin VII & Server I",
         "commit": "https://github.com/banandroids/17-k-spring/commit/2c233cfb7cdbc1ed9ea48ea7464142cd53ab554f",
         "commit_description": "https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.28",
         "sections": [
@@ -2220,7 +2220,21 @@
         "date": "2019-05-23T14:00:00.000Z",
         "module": "VI",
         "index": "33",
-        "title": "Flutter IV"
+        "title": "Jetpack Composer & NDK & Reverse Engineering",
+        "sections": [
+          {
+            "title": "Jetpack",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.33#jetpack-composer\">Jetpack Composer</a>"
+          },
+          {
+            "title": "NDK",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.33#ndk\">полезные ссылки</a>"
+          },
+          {
+            "title": "Reverse Engineering",
+            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.33#reverse-engineering\">полезные ссылки</a>"
+          }
+        ]
       },
       {
         "date": "2019-05-27T14:00:00.000Z",
