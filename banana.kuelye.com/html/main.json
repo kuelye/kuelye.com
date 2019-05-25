@@ -2220,12 +2220,8 @@
         "date": "2019-05-23T14:00:00.000Z",
         "module": "VI",
         "index": "33",
-        "title": "Jetpack Composer & NDK & Reverse Engineering",
+        "title": "NDK & Reverse Engineering",
         "sections": [
-          {
-            "title": "Jetpack",
-            "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.33#jetpack-composer\">Jetpack Composer</a>"
-          },
           {
             "title": "NDK",
             "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.33#ndk\">полезные ссылки</a>"
