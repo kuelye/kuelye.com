@@ -2230,13 +2230,18 @@
             "title": "Reverse Engineering",
             "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.33#reverse-engineering\">полезные ссылки</a>"
           }
+        ],
+        "homework": [
+          {
+            "title": "Заполните, плез, <a href=\"https://forms.gle/kxwYATmRjAwVgjx79\">анкетку</a>"
+          }
         ]
       },
       {
         "date": "2019-05-27T14:00:00.000Z",
         "module": "VI",
         "index": "34",
-        "title": "Выпускной"
+        "title": "Jetpack Compose & Выпускной"
       }
     ],
     "diary": {
