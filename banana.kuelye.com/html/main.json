@@ -2241,7 +2241,36 @@
         "date": "2019-05-27T14:00:00.000Z",
         "module": "VI",
         "index": "34",
-        "title": "Jetpack Compose & Выпускной"
+        "title": "Jetpack Compose & Выпускной",
+        "sections": [
+          {
+            "title": "Jetpack",
+            "themes": "<a href=\"https://github.com/banandroids/b17C-encyclopedia/wiki/VI.34#jetpack-compose\">Jetpack Compose</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Проекты за два года:",
+            "sections": [
+              {"title": "<a href=\"https://github.com/banandroids/b17C-flutter\">Google Maps на Flutter</a>", "comment": "Dart + Flutter + Google Maps"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-kotlin-spring\">Сервер на Spring</a>", "comment": "Kotlin + Spring"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-kotlin-arcore\">AR</a>", "comment": "Kotlin + ARCore + Firebase"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-arduino\">Контроллер Arduino</a>", "comment": "Bluetooth"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-crypto\">Криптокошелёк</a>", "comment": "Ethereum + Room + Rx + Lifecycle + DI + Espresso"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-libGDX\">Платформер</a>", "comment": "libGDX"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-camera-ml-kit\">Распознаватель вещей и лиц</a>", "comment": "Camera + ML Kit + TensorFlow"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-telegram\">Клиент для Telegram</a>", "comment": "TDLib"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-clock\">Часы-будильники</a>", "comment": "SharedPreferences + Gson + modules"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-clock-widget\">Виджет с текущим временем</a>"},
+              {"title": "<a href=\"https://github.com/banandroids/b17C-promo\">Промо-страницы</a>", "comment": "вёрстка + анимации"},
+              {"title": "<a href=\"https://github.com/banandroids/b17-cinemer\">Cinemer</a>", "comment": "RecyclerView + OkHttp"},
+              {"title": "<a href=\"https://github.com/banandroids/b17-arduino-car-controller\">Пульт управления</a>"},
+              {"title": "<a href=\"https://github.com/banandroids/b17-flappy\">Flappy</a>"},
+              {"title": "<a href=\"https://github.com/banandroids/b17B-telegram-bot\">Telegram-бот</a>"},
+              {"title": "<a href=\"https://github.com/banandroids/b17-code-wars\">Простой ИИ для Russian AI Cup (CodeWars)</a>"}
+            ]
+          }
+        ]
       }
     ],
     "diary": {
