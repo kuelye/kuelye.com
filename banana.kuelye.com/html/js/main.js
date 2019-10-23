@@ -1,6 +1,6 @@
 var currentLessonId;
 
-init = function() {
+init = function () {
   getData();
 
   // var matches = window.location.href.match(/#(.*)$/);location.pathname.match(/#(.*)$/);
@@ -9,13 +9,13 @@ init = function() {
   // }
 };
 
-getData = function() {
-  $.getJSON("main.json", function(data) {
+getData = function () {
+  $.getJSON("main.json", function (data) {
     fillPage(data);
   });
 };
 
-fillPage = function(data) {
+fillPage = function (data) {
   this.data = data;
   var groupTitle = getUrlParam("groupTitle");
   var groupId;
@@ -40,13 +40,13 @@ fillPage = function(data) {
 
 /* -GROUPS--------------------------------------------------------- */
 
-showGroups = function(groups) {
+showGroups = function (groups) {
   for (var i = 0; i < groups.length; ++i) {
     addGroup(groups[i]);
   }
 };
 
-addGroup = function(group) {
+addGroup = function (group) {
   var $groupA = $("<a>", {
     href: addUrlParam("groupTitle", group["title"]),
     text: group["title"]
@@ -56,7 +56,7 @@ addGroup = function(group) {
 
 /* -LESSONS-------------------------------------------------------- */
 
-showLessons = function(diary, lessons, years) {
+showLessons = function (diary, lessons, years) {
   // find current lesson
   var now = Date.now();
   for (var i = 0; i < lessons.length; ++i) {
@@ -105,11 +105,14 @@ showLessons = function(diary, lessons, years) {
   if (mode !== undefined) {
     $headerContainer.append("<a href=\"" + removeUrlParam("mode") + "\">📅</a> ").addClass("module-title");
   }
-  if (mode !== "encyclopedia") {
-    $headerContainer.append("<a href=\"" + addUrlParam("mode", "encyclopedia") + "\">📔</a> ").addClass("module-title");
-  }
+  // encyclopedia disabled now
+  // if (mode !== "encyclopedia") {
+  //   $headerContainer.append("<a href=\"" + addUrlParam("mode", "encyclopedia") + "\">📔</a> ").addClass("module-title");
+  // }
   if (mode !== "diary") {
-    $headerContainer.append("<a href=\"" + addUrlParam("mode", "diary") + "\">🎮</a> ").addClass("module-title");
+    if (diary["students"] !== undefined) {
+      $headerContainer.append("<a href=\"" + addUrlParam("mode", "diary") + "\">🎮</a> ").addClass("module-title");
+    }
   } else {
     if (getUrlParam("onlyWorks") === "true") {
       $headerContainer.append("<a href=\"" + removeUrlParam("onlyWorks") + "\">❕</a> ").addClass("module-title");
@@ -126,7 +129,8 @@ showLessons = function(diary, lessons, years) {
     }
   }
   if (mode === "encyclopedia") {
-    showEncyclopedia(filteredLessons);
+    // encyclopedia disabled now
+    // showEncyclopedia(filteredLessons);
   } else if (mode === "diary") {
     showDiary(diary, filteredLessons, module);
   } else {
@@ -134,7 +138,7 @@ showLessons = function(diary, lessons, years) {
   }
 };
 
-showLessonsPlan = function(lessons) {
+showLessonsPlan = function (lessons) {
   for (var i = 0; i < lessons.length; ++i) {
     if (lessons[i]["type"] === "holidays") {
       addHolidays(lessons[i]);
@@ -144,7 +148,7 @@ showLessonsPlan = function(lessons) {
   }
 };
 
-addHolidays = function(holidays) {
+addHolidays = function (holidays) {
   var $holidaysDiv = $("<div class=\"holidays-container\">")
     .append("<div class=\"holidays-title\">" + holidays["title"] + "</div>")
     .append("<div class=\"holidays-comment\">" + holidays["comment"] + "</div>");
@@ -156,7 +160,7 @@ addHolidays = function(holidays) {
   $("#content_container").append($holidaysDiv);
 };
 
-addLesson = function(lesson) {
+addLesson = function (lesson) {
   // add lesson title and date
   var lessonNumber = lesson["index"].padStart(2, "0");
   var $titleDiv = $("<div>")
@@ -217,7 +221,7 @@ addLesson = function(lesson) {
   $("#content_container").append($lessonDiv);
 };
 
-addSections = function($sectionsOl, sections) {
+addSections = function ($sectionsOl, sections) {
   for (var i = 0; i < sections.length; ++i) {
     var $sectionLi = $("<li>")
       .append(sections[i]["title"] + " ")
@@ -226,7 +230,7 @@ addSections = function($sectionsOl, sections) {
   }
 };
 
-addWork = function($workOl, work, type) {
+addWork = function ($workOl, work, type) {
   for (var i = 0; i < work.length; ++i) {
     var $workLi = $("<li>")
       .append(work[i]["title"] + " ");
@@ -242,7 +246,7 @@ addWork = function($workOl, work, type) {
   }
 };
 
-addWorkSections = function($homeworkSectionsOl, workSections) {
+addWorkSections = function ($homeworkSectionsOl, workSections) {
   for (var i = 0; i < workSections.length; ++i) {
     var $workSectionLi = $("<li>")
       .append(workSections[i]["title"] + " ");
@@ -255,7 +259,7 @@ addWorkSections = function($homeworkSectionsOl, workSections) {
 
 /* -ENCYCLOPEDIA--------------------------------------------------- */
 
-showEncyclopedia = function(lessons) {
+showEncyclopedia = function (lessons) {
   var encyclopedia = [];
   for (var i = 0; i < lessons.length; ++i) {
     var sections = lessons[i]["sections"];
@@ -276,13 +280,13 @@ showEncyclopedia = function(lessons) {
     var $sectionDiv = $("<div class=\"encyclopedia-section-container\">")
       .append(title)
       .append('<span class="lesson-section-themes"> // ' + encyclopedia[title] + '</span>');
-    $("#content_container").append($sectionDiv) ;
+    $("#content_container").append($sectionDiv);
   }
 };
 
 /* -DIARY---------------------------------------------------------- */
 
-showDiary = function(diary, filteredLessons, module) {
+showDiary = function (diary, filteredLessons, module) {
   var $diaryDiv = $("<div class=\"diary-container\">");
   var $table = $("<table class=\"diary-table\">");
   var students = diary["students"];
@@ -309,7 +313,7 @@ showDiary = function(diary, filteredLessons, module) {
       }
 
       var title = diaryLesson["type"] === "homework" ? "ДЗ"
-          : diaryLesson["type"] === "classwork" ? "КР"
+        : diaryLesson["type"] === "classwork" ? "КР"
           : "#"; // getDiaryDisplayedDate(diaryLesson);
       if (realLesson !== undefined) {
         var $lessonTd = $("<td>");
@@ -374,7 +378,7 @@ showDiary = function(diary, filteredLessons, module) {
   for (i = 0; i < points.length; i++) {
     points[i] = [i, points[i]];
   }
-  points = points.sort(function(a, b) {
+  points = points.sort(function (a, b) {
     return a[1] < b[1] ? 1 : a[1] > b[1] ? -1 : 0;
   });
   console.log(points);
@@ -428,22 +432,22 @@ showDiary = function(diary, filteredLessons, module) {
 
 /* -UTILS---------------------------------------------------------- */
 
-showError = function() {
+showError = function () {
   // TODO
 };
 
-getLessonDisplayedDate = function(lesson) {
-  var options = { month: 'long', day: 'numeric' };
+getLessonDisplayedDate = function (lesson) {
+  var options = {month: 'long', day: 'numeric'};
   var date = new Date(lesson["date"]);
   return date.toLocaleDateString("en-EN", options);
 };
 
-getDiaryDisplayedDate = function(lesson) {
+getDiaryDisplayedDate = function (lesson) {
   var date = new Date(lesson["date"]);
   return date.getDate() + "." + ('0' + (date.getMonth() + 1)).slice(-2);
 };
 
-getUrlParam = function(key) {
+getUrlParam = function (key) {
   var url = decodeURIComponent(window.location.search.substring(1));
   var urlParts = url.split('&');
   var keyAndValue;
@@ -455,7 +459,7 @@ getUrlParam = function(key) {
   }
 };
 
-removeUrlParamFromUrl = function(url, keys) {
+removeUrlParamFromUrl = function (url, keys) {
   url = url.indexOf("?") !== -1 ? url.split('?')[1] : url;
   var urlParts = url.length === 0 ? [] : (url.indexOf("&") !== -1 ? url.split('&') : [url]);
   var keyAndValue;
@@ -469,12 +473,12 @@ removeUrlParamFromUrl = function(url, keys) {
   return window.location.origin + window.location.pathname + "?" + urlParts.join('&');
 };
 
-removeUrlParam = function(keys) {
+removeUrlParam = function (keys) {
   var url = decodeURIComponent(window.location.search.substring(1));
   return removeUrlParamFromUrl(url, keys);
 };
 
-addUrlParamToUrl = function(url, key, value) {
+addUrlParamToUrl = function (url, key, value) {
   url = url.indexOf("?") !== -1 ? url.split('?')[1] : url;
   var urlParts = url.length === 0 ? [] : (url.indexOf("&") !== -1 ? url.split('&') : [url]);
   var keyAndValue;
@@ -496,16 +500,16 @@ addUrlParamToUrl = function(url, key, value) {
   return window.location.origin + window.location.pathname + "?" + urlParts.join('&');
 };
 
-addUrlParam = function(key, value) {
+addUrlParam = function (key, value) {
   var url = decodeURIComponent(window.location.search.substring(1));
   return addUrlParamToUrl(url, key, value);
 };
 
-scrollToElement = function(element) {
+scrollToElement = function (element) {
   var positionX = 0,
     positionY = 0;
 
-  while(element != null){
+  while (element != null) {
     positionX += element.offsetLeft;
     positionY += element.offsetTop;
     element = element.offsetParent;
@@ -513,7 +517,7 @@ scrollToElement = function(element) {
   }
 };
 
-getModules = function(lessons) {
+getModules = function (lessons) {
   var modules = [];
   for (var i = 0; i < lessons.length; ++i) {
     var lesson = lessons[i];
@@ -526,7 +530,7 @@ getModules = function(lessons) {
 };
 
 
-filterByModule = function(lessons, module) {
+filterByModule = function (lessons, module) {
   var filteredLessons = [];
   for (var i = 0; i < lessons.length; ++i) {
     if (lessons[i]["module"] === module) {
@@ -537,11 +541,11 @@ filterByModule = function(lessons, module) {
   return filteredLessons;
 };
 
-scrollToElement = function(element) {
+scrollToElement = function (element) {
   var positionX = 0,
     positionY = 0;
 
-  while(element != null){
+  while (element != null) {
     positionX += element.offsetLeft;
     positionY += element.offsetTop;
     element = element.offsetParent;
@@ -549,6 +553,6 @@ scrollToElement = function(element) {
   }
 };
 
-escapeBackslaches = function(s) {
+escapeBackslaches = function (s) {
   return s.replace(/\//g, "//")
 };

@@ -4,11 +4,19 @@
     "years": [
       {
         "title": "1 год",
-        "modules": ["I", "II", "III", "IV"]
+        "modules": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ]
       },
       {
         "title": "2 год",
-        "modules": ["V", "VI"]
+        "modules": [
+          "V",
+          "VI"
+        ]
       }
     ],
     "lessons": [
@@ -2051,7 +2059,6 @@
             "themes": "<a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.23#basics\">basics</a>, <a href=\"https://github.com/banandroids/y17_2.encyclopedia/wiki/VI.23#null-safety\">null safety</a>, <a href=\"https://kotlinlang.ru/docs/reference/ranges.html\">интервалы</a>"
           }
         ]
-
       },
       {
         "date": "2019-04-15T14:00:00.000Z",
@@ -2252,313 +2259,804 @@
           {
             "title": "Проекты за два года:",
             "sections": [
-              {"title": "<a href=\"https://github.com/banandroids/b17C-flutter\">Google Maps на Flutter</a>", "comment": "Dart + Flutter + Google Maps"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-kotlin-spring\">Сервер на Spring</a>", "comment": "Kotlin + Spring"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-kotlin-arcore\">AR</a>", "comment": "Kotlin + ARCore + Firebase"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-arduino\">Контроллер Arduino</a>", "comment": "Bluetooth"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-crypto\">Криптокошелёк</a>", "comment": "Ethereum + Room + Rx + Lifecycle + DI + Espresso"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-libGDX\">Платформер</a>", "comment": "libGDX"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-camera-ml-kit\">Распознаватель вещей и лиц</a>", "comment": "Camera + ML Kit + TensorFlow"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-telegram\">Клиент для Telegram</a>", "comment": "TDLib"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-clock\">Часы-будильники</a>", "comment": "SharedPreferences + Gson + modules"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-clock-widget\">Виджет с текущим временем</a>"},
-              {"title": "<a href=\"https://github.com/banandroids/b17C-promo\">Промо-страницы</a>", "comment": "вёрстка + анимации"},
-              {"title": "<a href=\"https://github.com/banandroids/b17-cinemer\">Cinemer</a>", "comment": "RecyclerView + OkHttp"},
-              {"title": "<a href=\"https://github.com/banandroids/b17-arduino-car-controller\">Пульт управления</a>"},
-              {"title": "<a href=\"https://github.com/banandroids/b17-flappy\">Flappy</a>"},
-              {"title": "<a href=\"https://github.com/banandroids/b17B-telegram-bot\">Telegram-бот</a>"},
-              {"title": "<a href=\"https://github.com/banandroids/b17-code-wars\">Простой ИИ для Russian AI Cup (CodeWars)</a>"}
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-flutter\">Google Maps на Flutter</a>",
+                "comment": "Dart + Flutter + Google Maps"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-kotlin-spring\">Сервер на Spring</a>",
+                "comment": "Kotlin + Spring"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-kotlin-arcore\">AR</a>",
+                "comment": "Kotlin + ARCore + Firebase"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-arduino\">Контроллер Arduino</a>",
+                "comment": "Bluetooth"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-crypto\">Криптокошелёк</a>",
+                "comment": "Ethereum + Room + Rx + Lifecycle + DI + Espresso"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-libGDX\">Платформер</a>",
+                "comment": "libGDX"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-camera-ml-kit\">Распознаватель вещей и лиц</a>",
+                "comment": "Camera + ML Kit + TensorFlow"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-telegram\">Клиент для Telegram</a>",
+                "comment": "TDLib"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-clock\">Часы-будильники</a>",
+                "comment": "SharedPreferences + Gson + modules"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-clock-widget\">Виджет с текущим временем</a>"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17C-promo\">Промо-страницы</a>",
+                "comment": "вёрстка + анимации"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17-cinemer\">Cinemer</a>",
+                "comment": "RecyclerView + OkHttp"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17-arduino-car-controller\">Пульт управления</a>"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17-flappy\">Flappy</a>"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17B-telegram-bot\">Telegram-бот</a>"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b17-code-wars\">Простой ИИ для Russian AI Cup (CodeWars)</a>"
+              }
             ]
           }
         ]
       }
     ],
     "diary": {
-      "students": ["dom98111", "kaikkialla", "kurakin101", "nikitafedorov008", "Sobol-R"],
+      "students": [
+        "dom98111",
+        "kaikkialla",
+        "kurakin101",
+        "nikitafedorov008",
+        "Sobol-R"
+      ],
       "reports": {
-        "V": [0, 0, 0, 2, 0],
-        "VI": [0, 0, 0, 0, 0]
+        "V": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "VI": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
       },
       "lessons": [
         {
           "date": "2018-09-17T14:00:00.000Z",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-09-20T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-09-20T14:00:00.000Z",
           "type": "homework",
           "hint": "про вёрстку и ConstraintLayout",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-09-24T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-09-27T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-09-27T14:00:00.000Z",
           "type": "homework",
           "hint": "про анимации",
-          "values": [0, 1, 0, 1, 0]
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
         },
         {
           "date": "2018-10-01T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-10-04T14:00:00.000Z",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-10-04T14:00:00.000Z",
           "type": "classwork",
           "hint": "про Onboarding и ViewPager",
-          "values": [-1, 1, 1, -1, 1]
+          "values": [
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ]
         },
         {
           "date": "2018-10-08T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 1]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-10-11T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 1]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-10-11T14:00:00.000Z",
           "type": "homework",
           "hint": "опять про ViewPager (и setTimeZone)",
-          "values": [0, 1, 0, 0, 1]
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-10-15T14:00:00.000Z",
-          "values": [0, 1, 1, 0, 1]
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-10-18T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 0]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
         },
         {
           "date": "2018-10-18T14:00:00.000Z",
           "type": "homework",
           "hint": "про Custom Views (PhotoshopView)",
-          "values": [0, 0, 0, 0, 1]
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-10-22T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 1]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-10-25T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-10-25T14:00:00.000Z",
           "type": "classwork",
           "hint": "максимум 7 баллов",
           "maxValue": 7,
-          "values": [3, 5, 1, 0, 5]
+          "values": [
+            3,
+            5,
+            1,
+            0,
+            5
+          ]
         },
         {
           "date": "2018-10-25T14:00:00.000Z",
           "type": "homework",
           "hint": "про создание и удаление будильников (TextInputLayout, TextInputEditText, TimePicker)",
-          "values": [0, 0, 0, 0, 1]
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-11-05T14:00:00.000Z",
-          "values": [1, 1, 0, 1, 1]
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-11-08T14:00:00.000Z",
-          "values": [1, 1, 0, 1, 1]
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-11-08T14:00:00.000Z",
           "type": "homework",
           "hint": "про вменяемые будильники и Wear OS",
-          "values": [0, 0, 0, 0, 0]
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "date": "2018-11-12T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-11-12T14:00:00.000Z",
           "type": "classwork",
           "hint": "про Singleton, AlarmManager, PendingIntent и виджеты; максимум 11 баллов",
           "maxValue": 11,
-          "values": [3, 4, 3, 4, 5]
+          "values": [
+            3,
+            4,
+            3,
+            4,
+            5
+          ]
         },
         {
           "date": "2018-11-12T14:00:00.000Z",
           "type": "homework",
           "hint": "про виджеты",
-          "values": [0, 0, 1, 1, 0]
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ]
         },
         {
           "date": "2018-11-19T14:00:00.000Z",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-11-22T14:00:00.000Z",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-11-26T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-11-29T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 0]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
         },
         {
           "date": "2018-11-29T14:00:00.000Z",
           "type": "homework",
           "hint": "про макеты ввода телефона и кода",
-          "values": [1, 1, 0, 0, 1]
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-12-03T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-12-06T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-12-06T14:00:00.000Z",
           "type": "homework",
           "hint": "про отображение чатов",
-          "values": [0, 1, 0, 0, 1]
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-12-10T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2018-12-13T14:00:00.000Z",
-          "values": [0, 1, 1, 0, 1]
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-12-13T14:00:00.000Z",
           "type": "homework",
           "hint": "про отображение сообщений",
-          "values": [0, 1, 0, 0, 1]
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-12-17T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 1]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2018-12-20T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 0]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
         },
         {
           "date": "2018-12-27T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 0]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
         },
         {
           "date": "2019-01-17T14:00:00.000Z",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-01-21T14:00:00.000Z",
-          "values": [0, 0, 1, 1, 1]
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-01-24T14:00:00.000Z",
-          "values": [0, 0, 1, 1, 1]
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-01-24T14:00:00.000Z",
           "type": "homework",
           "hint": "про ML Kit Face Recognition",
-          "values": [0, 0, 0, 0, 0]
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "date": "2019-01-28T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-01-31T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-04T14:00:00.000Z",
-          "values": [1, 1, 0, 0, 1]
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
         },
         {
           "date": "2019-02-07T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-11T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-14T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-18T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-21T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-21T14:00:00.000Z",
           "type": "homework",
           "hint": "про эфир",
-          "values": [0, 1, 0, 0, 0]
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
         },
         {
           "date": "2019-02-25T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-02-28T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-03-04T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-03-07T14:00:00.000Z",
-          "values": [0, 0, 1, 1, 1]
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-03-11T14:00:00.000Z",
-          "values": [0, 1, 1, 0, 1]
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2019-03-14T14:00:00.000Z",
-          "values": [0, 1, 1, 1, 1]
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-03-18T14:00:00.000Z",
-          "values": [1, 1, 1, 1, 1]
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
         },
         {
           "date": "2019-03-21T14:00:00.000Z",
-          "values": [1, 1, 1, 0, 1]
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ]
         },
         {
           "date": "2019-03-21T14:00:00.000Z",
           "type": "homework",
           "hint": "про Room",
-          "values": [0, 0, 0, 0, 0]
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ]
     }
+  },
+  {
+    "title": "2019",
+    "years": [
+      {
+        "title": "1 год",
+        "modules": [
+          "I"
+        ]
+      }
+    ],
+    "lessons": [
+      {
+        "date": "2019-10-22T14:00:00.000Z",
+        "module": "I",
+        "index": "1",
+        "title": "Введение",
+        "sections": [
+          {
+            "title": "Java",
+            "themes": "<a href=\"\">введение</a>"
+          },
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"\">введение</a>"
+          },
+          {
+            "title": "IntelliJ IDEA",
+            "themes": "<a href=\"\">установка и запуск проекта</a>"
+          },
+          {
+            "title": "Код",
+            "themes": "<a href=\"\">форматирование, комментарии</a>"
+          },
+          {
+            "title": "Методы",
+            "themes": "<a href=\"\">print, println, readLine</a>"
+          },
+          {
+            "title": "Переменные",
+            "themes": "<a href=\"\">val, var, Int, String</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Запустить тестовый проект в IntelliJ IDEA",
+            "sections": [
+              {
+                "title": "Установить себе дома JDK, если ещё не установлено",
+                "comment": "скачать JDK можно <a href=\"https://www.oracle.com/technetwork/java/javase/downloads/index.html\">здесь</a>"
+              },
+              {
+                "title": " Установить IntelliJ IDEA и запустить там чего-нибудь",
+                "comment": "читайте этот <a href=\"https://metanit.com/kotlin/tutorial/1.2.php\">гайд</a>"
+              }
+            ]
+          },
+          {
+            "title": "Зарегистрироваться на <a class=\"grey\" href=\"https://github.com/\">github.com</a>"
+          }
+        ]
+      }
+    ],
+    "diary": {}
   }
 ]
