@@ -3014,27 +3014,27 @@
         "sections": [
           {
             "title": "Java",
-            "themes": "<a href=\"\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#java\">введение</a>"
           },
           {
             "title": "Kotlin",
-            "themes": "<a href=\"\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#kotlin\">введение</a>"
           },
           {
             "title": "IntelliJ IDEA",
-            "themes": "<a href=\"\">установка и запуск проекта</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
           },
           {
             "title": "Код",
-            "themes": "<a href=\"\">форматирование, комментарии</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#comments\">форматирование, комментарии</a>"
           },
           {
             "title": "Методы",
-            "themes": "<a href=\"\">print, println, readLine</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>"
           },
           {
             "title": "Переменные",
-            "themes": "<a href=\"\">val, var, Int, String</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#val-var\">val, var</a>"
           }
         ],
         "homework": [
@@ -3043,7 +3043,7 @@
             "sections": [
               {
                 "title": "Установить себе дома JDK, если ещё не установлено",
-                "comment": "скачать JDK можно <a href=\"https://www.oracle.com/technetwork/java/javase/downloads/index.html\">здесь</a>"
+                "comment": "проверить, установлена ли JDK, можно <a href=\"http://java-runtime.ru/version\">здесь</a>; скачать JDK можно <a href=\"https://www.oracle.com/technetwork/java/javase/downloads/index.html\">здесь</a>"
               },
               {
                 "title": " Установить IntelliJ IDEA и запустить там чего-нибудь",
