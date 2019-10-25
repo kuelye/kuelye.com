@@ -3014,27 +3014,19 @@
         "sections": [
           {
             "title": "Java",
-            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#java\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#java\">введение</a>"
           },
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#kotlin\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#kotlin\">введение</a>"
           },
           {
             "title": "IntelliJ IDEA",
-            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
           },
           {
-            "title": "Код",
-            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#comments\">форматирование, комментарии</a>"
-          },
-          {
-            "title": "Методы",
-            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>"
-          },
-          {
-            "title": "Переменные",
-            "themes": "<a href=\"https://github.com/banandroids/b-p-encyclopedia/wiki/I.01#val-var\">val, var</a>"
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#comments\">форматирование и комментарии</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#val-var\">val, var</a>"
           }
         ],
         "homework": [
