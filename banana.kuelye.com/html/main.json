@@ -3035,7 +3035,7 @@
             "sections": [
               {
                 "title": "Установить себе дома JDK, если ещё не установлено",
-                "comment": "проверить, установлена ли JDK, можно <a href=\"http://java-runtime.ru/version\">здесь</a>; скачать JDK можно <a href=\"https://www.oracle.com/technetwork/java/javase/downloads/index.html\">здесь</a>"
+                "comment": "проверить, установлена ли JDK, можно <a href=\"http://java-runtime.ru/version\">так</a>; скачать JDK можно <a href=\"https://www.oracle.com/technetwork/java/javase/downloads/index.html\">здесь</a>"
               },
               {
                 "title": " Установить IntelliJ IDEA и запустить там чего-нибудь",
@@ -3047,6 +3047,36 @@
             "title": "Зарегистрироваться на <a class=\"grey\" href=\"https://github.com/\">github.com</a>"
           }
         ]
+      },
+      {
+        "date": "2019-10-25T14:00:00.000Z",
+        "module": "I",
+        "index": "2",
+        "title": "Введение",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#important-words\">немного важных слов</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#variables\">объявление и именование переменных</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#string\">String</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "TBD"
+          }
+        ]
+      },
+      {
+        "type": "holidays",
+        "date": "2019-10-29T14:00:00.000Z",
+        "module": "I",
+        "title": "Каникулы",
+        "comment": "c 28 октября по 3 ноября"
+      },
+      {
+        "date": "2019-11-05T14:00:00.000Z",
+        "module": "I",
+        "index": "3",
+        "title": "TBD"
       }
     ],
     "diary": {}
