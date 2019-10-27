@@ -3014,19 +3014,19 @@
         "sections": [
           {
             "title": "Java",
-            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#java\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#java\">введение</a>"
           },
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#kotlin\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#kotlin\">введение</a>"
           },
           {
             "title": "IntelliJ IDEA",
-            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
           },
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#comments\">форматирование и комментарии</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#val-var\">val, var</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#comments\">форматирование и комментарии</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#val-var\">val, var</a>"
           }
         ],
         "homework": [
@@ -3056,12 +3056,23 @@
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#important-words\">немного важных слов</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#variables\">объявление и именование переменных</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#string\">String</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#important-words\">немного важных слов</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#variables\">объявление и именование переменных</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#string\">String</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#if-else\">if-else</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#logical-operators\">немного логических операторов</a>"
           }
         ],
         "homework": [
           {
-            "title": "TBD"
+            "title": "Зарегистрироваться на <a href=\"https://stepik.org\">stepik.org</a>"
+          },
+          {
+            "title": "В IDEA установить плагин EduTools",
+            "comment": "<i>File</i> → <i>Settings</i> → <i>Plugins</i> → в поиске вбить <i>EduTools</i> и <i>Install</i> его → перезапустить IDEA"
+          },
+          {
+            "title": "После перезапуска IDEA открыть в ней курс Kotlin Banana Course и выполнить там задания ко второму уроку I.02",
+            "comment": "<i>File</i> → <i>Learn and Teach</i> → <i>Browse Courses</i> → найти в списке <i>Kotlin Banana Course</i> → <i>Join</i> → и там справа сразу откроется первое задание..."
+          },
+          {
+            "title": "TBD Дополнительное задание на каникулы будет чуть позже..."
           }
         ]
       },
