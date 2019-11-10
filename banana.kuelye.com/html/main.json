@@ -3084,7 +3084,34 @@
         "date": "2019-11-05T14:00:00.000Z",
         "module": "I",
         "index": "3",
-        "title": "Объявление и вызов функций; циклы: repeat, while и do-while; import, sleep; разные операторы"
+        "title": "Функции; циклы: repeat и while",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%81%D0%BA%D0%BE%D0%B1%D0%BE%D1%87%D0%BA%D0%B8--%D0%B8-\">пропуск скобочек</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8\">функции: вызов, результат, объявление, область видимости переменных</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%86%D0%B8%D0%BA%D0%BB%D1%8B\">циклы repeat и while</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%86%D0%B8%D0%BA%D0%BB%D1%8B\">sleep</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#operators\">разные операторы: арифметические, сравнения и логические</a>"
+          }
+        ]
+      },
+      {
+        "date": "2019-11-08T14:00:00.000Z",
+        "module": "I",
+        "index": "4",
+        "title": "Массивы и цикл for",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%87%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B8%D0%B0%D0%BF%D0%B0%D0%B7%D0%BE%D0%BD%D1%8B\">числовые диапазоны</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B\">массивы</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%86%D0%B8%D0%BA%D0%BB-for\">цикл for</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Вступить в класс в Stepik - для этого перейти <a href=\"https://stepik.org/join-class/a864f80249967199e24e60de7483efd648231da5\">сюда</a> и нажать там <i>Вступить</i>"
+          },
+          {
+            "title": "В курсе Kotlin Banana Course выполнить задания к четвёртому уроку I.04 (там четыре задания)",
+            "comment": "чтобы получить эти задания - в IDEA нажмите на значок Stepik в самом низу и потом выберите <i>Synchronize course</i>"
+          }
+        ]
       }
     ],
     "diary": {}
