@@ -3112,6 +3112,103 @@
             "comment": "чтобы получить эти задания - в IDEA нажмите на значок Stepik в самом низу и потом выберите <i>Synchronize course</i>"
           }
         ]
+      },
+      {
+        "date": "2019-11-12T14:00:00.000Z",
+        "module": "I",
+        "index": "5",
+        "title": "ООП / text-game"
+      },
+      {
+        "date": "2019-11-15T14:00:00.000Z",
+        "module": "I",
+        "index": "6",
+        "title": "ООП / text-game / голосование?",
+        "hidden": true
+      },
+      {
+        "date": "2019-11-19T14:00:00.000Z",
+        "module": "I",
+        "index": "7",
+        "title": "ООП / Swing",
+        "hidden": true
+      },
+      {
+        "date": "2019-11-22T14:00:00.000Z",
+        "module": "I",
+        "index": "8",
+        "title": "ООП / Swing",
+        "hidden": true
+      },
+      {
+        "date": "2019-11-26T14:00:00.000Z",
+        "module": "I",
+        "index": "9",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-11-29T14:00:00.000Z",
+        "module": "I",
+        "index": "10",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-03T14:00:00.000Z",
+        "module": "I",
+        "index": "11",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-06T14:00:00.000Z",
+        "module": "I",
+        "index": "12",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-10T14:00:00.000Z",
+        "module": "I",
+        "index": "13",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-13T14:00:00.000Z",
+        "module": "I",
+        "index": "14",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-17T14:00:00.000Z",
+        "module": "I",
+        "index": "15",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-20T14:00:00.000Z",
+        "module": "I",
+        "index": "16",
+        "title": "telegram-bot",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-24T14:00:00.000Z",
+        "module": "I",
+        "index": "17",
+        "title": "Свои проекты",
+        "hidden": true
+      },
+      {
+        "date": "2019-12-27T14:00:00.000Z",
+        "module": "I",
+        "index": "18",
+        "title": "Свои проекты & Выпускной",
+        "hidden": true
       }
     ],
     "diary": {}

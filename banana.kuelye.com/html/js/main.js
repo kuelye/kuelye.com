@@ -123,8 +123,10 @@ showLessons = function (diary, lessons, years) {
 
   // fill content
   var filteredLessons = [];
+  const showHidden = getUrlParam("showHidden") === "true";
   for (i = 0; i < lessons.length; ++i) {
-    if (module === undefined || lessons[i]["module"] === module) {
+    if ((module === undefined || lessons[i]["module"] === module)
+        && lessons[i]["hidden"] !== true || showHidden) {
       filteredLessons.push(lessons[i]);
     }
   }
