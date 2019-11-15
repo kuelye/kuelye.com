@@ -3014,19 +3014,19 @@
         "sections": [
           {
             "title": "Java",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#java\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#java\">введение</a>"
           },
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#kotlin\">введение</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#kotlin\">введение</a>"
           },
           {
             "title": "IntelliJ IDEA",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#intellij-idea\">установка и запуск проекта</a>"
           },
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#comments\">форматирование и комментарии</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.01#val-var\">val, var</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#comments\">форматирование и комментарии</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#print-println-readline\">print, println, readLine</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.01#val-var\">val, var</a>"
           }
         ],
         "homework": [
@@ -3056,7 +3056,7 @@
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#important-words\">немного важных слов</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#variables\">объявление и именование переменных</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#string\">String</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#if-else\">if-else</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#logical-operators\">немного логических операторов</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#important-words\">немного важных слов</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#variables\">объявление и именование переменных</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#string\">String</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#if-else\">if-else</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#logical-operators\">немного логических операторов</a>"
           }
         ],
         "homework": [
@@ -3088,7 +3088,7 @@
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%81%D0%BA%D0%BE%D0%B1%D0%BE%D1%87%D0%BA%D0%B8--%D0%B8-\">пропуск скобочек</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8\">функции: вызов, результат, объявление, область видимости переменных</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%86%D0%B8%D0%BA%D0%BB%D1%8B\">циклы repeat и while</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#%D1%86%D0%B8%D0%BA%D0%BB%D1%8B\">sleep</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#operators\">разные операторы: арифметические, сравнения и логические</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.03#%D1%81%D0%BA%D0%BE%D0%B1%D0%BE%D1%87%D0%BA%D0%B8--%D0%B8-\">пропуск скобочек</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.03#%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8\">функции: вызов, результат, объявление, область видимости переменных</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.03#%D1%86%D0%B8%D0%BA%D0%BB%D1%8B\">циклы repeat и while</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.03#sleep\">sleep</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.03#operators\">разные операторы: арифметические, сравнения и логические</a>"
           }
         ]
       },
@@ -3100,7 +3100,7 @@
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%87%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B8%D0%B0%D0%BF%D0%B0%D0%B7%D0%BE%D0%BD%D1%8B\">числовые диапазоны</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B\">массивы</a>, <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%86%D0%B8%D0%BA%D0%BB-for\">цикл for</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.04#%D1%87%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B8%D0%B0%D0%BF%D0%B0%D0%B7%D0%BE%D0%BD%D1%8B\">числовые диапазоны</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.04#%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B\">массивы</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.04#%D1%86%D0%B8%D0%BA%D0%BB-for\">цикл for</a>"
           }
         ],
         "homework": [
@@ -3117,20 +3117,37 @@
         "date": "2019-11-12T14:00:00.000Z",
         "module": "I",
         "index": "5",
-        "title": "ООП / text-game"
+        "title": "Функции",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.05#%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9-%D1%81-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D0%B0%D0%BC%D0%B8-%D0%B8-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%BE%D0%BC\">параметры функции и результат</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.05#return\">return</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.05#%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D1%83\">функции в одну строку</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.05#%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B-%D0%BF%D0%BE-%D1%83%D0%BC%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D0%B8%D1%8E\">параметры по умолчанию</a>"
+          }
+        ]
       },
       {
         "date": "2019-11-15T14:00:00.000Z",
         "module": "I",
         "index": "6",
         "title": "ООП / text-game / голосование?",
-        "hidden": true
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#boolean\">Boolean</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#%D1%86%D0%B5%D0%BB%D1%8B%D0%B5-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D1%82%D0%B8%D0%BF%D1%8B\">целые типы</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D1%8B%D0%B5-%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D1%82%D0%B8%D0%BF%D1%8B\">дробные типы</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8-%D0%B0-%D0%BD%D0%B5-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F\">ссылки (а не значения)</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#null\">null</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-%D0%B8-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2\">объявление классов, создание объектов и свойства</a>"
+          }
+        ]
       },
       {
         "date": "2019-11-19T14:00:00.000Z",
         "module": "I",
         "index": "7",
         "title": "ООП / Swing",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>"
+          }
+        ],
         "hidden": true
       },
       {
