@@ -3129,7 +3129,7 @@
         "date": "2019-11-15T14:00:00.000Z",
         "module": "I",
         "index": "6",
-        "title": "Введение в ООП",
+        "title": "Введение в ООП - классы и объекты, свойства",
         "commit": "https://github.com/banandroids/b19-text-game/tree/6783cddccfa0a9a33f9d4e08b8f6e753556e2610/src",
         "sections": [
           {
@@ -3148,28 +3148,39 @@
         "date": "2019-11-19T14:00:00.000Z",
         "module": "I",
         "index": "7",
-        "title": "ООП / Swing",
+        "title": "Введение в ООП - методы",
+        "commit": "https://github.com/banandroids/b19-text-game/tree/dfb87d347f59253b099dabe4899ae9c2421340c8/src",
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.07#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B\">методы</a>"
           }
-        ],
-        "hidden": true
+        ]
       },
       {
         "date": "2019-11-22T14:00:00.000Z",
         "module": "I",
         "index": "8",
-        "title": "ООП / Swing",
-        "hidden": true
+        "title": "Введение в ООП - конструктор, наследование",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"\">конструктор</a>, <a href=\"\">наследование</a>"
+          }
+        ]
       },
       {
         "date": "2019-11-26T14:00:00.000Z",
         "module": "I",
         "index": "9",
         "title": "telegram-bot",
-        "hidden": true
+        "hidden": true,
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>"
+          }
+        ]
       },
       {
         "date": "2019-11-29T14:00:00.000Z",
