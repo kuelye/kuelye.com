@@ -3180,12 +3180,12 @@
         "date": "2019-11-26T14:00:00.000Z",
         "module": "I",
         "index": "9",
-        "title": "telegram-bot",
-        "hidden": true,
+        "title": "Введение в ООП - переопределение методов",
+        "commit": "https://github.com/banandroids/b19-text-game/tree/b5c344098c412b0b6f69600125d96b0146814187/src",
         "sections": [
           {
             "title": "Kotlin",
-            "themes": "<a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>, <a href=\"\"></a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.09#overriding-functions\">переопределение методов</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.09#super\">super</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.09#init-%D0%B1%D0%BB%D0%BE%D0%BA\">init-блок</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.09#lateinit\">lateinit</a>"
           }
         ]
       },
@@ -3193,8 +3193,20 @@
         "date": "2019-11-29T14:00:00.000Z",
         "module": "I",
         "index": "10",
-        "title": "telegram-bot",
-        "hidden": true
+        "title": "ООП - геттеры и сеттеры",
+        "commit": "https://github.com/banandroids/b19-text-game/tree/35b6b806ec8efdbafc3213dbc59c42087431fdd3/src",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.10#%D0%B3%D0%B5%D1%82%D1%82%D0%B5%D1%80%D1%8B-%D0%B8-%D1%81%D0%B5%D1%82%D1%82%D0%B5%D1%80%D1%8B\">геттеры и сеттеры</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.10#%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D0%B1%D0%B5%D0%B7-backing-field\">свойства без backing field</a>"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Доделывайте домашку предыдущих уроков, кто ещё не",
+            "comment": "особенное внимание - домашке уроков I.06 и I.08"
+          }
+        ]
       },
       {
         "date": "2019-12-03T14:00:00.000Z",
