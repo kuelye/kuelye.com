@@ -3230,14 +3230,20 @@
         "module": "I",
         "index": "12",
         "title": "JavaFX - FXML",
-        "commit": "https://github.com/banandroids/b19-ui-javafx/tree/4f1648406504154db893725d867bd4680b809aac/src"
+        "commit": "https://github.com/banandroids/b19-ui-javafx/tree/4f1648406504154db893725d867bd4680b809aac/src",
+        "sections": [
+          {
+            "title": "JavaFX",
+            "themes": "FXML"
+          }
+        ]
       },
       {
         "date": "2019-12-10T14:00:00.000Z",
         "module": "I",
         "index": "13",
-        "title": "telegram-bot",
-        "hidden": true
+        "title": "JavaFX",
+        "commit": "https://github.com/banandroids/b19-ui-javafx/tree/0a965588618897084e8704f670996b887e4fc492/src"
       },
       {
         "date": "2019-12-13T14:00:00.000Z",
