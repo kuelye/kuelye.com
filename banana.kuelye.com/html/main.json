@@ -3264,6 +3264,7 @@
         "module": "I",
         "index": "14",
         "title": "Списки List&lt;T&gt;; контекстное меню в JavaFX",
+        "commit": "https://github.com/banandroids/b19-ui-javafx/tree/85e2514a9b8bd68cc5f11945ab3b2a302d4f7834/src",
         "sections": [
           {
             "title": "Kotlin",
