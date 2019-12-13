@@ -3148,7 +3148,7 @@
         "date": "2019-11-19T14:00:00.000Z",
         "module": "I",
         "index": "7",
-        "title": "Введение в ООП - методы",
+        "title": "ООП - методы",
         "commit": "https://github.com/banandroids/b19-text-game/tree/dfb87d347f59253b099dabe4899ae9c2421340c8/src",
         "sections": [
           {
@@ -3161,7 +3161,7 @@
         "date": "2019-11-22T14:00:00.000Z",
         "module": "I",
         "index": "8",
-        "title": "Введение в ООП - конструктор, наследование",
+        "title": "ООП - конструктор, наследование",
         "commit": "https://github.com/banandroids/b19-text-game/tree/1d12dbaf9738542cf7b588192176044797a2c3d3/src",
         "sections": [
           {
@@ -3180,7 +3180,7 @@
         "date": "2019-11-26T14:00:00.000Z",
         "module": "I",
         "index": "9",
-        "title": "Введение в ООП - переопределение методов",
+        "title": "ООП - переопределение методов",
         "commit": "https://github.com/banandroids/b19-text-game/tree/b5c344098c412b0b6f69600125d96b0146814187/src",
         "sections": [
           {
@@ -3233,8 +3233,12 @@
         "commit": "https://github.com/banandroids/b19-ui-javafx/tree/4f1648406504154db893725d867bd4680b809aac/src",
         "sections": [
           {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.12#%D0%B0%D0%BD%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8\">аннотации</a>"
+          },
+          {
             "title": "JavaFX",
-            "themes": "FXML"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.12#fxml\">FXML</a>"
           }
         ]
       },
@@ -3242,15 +3246,34 @@
         "date": "2019-12-10T14:00:00.000Z",
         "module": "I",
         "index": "13",
-        "title": "JavaFX",
-        "commit": "https://github.com/banandroids/b19-ui-javafx/tree/0a965588618897084e8704f670996b887e4fc492/src"
+        "title": "Обобщения и интерфейсы; ListView в JavaFX",
+        "commit": "https://github.com/banandroids/b19-ui-javafx/tree/0a965588618897084e8704f670996b887e4fc492/src",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.13#%D0%BE%D0%B1%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F\">обобщения</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.13#%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B\">интерфейсы</a>"
+          },
+          {
+            "title": "JavaFX",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.13#%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B5-%D0%B8%D0%B7-javafx\">ListCell</a>"
+          }
+        ]
       },
       {
         "date": "2019-12-13T14:00:00.000Z",
         "module": "I",
         "index": "14",
-        "title": "telegram-bot",
-        "hidden": true
+        "title": "Списки List&lt;T&gt;; контекстное меню в JavaFX",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.14#%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8\">List&lt;T&gt;</a>"
+          },
+          {
+            "title": "JavaFX",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.14#%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BD%D0%BE%D0%B5-%D0%BC%D0%B5%D0%BD%D1%8E-%D0%B2-javafx\">контекстное меню</a>"
+          }
+        ]
       },
       {
         "date": "2019-12-17T14:00:00.000Z",
