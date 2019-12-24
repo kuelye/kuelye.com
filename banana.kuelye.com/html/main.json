@@ -3319,13 +3319,19 @@
         "date": "2019-12-24T14:00:00.000Z",
         "module": "I",
         "index": "17",
-        "title": "File, JSON и Gson"
+        "title": "Свои проекты",
+        "sections": [
+          {
+            "title": "JavaFX",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.17\">ещё инструкции про JavaFX</a>"
+          }
+        ]
       },
       {
         "date": "2019-12-27T14:00:00.000Z",
         "module": "I",
         "index": "18",
-        "title": "Свои проекты"
+        "title": "TBD"
       }
     ],
     "diary": {}
