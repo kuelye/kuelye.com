@@ -3331,7 +3331,35 @@
         "date": "2019-12-27T14:00:00.000Z",
         "module": "I",
         "index": "18",
-        "title": "TBD"
+        "title": "TBD",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "File"
+          },
+          {
+            "title": "разное",
+            "themes": "JSON и Gson, .jar → .exe (launch4j)"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Пройти <a href=\"https://forms.gle/gPutMEfpp6FAzbFz8\">опрос</a"
+          },
+          {
+            "title": "Кодить больше свой проект на JavaFX"
+          },
+          {
+            "title": "TBD"
+          }
+        ]
+      },
+      {
+        "type": "holidays",
+        "date": "2020-01-01T14:00:00.000Z",
+        "module": "I",
+        "title": "Каникулы",
+        "comment": "c 28 декабря по ? января"
       }
     ],
     "diary": {}
