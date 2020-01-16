@@ -126,7 +126,7 @@ showLessons = function (diary, lessons, years) {
   const showHidden = getUrlParam("showHidden") === "true";
   for (i = 0; i < lessons.length; ++i) {
     if ((module === undefined || lessons[i]["module"] === module)
-        && lessons[i]["hidden"] !== true || showHidden) {
+        && (lessons[i]["hidden"] !== true || showHidden)) {
       filteredLessons.push(lessons[i]);
     }
   }
