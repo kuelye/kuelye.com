@@ -3001,7 +3001,8 @@
       {
         "title": "1 год",
         "modules": [
-          "I", "II"
+          "I",
+          "II"
         ]
       }
     ],
@@ -3359,10 +3360,11 @@
         "comment": "c 28 декабря по 13 января"
       },
       {
-        "date": "2020-01-14T14:00:00.000Z",
+        "date": "2020-01-17T14:00:00.000Z",
         "module": "II",
         "index": "1",
         "title": "Введение в Android",
+        "commit": "https://github.com/banandroids/b19-browser/tree/c2a73b343a2d5b5512e8aef797c8d18e8432b76d",
         "sections": [
           {
             "title": "Android Studio",
@@ -3375,21 +3377,33 @@
         ]
       },
       {
-        "date": "2020-01-14T14:00:00.000Z",
+        "date": "2020-01-17T14:00:00.000Z",
         "module": "II",
         "index": "2",
-        "title": "?",
+        "title": "Основы вёрстки",
+        "commit": "https://github.com/banandroids/b19-browser/tree/c66a098ee620011829deed91212f8a92310ef00a",
         "sections": [
           {
-            "title": "Повторение",
-            "themes": "Методы"
+            "title": "Android",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.02#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0\">основные свойства</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.02#%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2\">свойства контейнеров</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.02#%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D1%85-view\">свойства текстовых</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.02#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5-view\">простые View (LinearLayout, TextView, EditText, ImageView, Button, CheckBox, Switch)</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-21T14:00:00.000Z",
+        "module": "II",
+        "index": "3",
+        "title": "object, Toast, ?",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "object"
           },
           {
             "title": "Android",
-            "themes": "простые View: LinearLayout, TextView, EditText, CheckBox, ImageView"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.03#%D0%BA%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D1%83\">как добавить иконку</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.03#toast\">Toast</a>"
           }
-        ],
-        "hidden": true
+        ]
       }
     ],
     "diary": {}
