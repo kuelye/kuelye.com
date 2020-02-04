@@ -3405,6 +3405,61 @@
             "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.03#%D0%BA%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D1%83\">как добавить иконку</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.03#%D0%BA%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BA%D0%BB%D0%B8%D0%BA\">как добавить действие на клик</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.03#toast\">Toast</a>"
           }
         ]
+      },
+      {
+        "date": "2020-01-24T14:00:00.000Z",
+        "module": "II",
+        "index": "4",
+        "title": "Синглтоны и object, Toast",
+        "commit": "https://github.com/banandroids/b19-browser/commit/92fd4c2f0fe7f9d1b28ac5f956cf9c0fcb47d35f",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href\"\">как перехватить НАЗАД</a>, <a href\"\">как добавить в тулбар ДОМОЙ</a>, <a href\"\">ProgressBar</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-28T14:00:00.000Z",
+        "module": "II",
+        "index": "5",
+        "title": "SwipeRefreshLayout, основные res/values/",
+        "commit": "https://github.com/banandroids/b19-browser/commit/6242a7ea3b65438c518e8d2e6e236b36d3524a22",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href\"\">SwipeRefreshLayout</a>, <a href\"\">как изменить иконку и название приложения</a>, <a href\"\">colors.xml</a>, <a href\"\">strings.xml</a>, <a href\"\">styles.xml</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-31T14:00:00.000Z",
+        "module": "II",
+        "index": "6",
+        "title": "FrameLayout, RelativeLayout",
+        "commit": "https://github.com/banandroids/b19-2020/commit/bcb5751c1cb2a890fe2976d286db97410cdd15be",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.06#%D0%BA%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C\">как запустить активность</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.06#framelayout\">FrameLayout</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.06#relativelayout\">RelativeLayout</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-02-04T14:00:00.000Z",
+        "module": "II",
+        "index": "7",
+        "title": "Создание View кодом из макета; const",
+        "sections": [
+          {
+            "title": "Kotlin",
+            "themes": "const"
+          },
+          {
+            "title": "Android",
+            "themes": "View, <shape>, LayoutInflater"
+          }
+        ]
       }
     ],
     "diary": {}
