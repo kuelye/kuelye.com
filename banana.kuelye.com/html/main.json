@@ -3415,7 +3415,7 @@
         "sections": [
           {
             "title": "Android",
-            "themes": "<a href\"\">как перехватить НАЗАД</a>, <a href\"\">как добавить в тулбар ДОМОЙ</a>, <a href\"\">ProgressBar</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.04#%D0%BA%D0%B0%D0%BA-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D0%B8%D1%82%D1%8C-%D0%9D%D0%90%D0%97%D0%90%D0%94\">как перехватить НАЗАД</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.04#%D0%BA%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%B2-%D1%82%D1%83%D0%BB%D0%B1%D0%B0%D1%80-%D0%94%D0%9E%D0%9C%D0%9E%D0%99\">как добавить в тулбар ДОМОЙ</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.04#progressbar\">ProgressBar</a>"
           }
         ]
       },
@@ -3428,7 +3428,7 @@
         "sections": [
           {
             "title": "Android",
-            "themes": "<a href\"\">SwipeRefreshLayout</a>, <a href\"\">как изменить иконку и название приложения</a>, <a href\"\">colors.xml</a>, <a href\"\">strings.xml</a>, <a href\"\">styles.xml</a>"
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.05#swiperefreshlayout\">SwipeRefreshLayout</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.05#%D0%BA%D0%B0%D0%BA-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D1%83-%D0%B8-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F\">как изменить иконку и название приложения</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.05#colorsxml\">colors.xml</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.05#stringsxml\">strings.xml</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.05#stylesxml\">styles.xml</a>"
           }
         ]
       },
@@ -3449,7 +3449,21 @@
         "date": "2020-02-04T14:00:00.000Z",
         "module": "II",
         "index": "7",
+        "title": "Создание View кодом из макета",
+        "commit": "https://github.com/banandroids/b19-2020/commit/07b8e99ae92836d2ddc2dae55d01c9b3e5a04066",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.07#view\">View</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.07#layoutinflater\">LayoutInflater</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.07#shape\">&lt;shape&gt;</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-02-04T14:00:00.000Z",
+        "module": "II",
+        "index": "8",
         "title": "Создание View кодом из макета; const",
+        "commit": "https://github.com/banandroids/b19-2020/commit/388f56b9a248d33f2a1d890af3427c7f4f9631cb",
         "sections": [
           {
             "title": "Kotlin",
@@ -3457,7 +3471,17 @@
           },
           {
             "title": "Android",
-            "themes": "View, <shape>, LayoutInflater"
+            "themes": "dp, px"
+          }
+        ],
+        "homework": [
+          {
+            "title": "Добавьте возможность двигать 2048 во всех стороны (сейчас сделано только ВВЕРХ)",
+            "comment": "см. <a href=\"https://raw.githubusercontent.com/banandroids/b19-p-encyclopedia/master/II.08_h-0.gif\">гифку</a>"
+          },
+          {
+            "title": "Привяжите 2048 к сетке 4х4, чтобы 2048: 1) изначально появлялось в рандомной ячейке и 2) двигалось ровно по ячейкам",
+            "comment": "см. <a href=\"https://raw.githubusercontent.com/banandroids/b19-p-encyclopedia/master/II.08_h-1.gif\">гифку</a>"
           }
         ]
       }
