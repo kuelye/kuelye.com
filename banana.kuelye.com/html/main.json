@@ -3549,6 +3549,70 @@
             "comment": "в оригинале за каждое слияние даётся столько очков, какая ячейка получилась (например, если 4 и 4 - то +8 очков)"
           }
         ]
+      },
+      {
+        "date": "2020-02-25T14:00:00.000Z",
+        "module": "II",
+        "index": "13",
+        "title": "2020 / Swipe",
+        "commit": "https://github.com/banandroids/b19-2020/commit/ca8c36d301df60e005890b8921312683c27256b3"
+      },
+      {
+        "date": "2020-02-28T14:00:00.000Z",
+        "module": "II",
+        "index": "14",
+        "title": "Promo / Введение в Git, Fragment, ViewPager",
+        "commit": "https://github.com/banandroids/b19-promo/commit/dd702a5d86eeda3fb34a2e20f0bb71b6070daf4b"
+      },
+      {
+        "date": "2020-03-03T14:00:00.000Z",
+        "module": "II",
+        "index": "15",
+        "title": "Promo / ?"
+      },
+      {
+        "date": "2020-03-03T14:00:00.000Z",
+        "module": "II",
+        "index": "16",
+        "title": "Promo&Onboarding / ?",
+        "classwork": [
+          {
+            "title": "Сделайте сначала fork <a href=\"https://github.com/banandroids/b19-onboarding\">этого репозиторий</a>, а потом склонируйте его себе на компуктер и откройте в студии"
+          },
+          {
+            "title": "Добавьте активность для онбординга OnboardingActivity и фрагмент для странички онбординга OnboardingFragment"
+          },
+          {
+            "title": "Уберите в теме приложения тулбар и сделайте так, чтобы статус-бара в цвет активности окрашивался, а иконки статус-бара были тёмные",
+            "comment": "для статус-бара нужно поставить в теме приложения свойство windowTranslucentStatus в true и windowLightStatusBar в false"
+          },
+          {
+            "title": "В макет OnboardingActivity добавьте ViewPager, CircleIndicator и кнопочку ПОНЯТНА!!"
+          },
+          {
+            "title": "По клику на ПОНЯТНА!! настройте переход к MainActivity"
+          },
+          {
+            "title": "В код OnboardingActivity добавьте адаптер и настройте ViewPager и CircleIndicator",
+            "comment": "проверьте тут, что странички (пока пустые) у вас переключаются"
+          },
+          {
+            "title": "Заполните макет OnboardingFragment"
+          },
+          {
+            "title": "В код OnboardingFragment добавьте метод newFragment для создания фрагмента и в onViewCreated заполняйте его на основе аргументов",
+            "comment": " у каждой странички должен быть свой заголовок, своя иконка, свой цвет фона"
+          },
+          {
+            "title": "В коде OnboardingActivity настройте каждую страничку"
+          },
+          {
+            "title": "<b>Закоммитьте и запушьте изменения!!</b>"
+          },
+          {
+            "title": "* Сделайте анимации переключения страничек и появления элементов (как на гифке)"
+          }
+        ]
       }
     ],
     "diary": {}

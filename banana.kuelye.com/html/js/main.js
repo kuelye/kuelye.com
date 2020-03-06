@@ -209,7 +209,7 @@ addLesson = function (lesson) {
       .append($sectionsOl);
   }
   if ($classworkOl !== undefined) {
-    $lessonDiv.append($('<div class="lesson-work-title">Контрольная</div>'))
+    $lessonDiv.append($('<div class="lesson-work-title">Самостоятельная</div>'))
       .append($classworkOl);
   }
   if ($homeworkOl !== undefined) {
