@@ -3571,10 +3571,10 @@
         "title": "Promo / ?"
       },
       {
-        "date": "2020-03-03T14:00:00.000Z",
+        "date": "2020-03-06T14:00:00.000Z",
         "module": "II",
         "index": "16",
-        "title": "Promo&Onboarding / ?",
+        "title": "Promo & Onboarding / Аргументы фрагментов",
         "classwork": [
           {
             "title": "Сделайте сначала fork <a href=\"https://github.com/banandroids/b19-onboarding\">этого репозиторий</a>, а потом склонируйте его себе на компуктер и откройте в студии"
@@ -3613,6 +3613,30 @@
             "title": "* Сделайте анимации переключения страничек и появления элементов (как на гифке)"
           }
         ]
+      },
+      {
+        "date": "2020-03-10T14:00:00.000Z",
+        "module": "II",
+        "index": "17",
+        "title": "Onboarding & Clock / ?"
+      },
+      {
+        "date": "2020-03-13T14:00:00.000Z",
+        "module": "II",
+        "index": "18",
+        "title": "Clock / ?"
+      },
+      {
+        "date": "2020-03-17T14:00:00.000Z",
+        "module": "II",
+        "index": "19",
+        "title": "Clock / ?"
+      },
+      {
+        "date": "2020-03-20T14:00:00.000Z",
+        "module": "II",
+        "index": "20",
+        "title": "Clock / ?"
       }
     ],
     "diary": {}
