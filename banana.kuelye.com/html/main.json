@@ -3657,7 +3657,8 @@
         "date": "2020-04-03T14:00:00.000Z",
         "module": "II",
         "index": "22",
-        "title": "Gamer / Введение в RecyclerView"
+        "title": "Gamer / Введение в RecyclerView",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/04a33b4e52dca242c5bfa055fe84872f0deb1edf"
       }
     ],
     "diary": {}
