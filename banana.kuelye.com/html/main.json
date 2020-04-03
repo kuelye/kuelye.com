@@ -3618,25 +3618,46 @@
         "date": "2020-03-10T14:00:00.000Z",
         "module": "II",
         "index": "17",
-        "title": "Onboarding & Clock / ?"
+        "title": "Onboarding & Clock"
       },
       {
         "date": "2020-03-13T14:00:00.000Z",
         "module": "II",
         "index": "18",
-        "title": "Clock / ?"
+        "title": "Clock"
       },
       {
         "date": "2020-03-17T14:00:00.000Z",
         "module": "II",
         "index": "19",
-        "title": "Clock / ?"
+        "title": "Clock",
+        "commit": "https://github.com/banandroids/b19-clock/commit/3bf232f7387a683583c2577f6f4d81d65a06a07"
       },
       {
         "date": "2020-03-20T14:00:00.000Z",
         "module": "II",
         "index": "20",
-        "title": "Clock / ?"
+        "title": "Controller"
+      },
+      {
+        "type": "holidays",
+        "date": "2020-03-21T14:00:00.000Z",
+        "module": "II",
+        "title": "Каникулы",
+        "comment": "c 21 марта по 30 марта"
+      },
+      {
+        "date": "2020-03-31T14:00:00.000Z",
+        "module": "II",
+        "index": "21",
+        "title": "Gamer / Введение в RecyclerView",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/3c699ae275e29dcadc02b53e1dacd7e803e7354c"
+      },
+      {
+        "date": "2020-04-03T14:00:00.000Z",
+        "module": "II",
+        "index": "22",
+        "title": "Gamer / Введение в RecyclerView"
       }
     ],
     "diary": {}
