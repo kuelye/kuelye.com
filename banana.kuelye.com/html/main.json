@@ -3659,6 +3659,19 @@
         "index": "22",
         "title": "Gamer / Введение в RecyclerView",
         "commit": "https://github.com/banandroids/b19-gamer/commit/04a33b4e52dca242c5bfa055fe84872f0deb1edf"
+      },
+      {
+        "date": "2020-04-07T14:00:00.000Z",
+        "module": "II",
+        "index": "23",
+        "title": "Gamer / Retrofit, JSON, Gson",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/36878a2736caf06582154d02990050542a806e77"
+      },
+      {
+        "date": "2020-04-10T14:00:00.000Z",
+        "module": "II",
+        "index": "24",
+        "title": "Gamer / ?"
       }
     ],
     "diary": {}
