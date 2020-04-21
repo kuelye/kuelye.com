@@ -3671,7 +3671,40 @@
         "date": "2020-04-10T14:00:00.000Z",
         "module": "II",
         "index": "24",
-        "title": "Gamer / ?"
+        "title": "Gamer / SearchView",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/247e2224c1f58cf4754b7c361aae2b01aa3d8994"
+      },
+      {
+        "date": "2020-04-14T14:00:00.000Z",
+        "module": "II",
+        "index": "25",
+        "title": "Gamer / DrawerLayout, NavigationView",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/3c7d98d953d28f069c286cf0afaab21e32cb37e4"
+      },
+      {
+        "date": "2020-04-17T14:00:00.000Z",
+        "module": "II",
+        "index": "26",
+        "title": "Gamer",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/ccc42ef857e043e5aabc856b626810dd428f3150"
+      },
+      {
+        "date": "2020-04-21T14:00:00.000Z",
+        "module": "II",
+        "index": "27",
+        "title": "?"
+      },
+      {
+        "date": "2020-04-24T14:00:00.000Z",
+        "module": "II",
+        "index": "28",
+        "title": "?"
+      },
+      {
+        "date": "2020-04-28T14:00:00.000Z",
+        "module": "II",
+        "index": "29",
+        "title": "?"
       }
     ],
     "diary": {}
