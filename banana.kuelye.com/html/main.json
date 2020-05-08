@@ -3637,7 +3637,12 @@
         "date": "2020-03-20T14:00:00.000Z",
         "module": "II",
         "index": "20",
-        "title": "Controller"
+        "title": "Controller",
+        "classwork": [
+          {
+            "title": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.20\">Делаем кастомное вью с джойстиком</a>"
+          }
+        ]
       },
       {
         "type": "holidays",
@@ -3651,14 +3656,26 @@
         "module": "II",
         "index": "21",
         "title": "Gamer / Введение в RecyclerView",
-        "commit": "https://github.com/banandroids/b19-gamer/commit/3c699ae275e29dcadc02b53e1dacd7e803e7354c"
+        "commit": "https://github.com/banandroids/b19-gamer/commit/3c699ae275e29dcadc02b53e1dacd7e803e7354c",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.21#%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5-fragment\">создание фрагмента и добавление фрагмента в активность</a>"
+          }
+        ]
       },
       {
         "date": "2020-04-03T14:00:00.000Z",
         "module": "II",
         "index": "22",
         "title": "Gamer / Введение в RecyclerView",
-        "commit": "https://github.com/banandroids/b19-gamer/commit/04a33b4e52dca242c5bfa055fe84872f0deb1edf"
+        "commit": "https://github.com/banandroids/b19-gamer/commit/04a33b4e52dca242c5bfa055fe84872f0deb1edf",
+        "sections": [
+          {
+            "title": "Android",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.22#%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%B2-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B5\">отображение картинок в списке</a>"
+          }
+        ]
       },
       {
         "date": "2020-04-07T14:00:00.000Z",
@@ -3672,7 +3689,12 @@
         "module": "II",
         "index": "24",
         "title": "Gamer / SearchView",
-        "commit": "https://github.com/banandroids/b19-gamer/commit/247e2224c1f58cf4754b7c361aae2b01aa3d8994"
+        "commit": "https://github.com/banandroids/b19-gamer/commit/247e2224c1f58cf4754b7c361aae2b01aa3d8994",
+        "classwork": [
+          {
+            "title": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.24#%D1%81%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B-%D0%B8%D0%B3%D1%80-%D0%B2-gamer\">Добавляем скриншоты игр</a>"
+          }
+        ]
       },
       {
         "date": "2020-04-14T14:00:00.000Z",
@@ -3692,19 +3714,92 @@
         "date": "2020-04-21T14:00:00.000Z",
         "module": "II",
         "index": "27",
-        "title": "?"
+        "title": "Memes",
+        "classwork": [
+          {
+            "title": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.27#%D0%BC%D0%B5%D0%BC%D1%8B\">Основа для приложения и экран с шаблонами</a>"
+          }
+        ]
       },
       {
         "date": "2020-04-24T14:00:00.000Z",
         "module": "II",
         "index": "28",
-        "title": "?"
+        "title": "Memes"
       },
       {
         "date": "2020-04-28T14:00:00.000Z",
         "module": "II",
         "index": "29",
-        "title": "?"
+        "title": "Memes",
+        "classwork": [
+          {
+            "title": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.29#iiia-%D1%81%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%D1%81%D1%8F-bottomnavigationview\">Скрываем при скролле BottomNavigationView и Toolbar</a>"
+          },
+          {
+            "title": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.29#iv-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5\">Добавляем экран редактирования мема</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-05-05T14:00:00.000Z",
+        "module": "II",
+        "index": "30",
+        "title": "Memes / Runtime permissions (Dexter), шаринг",
+        "commit": "https://github.com/banandroids/b19-gamer/commit/e7dfe08bfbc8c23ca3ab9358d0b18ce65080afe3",
+        "classwork": [
+          {
+            "title": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.30#v-%D1%81%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5--%D1%88%D0%B0%D1%80%D0%B8%D0%BD%D0%B3\">Сохранение и шаринг мема</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-05-08T14:00:00.000Z",
+        "module": "II",
+        "index": "31",
+        "title": "Свои проекты",
+        "sections": [
+          {
+            "title": "Git",
+            "themes": "<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.31#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0\">создание нового репозитория, коммит и пуш</a>"
+          }
+        ]
+      },
+      {
+        "date": "2020-05-12T14:00:00.000Z",
+        "module": "II",
+        "index": "32",
+        "title": "Свои проекты"
+      },
+      {
+        "date": "2020-05-15T14:00:00.000Z",
+        "module": "II",
+        "index": "33",
+        "title": "Свои проекты"
+      },
+      {
+        "date": "2020-05-19T14:00:00.000Z",
+        "module": "II",
+        "index": "34",
+        "title": "Свои проекты"
+      },
+      {
+        "date": "2020-05-22T14:00:00.000Z",
+        "module": "II",
+        "index": "35",
+        "title": "Свои проекты"
+      },
+      {
+        "date": "2020-05-26T14:00:00.000Z",
+        "module": "II",
+        "index": "36",
+        "title": "Свои проекты"
+      },
+      {
+        "date": "2020-05-29T14:00:00.000Z",
+        "module": "II",
+        "index": "37",
+        "title": "Свои проекты"
       }
     ],
     "diary": {}
