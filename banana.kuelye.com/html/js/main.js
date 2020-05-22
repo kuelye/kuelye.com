@@ -225,9 +225,8 @@ addLesson = function (lesson) {
 
 addSections = function ($sectionsOl, sections) {
   for (var i = 0; i < sections.length; ++i) {
-    var $sectionLi = $("<li>")
-      .append(sections[i]["title"] + " ")
-      .append('<span class="lesson-section-themes"> // ' + sections[i]["themes"] + '</span>');
+    var $sectionLi = $("<li>").append(sections[i]["title"] + " ")
+    if (sections[i]["themes"] !== undefined) $sectionLi.append('<span class="lesson-section-themes"> // ' + sections[i]["themes"] + '</span>');
     $sectionsOl.append($sectionLi);
   }
 };
