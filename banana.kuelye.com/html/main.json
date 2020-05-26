@@ -3809,7 +3809,48 @@
         "date": "2020-05-29T14:00:00.000Z",
         "module": "II",
         "index": "37",
-        "title": "Свои проекты / Подписывание и паблишинг приложения в Play Store"
+        "title": "Свои проекты / Подписывание и паблишинг приложения в Play Store",
+        "homework": [
+          {
+            "title": "Проекты за год:",
+            "sections": [
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-text-game\">простой текстовый квест в консоли</a>"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-ui-javafx\">менеджер задач для Windows</a>",
+                "comment": "JavaFX"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-browser\">браузер на основе WebView</a>"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-2020\">игра 2020 (на основе 2048)</a>",
+                "comment": "View, жесты, анимации"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-promo\">карусель с рекламкой</a>",
+                "comment": "фрагменты, ViewPager, TabLayout"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-clock\">часы</a>",
+                "comment": "custom View, Canvas"
+              },
+              {
+                "title": "джойстик для управления героем (<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.20\">гайд</a>)",
+                "comment": "custom View, Canvas, спрайтовая анимация"
+              },
+              {
+                "title": "<a href=\"https://github.com/banandroids/b19-gamer\">список игр от GameSpot</a>",
+                "comment": "Retrofit, API, меню слева, NavigationView"
+              },
+              {
+                "title": "редактор мемесов (<a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.29\">гайд первый</a>, <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/II.30\">гайд второй</a>)",
+                "comment": "кастомный Toolbar, шаринг"
+              }
+            ]
+          }
+        ]
       }
     ],
     "diary": {}
